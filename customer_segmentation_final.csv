@@ -1,0 +1,2001 @@
+CustomerID,Age,Gender,Region,AnnualIncome,PurchaseFrequency,AverageOrderValue,TotalSpend,RecencyDays,CategoriesPurchased,PreferredCategory,DiscountUsagePct,CustomerTenureMonths,SatisfactionScore,ChurnFlag,Cluster,CustomerSegment
+C00001,29,Female,North,43731,10,1628.58,14869.55,58,2,Fashion,44.9,28,3.3,0,2,Regular Customers
+C00002,37,Female,West,124466,18,2260.61,41384.65,18,6,Grocery,10.3,29,3.6,0,3,Valuable Active Customers
+C00003,44,Female,South,94287,9,2309.02,19506.14,34,3,Fashion,22.3,34,4.0,0,3,Valuable Active Customers
+C00004,25,Male,South,56664,11,934.7,9849.08,63,3,Home & Kitchen,21.9,47,2.8,0,2,Regular Customers
+C00005,30,Female,East,38040,3,915.42,2803.04,81,2,Fashion,47.1,24,3.3,0,1,At-Risk Customers
+C00006,26,Female,West,24207,5,631.97,3077.32,5,2,Electronics,55.8,18,2.5,0,2,Regular Customers
+C00007,18,Male,East,22932,6,1414.37,10055.57,71,1,Fashion,42.8,35,3.2,0,1,At-Risk Customers
+C00008,50,Male,North,108851,18,3813.81,68237.63,5,5,Home & Kitchen,21.7,40,4.3,0,0,High-Value Customers
+C00009,46,Female,West,80458,14,1740.25,25567.72,35,4,Grocery,18.6,48,2.7,0,3,Valuable Active Customers
+C00010,70,Female,West,90378,12,2365.5,23976.65,38,4,Fashion,8.5,32,3.4,0,3,Valuable Active Customers
+C00011,35,Female,South,25323,9,1170.01,9805.07,59,3,Fashion,45.8,32,3.3,0,1,At-Risk Customers
+C00012,46,Female,West,137118,18,3685.16,60565.03,19,5,Sports,9.6,39,3.9,0,0,High-Value Customers
+C00013,34,Female,East,92625,23,2012.86,42761.08,24,5,Sports,19.4,45,3.8,0,3,Valuable Active Customers
+C00014,32,Female,South,22563,6,853.21,5289.44,95,3,Sports,76.1,28,2.8,0,1,At-Risk Customers
+C00015,33,Male,South,32281,5,811.71,4394.78,78,2,Grocery,47.0,26,2.4,0,1,At-Risk Customers
+C00016,38,Male,East,22954,7,1229.28,8842.2,67,1,Sports,37.7,14,3.8,0,1,At-Risk Customers
+C00017,46,Male,North,51771,8,1323.33,10394.69,57,4,Home & Kitchen,27.6,28,2.9,0,2,Regular Customers
+C00018,33,Female,North,48082,8,2065.38,15689.15,36,4,Sports,45.2,41,3.4,0,2,Regular Customers
+C00019,44,Female,North,47684,12,1491.53,19492.89,26,3,Home & Kitchen,18.2,45,3.0,0,2,Regular Customers
+C00020,46,Female,South,47354,12,1599.15,22369.56,37,4,Fashion,25.3,32,2.5,0,2,Regular Customers
+C00021,51,Male,South,60772,16,3666.41,59296.38,12,4,Fashion,24.1,52,3.4,0,3,Valuable Active Customers
+C00022,30,Female,East,32454,6,1058.68,6829.43,98,2,Fashion,42.1,32,2.3,1,1,At-Risk Customers
+C00023,41,Male,South,70999,11,1158.91,13098.19,62,3,Electronics,8.3,22,3.5,0,2,Regular Customers
+C00024,43,Male,West,46647,11,1616.19,18852.6,45,4,Fashion,25.6,19,3.0,0,2,Regular Customers
+C00025,40,Male,South,49405,13,1715.38,20222.39,25,4,Electronics,24.6,49,3.2,0,2,Regular Customers
+C00026,50,Male,South,91611,22,2477.09,52367.86,20,4,Grocery,17.6,40,3.3,0,3,Valuable Active Customers
+C00027,35,Male,North,18686,3,633.05,1959.23,94,3,Grocery,43.7,18,2.7,0,1,At-Risk Customers
+C00028,35,Male,South,52701,14,1175.43,18052.24,46,4,Beauty,35.0,15,3.0,0,2,Regular Customers
+C00029,38,Male,North,62010,4,1737.26,6494.22,30,2,Sports,35.1,27,3.4,0,2,Regular Customers
+C00030,39,Female,East,29038,7,1303.07,7637.75,103,3,Fashion,53.9,37,2.9,1,1,At-Risk Customers
+C00031,44,Female,West,56165,14,2136.21,28714.81,50,4,Grocery,21.0,31,3.1,0,2,Regular Customers
+C00032,33,Male,North,30305,8,744.34,6435.92,75,1,Home & Kitchen,29.2,23,3.2,0,1,At-Risk Customers
+C00033,25,Male,South,29741,4,726.89,2539.14,35,2,Electronics,26.9,25,2.9,0,2,Regular Customers
+C00034,45,Female,North,127061,15,3952.63,53707.14,7,5,Electronics,20.0,51,3.8,0,3,Valuable Active Customers
+C00035,24,Female,West,127876,21,4737.07,100719.31,13,4,Fashion,10.1,29,3.5,0,0,High-Value Customers
+C00036,36,Male,West,104368,15,3645.65,54177.4,23,4,Electronics,7.9,32,3.6,0,3,Valuable Active Customers
+C00037,22,Male,North,36159,12,1678.05,21094.24,14,4,Fashion,25.2,49,3.4,0,2,Regular Customers
+C00038,30,Female,South,41286,7,832.87,5257.0,48,1,Electronics,36.4,38,3.4,0,2,Regular Customers
+C00039,41,Male,West,67231,14,2642.27,36030.06,21,4,Fashion,21.3,40,3.2,0,3,Valuable Active Customers
+C00040,40,Male,South,41096,15,1465.49,24084.19,42,4,Fashion,32.3,32,4.1,0,2,Regular Customers
+C00041,36,Male,East,32010,4,990.38,3583.47,41,2,Grocery,44.6,31,3.1,0,2,Regular Customers
+C00042,34,Female,South,50715,5,1307.95,7312.44,44,3,Fashion,19.7,26,2.5,1,2,Regular Customers
+C00043,38,Female,East,23937,7,1006.8,6445.78,54,3,Fashion,30.7,24,2.7,0,1,At-Risk Customers
+C00044,46,Female,West,150015,19,5313.97,107826.08,10,5,Beauty,13.6,30,4.6,0,0,High-Value Customers
+C00045,28,Female,West,35676,7,462.87,3143.42,103,1,Grocery,57.4,41,3.2,1,1,At-Risk Customers
+C00046,53,Female,West,65363,13,1991.86,23522.46,21,4,Fashion,26.2,36,3.4,0,2,Regular Customers
+C00047,46,Male,South,65957,9,1426.77,12330.48,12,2,Grocery,39.6,37,3.3,0,2,Regular Customers
+C00048,49,Female,South,39657,9,1490.76,14001.74,47,2,Fashion,34.2,36,2.7,0,2,Regular Customers
+C00049,32,Male,South,51855,13,1502.25,19518.54,34,3,Fashion,29.1,42,3.7,0,2,Regular Customers
+C00050,26,Male,West,28188,8,1040.23,9066.46,63,2,Fashion,41.0,31,2.6,0,1,At-Risk Customers
+C00051,48,Female,East,134241,21,4558.17,106716.07,1,4,Beauty,4.8,38,4.3,0,0,High-Value Customers
+C00052,44,Male,South,116185,24,2950.93,64119.52,30,3,Fashion,15.7,37,4.3,0,0,High-Value Customers
+C00053,33,Male,North,109479,21,3822.33,72201.78,1,6,Beauty,5.6,29,4.0,0,0,High-Value Customers
+C00054,41,Male,East,176852,17,2175.77,33127.14,10,6,Fashion,23.8,29,3.9,0,3,Valuable Active Customers
+C00055,26,Female,West,56967,10,1462.92,13576.84,90,2,Beauty,32.5,31,3.6,0,1,At-Risk Customers
+C00056,43,Female,East,152145,22,4446.44,106462.97,9,5,Fashion,9.9,27,4.1,0,0,High-Value Customers
+C00057,33,Female,North,27413,6,892.68,5596.19,98,2,Home & Kitchen,23.7,18,2.7,0,1,At-Risk Customers
+C00058,38,Male,North,23660,4,751.08,2873.33,104,1,Home & Kitchen,80.0,41,2.7,1,1,At-Risk Customers
+C00059,36,Female,South,31563,5,971.39,4852.64,83,2,Beauty,51.7,34,2.5,0,1,At-Risk Customers
+C00060,37,Male,West,50027,11,1431.78,17518.96,62,4,Fashion,5.0,31,2.8,0,2,Regular Customers
+C00061,41,Female,West,53947,11,1364.02,17294.48,62,4,Sports,22.3,58,3.3,0,2,Regular Customers
+C00062,32,Female,West,23198,2,743.32,1517.49,92,3,Sports,51.2,13,2.6,1,1,At-Risk Customers
+C00063,50,Male,East,94291,12,2837.56,26806.68,34,5,Fashion,29.5,46,3.5,0,3,Valuable Active Customers
+C00064,42,Male,East,55514,14,1490.72,21366.43,26,3,Grocery,22.6,37,2.8,0,2,Regular Customers
+C00065,31,Female,East,50555,9,1392.21,13466.87,8,3,Beauty,30.0,42,3.2,0,2,Regular Customers
+C00066,29,Female,East,58592,14,937.35,13358.73,28,3,Home & Kitchen,20.6,39,3.6,0,2,Regular Customers
+C00067,35,Male,East,28643,4,399.03,1688.89,86,1,Electronics,45.7,12,2.3,0,1,At-Risk Customers
+C00068,45,Male,South,109492,10,1000.0,10285.65,26,6,Home & Kitchen,29.9,36,3.1,0,2,Regular Customers
+C00069,30,Female,East,26559,7,656.61,4142.29,82,2,Electronics,57.7,36,2.2,1,1,At-Risk Customers
+C00070,61,Female,North,134810,19,4179.54,73781.08,1,5,Home & Kitchen,9.5,19,3.5,0,0,High-Value Customers
+C00071,38,Female,South,87742,12,3216.57,37607.15,24,4,Home & Kitchen,17.4,56,3.8,0,3,Valuable Active Customers
+C00072,30,Female,West,35776,3,735.47,2394.47,62,1,Beauty,35.2,33,2.7,0,1,At-Risk Customers
+C00073,26,Male,West,36121,6,948.4,5341.75,91,2,Fashion,49.7,39,3.4,0,1,At-Risk Customers
+C00074,42,Male,East,89777,13,1258.65,16959.22,22,5,Sports,27.4,25,3.4,0,2,Regular Customers
+C00075,52,Male,North,107250,15,2708.52,41614.87,17,4,Fashion,24.9,45,3.7,1,3,Valuable Active Customers
+C00076,54,Female,West,82490,13,2600.29,38093.33,31,3,Home & Kitchen,2.0,48,3.1,0,3,Valuable Active Customers
+C00077,38,Male,East,63027,13,2518.72,32634.18,19,5,Sports,22.6,40,3.3,0,3,Valuable Active Customers
+C00078,31,Female,South,34355,3,1159.78,2990.91,68,2,Beauty,32.1,30,2.6,0,1,At-Risk Customers
+C00079,24,Male,East,60179,12,1184.28,14946.79,26,4,Fashion,18.1,27,2.9,0,2,Regular Customers
+C00080,40,Female,South,23696,6,817.85,5746.43,85,2,Fashion,43.0,30,3.0,0,1,At-Risk Customers
+C00081,39,Female,South,99945,26,3789.43,104140.2,10,4,Fashion,0.0,41,4.4,0,0,High-Value Customers
+C00082,41,Male,West,128427,18,2589.41,43672.39,21,4,Beauty,24.4,46,3.8,0,3,Valuable Active Customers
+C00083,27,Female,North,63143,13,1751.37,20797.13,50,3,Fashion,36.7,29,3.0,1,2,Regular Customers
+C00084,33,Male,North,27522,4,925.46,3419.62,109,1,Sports,27.4,36,2.8,0,1,At-Risk Customers
+C00085,37,Male,North,52509,12,1585.38,22073.53,38,5,Home & Kitchen,14.0,28,2.6,0,2,Regular Customers
+C00086,29,Female,South,50967,6,1438.45,8404.69,72,3,Electronics,32.3,30,3.4,0,1,At-Risk Customers
+C00087,32,Male,North,73905,13,2425.26,29857.01,39,5,Fashion,11.1,43,2.9,0,3,Valuable Active Customers
+C00088,45,Female,North,93968,20,3469.3,68506.54,12,4,Fashion,9.9,35,3.4,0,3,Valuable Active Customers
+C00089,37,Female,North,136659,27,4139.24,108926.09,10,5,Fashion,7.0,53,4.2,0,0,High-Value Customers
+C00090,53,Male,North,35923,12,2208.26,29822.43,42,3,Home & Kitchen,26.4,42,3.4,0,2,Regular Customers
+C00091,28,Male,South,39610,1,1283.36,1179.2,34,2,Home & Kitchen,39.8,26,2.9,0,2,Regular Customers
+C00092,48,Female,North,56234,17,3713.37,69089.75,8,4,Sports,14.7,52,3.4,0,3,Valuable Active Customers
+C00093,47,Male,East,85345,12,2868.33,34756.15,46,4,Fashion,25.8,37,3.8,0,3,Valuable Active Customers
+C00094,26,Female,East,42436,12,2019.44,26573.3,48,3,Grocery,30.0,47,2.7,0,2,Regular Customers
+C00095,32,Male,North,95881,19,2351.35,50332.01,18,4,Fashion,16.5,59,3.1,0,3,Valuable Active Customers
+C00096,35,Male,East,72997,10,1374.58,13839.05,30,4,Fashion,28.2,33,3.1,0,2,Regular Customers
+C00097,31,Female,West,65213,15,1289.85,18860.09,8,4,Beauty,23.2,45,2.9,0,2,Regular Customers
+C00098,42,Male,West,32299,14,1076.09,15145.02,55,3,Sports,20.5,31,3.6,0,2,Regular Customers
+C00099,26,Female,North,34804,5,1046.1,5190.84,119,1,Fashion,64.4,21,2.3,1,1,At-Risk Customers
+C00100,30,Female,West,23709,2,852.72,1479.37,93,2,Sports,63.1,27,3.2,0,1,At-Risk Customers
+C00101,19,Male,South,29915,2,990.91,2227.96,92,2,Grocery,13.7,16,3.1,0,1,At-Risk Customers
+C00102,45,Female,North,92861,17,3279.68,56850.85,11,5,Sports,29.5,31,4.1,0,3,Valuable Active Customers
+C00103,22,Female,South,55197,9,1471.47,12010.97,48,3,Electronics,23.2,40,3.8,1,2,Regular Customers
+C00104,36,Male,South,41128,8,1737.78,11602.78,21,4,Sports,34.6,28,3.2,0,2,Regular Customers
+C00105,25,Female,East,108061,28,3415.07,77816.39,9,5,Sports,16.7,55,3.7,0,0,High-Value Customers
+C00106,27,Female,East,25817,8,1334.72,11335.92,94,2,Beauty,35.3,37,2.9,0,1,At-Risk Customers
+C00107,29,Male,West,57225,12,1990.56,22703.89,54,2,Sports,40.5,55,3.0,0,2,Regular Customers
+C00108,34,Male,South,78089,16,3697.62,57008.9,61,5,Grocery,18.5,44,3.3,0,3,Valuable Active Customers
+C00109,33,Male,South,36214,4,1348.8,5605.9,76,2,Home & Kitchen,53.0,42,2.9,0,1,At-Risk Customers
+C00110,32,Female,South,35873,4,760.42,2916.11,42,2,Electronics,54.3,35,2.8,0,2,Regular Customers
+C00111,40,Male,South,68745,11,1734.06,19908.64,22,3,Home & Kitchen,37.0,39,3.0,0,2,Regular Customers
+C00112,35,Male,West,27942,5,520.53,2622.49,61,3,Electronics,51.9,43,2.7,0,1,At-Risk Customers
+C00113,43,Female,West,126244,22,3671.74,80234.61,17,5,Fashion,15.0,50,4.1,0,0,High-Value Customers
+C00114,38,Female,West,46240,19,2336.64,38810.23,14,5,Beauty,16.9,43,4.0,0,3,Valuable Active Customers
+C00115,53,Female,East,96106,18,1848.72,31094.71,39,4,Fashion,17.0,43,2.9,0,3,Valuable Active Customers
+C00116,40,Female,South,80594,24,3376.5,84942.16,3,4,Beauty,18.7,50,3.9,0,0,High-Value Customers
+C00117,37,Female,South,112607,13,1660.95,20414.23,11,5,Sports,18.8,30,3.3,0,3,Valuable Active Customers
+C00118,25,Male,South,31120,6,1179.35,7758.45,106,2,Home & Kitchen,29.1,25,2.4,0,1,At-Risk Customers
+C00119,36,Male,South,131507,17,3434.28,69341.91,14,5,Grocery,12.2,54,3.7,0,0,High-Value Customers
+C00120,30,Male,West,49696,8,1811.57,15253.58,61,2,Electronics,20.7,52,3.1,0,2,Regular Customers
+C00121,30,Male,South,73300,15,1802.7,30269.85,13,3,Sports,21.7,29,3.6,0,3,Valuable Active Customers
+C00122,40,Male,South,106957,23,3762.66,91530.99,10,6,Sports,20.0,37,4.0,0,0,High-Value Customers
+C00123,26,Male,West,60297,13,1098.11,13665.28,57,5,Fashion,18.8,49,2.8,0,2,Regular Customers
+C00124,23,Female,West,37124,6,1037.87,6326.93,79,2,Fashion,29.1,38,3.6,0,1,At-Risk Customers
+C00125,36,Female,South,38187,5,889.13,5161.69,32,2,Fashion,51.9,38,3.3,0,2,Regular Customers
+C00126,36,Female,East,63244,10,1697.61,16265.07,24,3,Sports,28.3,44,3.4,1,2,Regular Customers
+C00127,45,Female,North,78349,14,3054.33,39205.24,19,3,Sports,34.0,35,3.9,0,3,Valuable Active Customers
+C00128,50,Female,East,92693,25,3797.62,86326.02,14,5,Fashion,10.6,49,4.1,0,0,High-Value Customers
+C00129,24,Female,North,25166,3,692.04,2039.99,68,1,Beauty,53.2,33,3.2,1,1,At-Risk Customers
+C00130,48,Female,North,46199,12,1674.89,18485.2,50,3,Electronics,37.4,28,3.2,1,2,Regular Customers
+C00131,40,Female,East,39623,14,1810.55,28742.3,28,3,Home & Kitchen,36.8,41,3.4,0,2,Regular Customers
+C00132,28,Male,South,37511,10,703.5,7156.77,35,2,Grocery,53.7,47,3.3,0,2,Regular Customers
+C00133,27,Female,West,40173,2,1073.23,2313.32,55,3,Electronics,68.9,26,3.4,1,1,At-Risk Customers
+C00134,30,Male,West,46504,14,1364.5,18646.57,41,3,Grocery,10.8,39,3.8,0,2,Regular Customers
+C00135,39,Female,North,107757,20,5354.91,97329.15,3,6,Sports,10.3,44,4.3,0,0,High-Value Customers
+C00136,34,Male,East,59904,12,1699.71,18259.95,59,3,Grocery,23.9,34,3.4,0,2,Regular Customers
+C00137,27,Male,South,43746,20,1935.64,35900.73,18,2,Electronics,34.8,49,3.8,0,3,Valuable Active Customers
+C00138,48,Male,North,94880,14,2531.0,36419.14,28,4,Fashion,2.2,31,3.8,0,3,Valuable Active Customers
+C00139,34,Male,East,43486,12,2544.84,31808.18,49,3,Electronics,39.2,50,3.8,0,2,Regular Customers
+C00140,43,Male,East,135502,25,5845.23,153182.39,4,5,Sports,6.4,52,4.3,0,0,High-Value Customers
+C00141,43,Female,South,102033,20,3963.93,69837.01,19,6,Beauty,4.5,33,4.3,0,0,High-Value Customers
+C00142,29,Male,West,25033,2,845.75,1691.44,62,4,Electronics,50.2,46,2.9,1,1,At-Risk Customers
+C00143,25,Male,East,46352,14,2230.95,28669.52,13,2,Sports,48.7,39,3.7,0,2,Regular Customers
+C00144,39,Male,West,43317,13,600.0,8050.51,42,3,Fashion,39.2,30,3.6,0,2,Regular Customers
+C00145,28,Female,South,52857,8,1589.38,13202.36,26,3,Electronics,20.0,45,3.4,0,2,Regular Customers
+C00146,34,Male,North,36009,5,909.56,4121.34,34,2,Home & Kitchen,44.4,36,3.3,1,2,Regular Customers
+C00147,67,Male,South,64985,21,3148.27,71233.67,27,6,Electronics,23.0,25,3.6,0,3,Valuable Active Customers
+C00148,39,Male,North,51469,15,1883.76,33543.34,31,2,Fashion,28.0,33,3.9,0,2,Regular Customers
+C00149,23,Male,East,29555,7,785.67,5867.0,69,2,Fashion,55.2,36,3.1,0,1,At-Risk Customers
+C00150,18,Female,East,25753,5,1200.02,5921.94,58,1,Grocery,52.4,10,3.0,0,1,At-Risk Customers
+C00151,34,Female,South,95258,19,4052.38,75045.42,8,3,Sports,17.4,42,4.3,0,0,High-Value Customers
+C00152,38,Female,North,34561,3,849.63,2506.26,70,2,Home & Kitchen,53.0,32,3.7,1,1,At-Risk Customers
+C00153,24,Female,South,30574,6,1263.96,7122.22,88,3,Sports,46.0,20,2.4,0,1,At-Risk Customers
+C00154,47,Female,North,56098,8,1991.18,16251.08,55,3,Home & Kitchen,25.2,36,2.8,0,2,Regular Customers
+C00155,41,Female,East,136580,23,4449.05,93008.41,24,6,Fashion,13.1,44,5.0,0,0,High-Value Customers
+C00156,36,Female,West,22772,6,1352.33,6887.34,65,1,Sports,37.2,20,3.1,0,1,At-Risk Customers
+C00157,33,Female,West,70874,14,1826.94,26026.5,24,5,Beauty,12.7,47,3.4,0,3,Valuable Active Customers
+C00158,57,Female,North,94194,19,2238.19,42597.85,34,3,Beauty,27.1,50,3.5,0,3,Valuable Active Customers
+C00159,30,Male,East,33873,3,676.23,1935.99,85,1,Beauty,50.6,27,3.1,0,1,At-Risk Customers
+C00160,31,Male,East,100267,10,2903.76,26057.89,32,4,Beauty,24.7,33,4.3,0,3,Valuable Active Customers
+C00161,38,Male,West,46612,8,813.08,6655.41,48,2,Fashion,31.0,41,2.8,0,2,Regular Customers
+C00162,41,Female,East,97225,14,2418.8,31180.76,33,4,Grocery,22.5,36,3.4,0,3,Valuable Active Customers
+C00163,47,Male,North,57360,18,2936.86,52275.87,12,4,Electronics,19.7,21,3.6,0,3,Valuable Active Customers
+C00164,35,Male,South,55339,15,1878.62,32158.15,18,4,Grocery,43.3,43,3.7,0,3,Valuable Active Customers
+C00165,32,Male,East,37637,9,1155.93,10945.34,76,3,Fashion,46.7,26,3.4,1,1,At-Risk Customers
+C00166,43,Male,East,78675,21,2149.86,40202.07,42,5,Electronics,8.8,39,4.1,0,3,Valuable Active Customers
+C00167,39,Male,West,31000,13,1809.83,21128.23,31,3,Beauty,49.5,52,3.6,0,2,Regular Customers
+C00168,25,Male,North,22588,8,1390.65,11260.32,70,3,Fashion,61.1,32,3.9,0,1,At-Risk Customers
+C00169,24,Female,West,26603,7,1321.25,8231.15,84,1,Sports,68.8,33,2.7,0,1,At-Risk Customers
+C00170,32,Female,North,48649,12,2043.96,20599.73,57,4,Home & Kitchen,34.6,41,3.0,0,2,Regular Customers
+C00171,43,Male,West,95047,5,2436.87,12703.28,27,3,Beauty,23.1,37,3.7,0,2,Regular Customers
+C00172,28,Female,West,42288,8,783.55,6429.34,66,2,Fashion,39.6,24,3.0,0,1,At-Risk Customers
+C00173,38,Female,East,44417,8,1717.95,14239.03,53,2,Fashion,39.0,33,2.6,0,2,Regular Customers
+C00174,25,Male,East,31772,7,891.6,6372.53,81,2,Fashion,42.6,33,2.7,0,1,At-Risk Customers
+C00175,41,Female,North,71562,14,1748.26,24347.76,18,4,Beauty,18.0,41,3.5,0,3,Valuable Active Customers
+C00176,27,Male,North,29568,6,1118.63,6356.22,54,1,Beauty,32.5,35,2.7,0,1,At-Risk Customers
+C00177,39,Male,North,78665,12,1887.14,23580.74,19,4,Home & Kitchen,24.8,62,3.0,0,3,Valuable Active Customers
+C00178,32,Female,North,47870,8,1489.0,13369.92,27,4,Grocery,12.1,22,3.1,0,2,Regular Customers
+C00179,36,Female,East,132528,23,6354.43,140291.44,14,4,Beauty,11.4,54,3.9,0,0,High-Value Customers
+C00180,18,Female,North,29436,3,1128.85,3110.01,56,2,Grocery,37.4,42,3.1,0,1,At-Risk Customers
+C00181,50,Female,West,48788,16,1784.95,25965.75,51,4,Electronics,33.9,44,2.7,0,2,Regular Customers
+C00182,18,Female,South,28048,7,887.78,5783.56,35,2,Electronics,65.4,26,3.0,0,2,Regular Customers
+C00183,49,Female,East,123450,27,3906.79,107192.99,1,4,Fashion,21.4,64,4.3,0,0,High-Value Customers
+C00184,37,Female,East,118915,21,5723.31,99616.65,23,6,Electronics,11.0,21,4.1,0,0,High-Value Customers
+C00185,31,Female,South,19384,8,608.06,5035.39,75,1,Home & Kitchen,37.9,27,3.2,0,1,At-Risk Customers
+C00186,35,Male,South,74058,13,2298.45,31419.05,34,3,Home & Kitchen,21.8,49,2.9,0,3,Valuable Active Customers
+C00187,54,Male,South,75762,12,2473.21,25409.38,38,4,Home & Kitchen,15.8,33,3.1,0,3,Valuable Active Customers
+C00188,40,Male,West,40977,13,1643.01,19685.97,36,2,Sports,21.1,53,3.2,0,2,Regular Customers
+C00189,40,Male,East,64290,9,1660.44,15039.22,4,3,Grocery,29.7,19,3.5,0,2,Regular Customers
+C00190,23,Female,South,23444,4,973.05,3847.53,65,1,Grocery,19.6,20,2.9,0,1,At-Risk Customers
+C00191,25,Male,West,33204,1,775.07,807.29,57,3,Electronics,40.4,23,3.5,1,1,At-Risk Customers
+C00192,42,Female,North,128531,11,4814.57,52362.3,14,5,Fashion,35.0,40,3.5,1,3,Valuable Active Customers
+C00193,22,Female,East,168117,21,4429.86,102439.68,12,5,Fashion,8.6,40,3.5,0,0,High-Value Customers
+C00194,46,Male,South,57691,18,2371.09,41583.03,10,4,Electronics,30.1,36,4.2,0,3,Valuable Active Customers
+C00195,32,Female,East,55585,9,1765.27,14638.0,54,5,Home & Kitchen,28.2,49,2.6,0,2,Regular Customers
+C00196,41,Female,West,52981,15,1248.41,17133.02,55,3,Home & Kitchen,29.4,54,3.5,0,2,Regular Customers
+C00197,44,Male,West,89540,15,2718.09,43170.23,43,5,Fashion,27.0,34,3.1,1,3,Valuable Active Customers
+C00198,35,Male,South,102769,27,4900.84,132636.24,22,5,Beauty,10.6,30,3.5,1,0,High-Value Customers
+C00199,26,Female,North,115188,27,3826.8,108561.82,16,5,Sports,13.9,25,3.9,0,0,High-Value Customers
+C00200,33,Female,West,86534,5,2497.21,13098.49,4,5,Electronics,26.2,34,3.6,0,3,Valuable Active Customers
+C00201,47,Male,South,112378,11,3561.05,32841.9,35,4,Fashion,29.1,42,3.1,0,3,Valuable Active Customers
+C00202,21,Male,North,24228,4,767.76,2790.94,44,3,Grocery,41.9,31,3.1,0,1,At-Risk Customers
+C00203,31,Female,East,26008,1,967.51,888.51,22,2,Home & Kitchen,28.6,28,3.2,0,2,Regular Customers
+C00204,55,Male,South,147784,23,5210.97,112027.74,6,5,Fashion,13.2,36,3.7,0,0,High-Value Customers
+C00205,45,Male,North,107902,18,2758.8,47988.47,4,3,Fashion,19.0,47,3.6,0,3,Valuable Active Customers
+C00206,30,Female,West,22089,10,1279.1,13813.41,85,2,Fashion,42.5,52,3.5,0,1,At-Risk Customers
+C00207,22,Male,South,30542,6,589.56,3876.52,78,2,Electronics,22.1,10,3.0,0,1,At-Risk Customers
+C00208,35,Male,South,77555,23,2906.1,65274.15,8,5,Sports,7.6,43,3.8,0,3,Valuable Active Customers
+C00209,37,Female,East,26702,5,1231.45,6033.47,38,1,Electronics,38.0,22,3.1,0,2,Regular Customers
+C00210,36,Male,West,19365,1,787.21,742.78,84,3,Fashion,39.4,14,2.4,1,1,At-Risk Customers
+C00211,33,Female,North,63539,5,1364.02,6868.76,45,4,Electronics,24.9,20,3.4,0,2,Regular Customers
+C00212,43,Male,East,45000,12,2849.43,34747.15,12,4,Sports,23.6,40,3.9,0,3,Valuable Active Customers
+C00213,40,Male,West,88068,11,2486.36,29114.53,31,4,Electronics,15.3,40,3.4,0,3,Valuable Active Customers
+C00214,31,Female,North,35002,1,1189.77,1265.77,62,2,Fashion,59.4,43,2.9,1,1,At-Risk Customers
+C00215,31,Male,South,72230,14,2168.94,24772.83,45,4,Home & Kitchen,15.6,38,3.0,1,2,Regular Customers
+C00216,30,Male,North,21585,4,979.36,3869.63,62,2,Home & Kitchen,38.6,13,2.4,0,1,At-Risk Customers
+C00217,24,Female,West,55216,16,1506.44,26771.92,46,4,Fashion,17.3,37,3.2,0,2,Regular Customers
+C00218,58,Female,West,88642,22,2196.83,46636.32,46,5,Fashion,24.4,30,3.6,0,3,Valuable Active Customers
+C00219,45,Female,North,80526,20,2677.2,58423.97,2,3,Sports,18.5,30,4.1,0,3,Valuable Active Customers
+C00220,46,Male,West,83981,20,1526.89,29789.13,26,3,Grocery,26.1,48,3.8,0,3,Valuable Active Customers
+C00221,42,Male,West,92553,12,3303.71,40199.3,37,5,Fashion,19.0,38,3.6,0,3,Valuable Active Customers
+C00222,41,Male,South,44931,14,2077.32,26437.39,61,3,Electronics,33.6,44,3.7,0,2,Regular Customers
+C00223,20,Female,East,34007,6,432.55,2367.07,41,2,Electronics,41.4,29,2.6,0,2,Regular Customers
+C00224,26,Male,North,55890,12,1432.01,18181.47,28,4,Sports,46.6,44,3.6,0,2,Regular Customers
+C00225,26,Female,West,25715,6,810.49,5206.0,67,3,Home & Kitchen,22.1,28,2.6,0,1,At-Risk Customers
+C00226,38,Female,East,30509,4,877.69,3518.18,69,1,Sports,62.9,42,3.2,0,1,At-Risk Customers
+C00227,39,Female,East,136075,27,3383.07,82372.84,15,5,Beauty,17.1,50,4.0,0,0,High-Value Customers
+C00228,20,Female,East,51009,9,1651.29,14913.69,50,3,Grocery,22.9,32,2.4,1,2,Regular Customers
+C00229,38,Male,East,102584,26,3904.63,111731.18,1,5,Grocery,5.8,48,4.4,0,0,High-Value Customers
+C00230,28,Male,West,62726,15,3330.75,56927.31,28,4,Sports,23.6,38,3.9,0,3,Valuable Active Customers
+C00231,39,Male,East,72497,10,1636.49,15950.27,19,4,Home & Kitchen,19.2,51,3.1,0,2,Regular Customers
+C00232,33,Male,West,42543,13,1039.0,11713.41,56,2,Fashion,22.5,40,3.0,0,2,Regular Customers
+C00233,24,Female,East,46986,14,1680.47,25108.25,60,4,Home & Kitchen,19.0,38,3.2,0,2,Regular Customers
+C00234,33,Male,North,44198,15,1081.12,15858.78,58,4,Home & Kitchen,48.3,36,2.5,1,2,Regular Customers
+C00235,26,Male,West,34986,10,745.59,8018.4,32,1,Beauty,53.6,43,2.3,0,2,Regular Customers
+C00236,26,Male,East,78298,17,2701.85,46964.25,29,4,Fashion,30.2,47,4.0,0,3,Valuable Active Customers
+C00237,28,Female,East,45230,9,1790.57,14976.18,58,4,Beauty,41.8,32,2.8,1,2,Regular Customers
+C00238,21,Female,West,41671,8,1083.91,8711.68,115,1,Home & Kitchen,38.7,22,3.4,0,1,At-Risk Customers
+C00239,36,Male,North,97987,11,3016.62,36655.97,40,5,Beauty,22.3,27,3.9,0,3,Valuable Active Customers
+C00240,22,Female,South,24072,7,1094.84,7572.43,69,2,Fashion,20.7,31,3.5,1,1,At-Risk Customers
+C00241,30,Male,North,172785,16,4351.58,63861.39,19,4,Home & Kitchen,13.1,53,3.6,0,0,High-Value Customers
+C00242,47,Male,East,125312,35,2865.12,87534.56,19,5,Fashion,16.6,50,3.6,0,0,High-Value Customers
+C00243,43,Female,West,106671,23,2713.68,58559.09,16,5,Grocery,15.8,38,3.4,0,3,Valuable Active Customers
+C00244,44,Female,West,55676,11,1191.63,12677.85,29,4,Home & Kitchen,44.4,18,3.0,0,2,Regular Customers
+C00245,27,Male,South,30322,3,1193.19,3814.39,87,3,Fashion,34.5,45,1.9,0,1,At-Risk Customers
+C00246,36,Female,West,130786,25,4027.47,91658.38,6,6,Electronics,16.3,51,3.9,0,0,High-Value Customers
+C00247,29,Male,West,65554,15,1547.0,26089.39,43,4,Beauty,21.4,46,3.2,0,2,Regular Customers
+C00248,39,Male,East,71190,26,2950.81,68514.04,23,5,Fashion,10.7,56,3.4,0,3,Valuable Active Customers
+C00249,34,Female,South,117799,29,2209.75,76035.39,21,5,Grocery,4.8,47,3.5,0,0,High-Value Customers
+C00250,30,Male,East,166910,17,3277.32,63405.34,20,5,Home & Kitchen,6.4,41,3.6,0,0,High-Value Customers
+C00251,38,Male,West,41742,14,1871.48,26496.61,52,4,Fashion,47.6,53,3.4,0,2,Regular Customers
+C00252,36,Male,West,40181,12,2230.12,23233.87,24,3,Beauty,34.2,38,3.1,0,2,Regular Customers
+C00253,39,Male,East,100442,28,6056.03,168816.98,13,4,Fashion,2.7,53,4.5,0,0,High-Value Customers
+C00254,38,Male,West,63039,12,1499.16,17433.18,31,2,Sports,38.3,45,3.3,0,2,Regular Customers
+C00255,35,Female,North,19180,8,1043.52,7497.12,105,1,Fashion,28.6,40,2.8,0,1,At-Risk Customers
+C00256,35,Female,South,57028,16,1747.13,28604.87,38,2,Grocery,42.3,38,3.2,0,2,Regular Customers
+C00257,31,Female,West,165712,21,5472.47,107349.5,17,5,Beauty,8.9,42,3.7,0,0,High-Value Customers
+C00258,40,Female,North,92710,15,2273.4,32150.68,22,4,Sports,3.0,46,4.1,0,3,Valuable Active Customers
+C00259,40,Male,North,42203,8,909.43,7156.89,10,2,Electronics,22.9,41,3.3,0,2,Regular Customers
+C00260,43,Female,South,26319,5,1000.12,4770.61,73,2,Fashion,30.7,43,3.2,0,1,At-Risk Customers
+C00261,56,Male,East,117530,8,2036.78,19003.2,21,3,Sports,24.0,39,3.2,0,3,Valuable Active Customers
+C00262,33,Female,East,179126,28,4370.06,117117.6,19,6,Beauty,8.6,54,4.1,0,0,High-Value Customers
+C00263,23,Female,South,30547,7,934.77,6774.18,31,1,Fashion,44.1,28,3.2,0,2,Regular Customers
+C00264,35,Male,West,71725,7,1676.96,11875.38,69,5,Fashion,26.0,27,2.4,0,1,At-Risk Customers
+C00265,43,Female,West,139244,23,4120.92,97455.89,15,3,Fashion,16.1,52,3.6,0,0,High-Value Customers
+C00266,44,Male,South,80995,23,2228.79,53021.85,19,6,Beauty,13.3,38,3.4,0,3,Valuable Active Customers
+C00267,38,Female,South,82354,18,2714.29,52302.09,8,4,Fashion,15.1,40,3.5,0,3,Valuable Active Customers
+C00268,42,Male,East,92665,17,1623.19,28182.42,37,4,Fashion,31.1,54,3.1,0,3,Valuable Active Customers
+C00269,40,Male,East,63013,12,1971.18,24079.74,51,3,Fashion,52.7,49,3.4,1,2,Regular Customers
+C00270,43,Male,South,57737,7,1049.09,7377.98,47,3,Home & Kitchen,23.9,36,3.0,0,2,Regular Customers
+C00271,44,Female,South,113595,18,1972.45,35110.95,23,4,Fashion,16.9,38,4.0,0,3,Valuable Active Customers
+C00272,39,Female,South,76402,10,2529.79,23452.57,17,2,Grocery,36.4,34,4.3,0,3,Valuable Active Customers
+C00273,48,Male,North,115592,22,3262.68,71429.43,24,6,Electronics,12.9,52,3.4,0,0,High-Value Customers
+C00274,47,Male,South,129382,15,3870.54,59178.7,13,5,Grocery,10.7,38,3.8,0,3,Valuable Active Customers
+C00275,35,Female,East,51191,11,1128.79,12816.17,29,2,Home & Kitchen,39.8,30,3.2,0,2,Regular Customers
+C00276,20,Female,West,63536,15,1394.24,21215.23,3,3,Fashion,29.4,51,3.4,0,2,Regular Customers
+C00277,34,Female,West,75726,21,2965.71,61119.24,13,3,Fashion,17.4,45,3.4,0,3,Valuable Active Customers
+C00278,41,Female,South,93932,13,2881.32,37286.12,47,5,Beauty,19.6,31,3.1,0,3,Valuable Active Customers
+C00279,41,Male,West,78580,20,2254.98,43102.06,25,4,Beauty,16.0,47,3.7,0,3,Valuable Active Customers
+C00280,31,Female,North,90814,15,2875.13,44207.62,18,5,Home & Kitchen,13.0,48,3.2,0,3,Valuable Active Customers
+C00281,53,Female,South,81309,24,4580.34,107983.5,6,5,Electronics,19.7,35,4.2,0,0,High-Value Customers
+C00282,20,Male,West,57027,4,1162.02,4715.22,71,3,Grocery,18.3,29,2.8,0,1,At-Risk Customers
+C00283,34,Female,East,72679,6,1132.04,7336.06,69,5,Grocery,29.0,30,3.0,0,1,At-Risk Customers
+C00284,20,Male,South,44671,8,1069.74,8072.27,50,2,Home & Kitchen,43.1,38,2.7,0,2,Regular Customers
+C00285,39,Male,East,66510,14,1122.92,16471.33,67,3,Beauty,36.9,44,3.2,0,2,Regular Customers
+C00286,39,Female,West,22219,5,767.14,3845.89,31,2,Home & Kitchen,75.1,26,2.6,0,2,Regular Customers
+C00287,21,Male,East,51677,13,1543.08,23303.66,40,2,Fashion,32.3,22,3.3,0,2,Regular Customers
+C00288,30,Female,West,30101,15,1835.44,27055.19,43,3,Electronics,40.7,49,3.8,0,2,Regular Customers
+C00289,38,Female,West,61040,10,1959.19,20681.47,48,3,Home & Kitchen,17.3,24,3.3,0,2,Regular Customers
+C00290,38,Female,East,43680,9,1214.62,10945.01,23,5,Sports,43.3,37,3.3,0,2,Regular Customers
+C00291,42,Female,East,21440,5,576.62,2562.89,53,1,Electronics,59.9,30,3.1,0,1,At-Risk Customers
+C00292,26,Female,North,37479,6,1475.91,8486.58,33,3,Beauty,58.8,34,2.6,0,2,Regular Customers
+C00293,34,Female,South,103128,16,2474.89,42387.45,14,4,Grocery,36.4,56,4.2,0,3,Valuable Active Customers
+C00294,36,Male,East,59821,9,1227.05,10661.17,61,2,Fashion,25.8,65,2.7,1,2,Regular Customers
+C00295,29,Male,West,30780,5,998.95,4107.58,87,3,Fashion,33.2,15,3.1,1,1,At-Risk Customers
+C00296,34,Male,South,63948,14,1019.5,14237.14,48,1,Sports,30.5,48,3.4,0,2,Regular Customers
+C00297,60,Male,West,67938,12,3020.22,33075.51,5,4,Fashion,24.8,35,3.2,0,3,Valuable Active Customers
+C00298,25,Female,South,28348,6,1005.39,6095.95,77,2,Fashion,49.4,43,3.2,0,1,At-Risk Customers
+C00299,42,Female,West,93241,13,2499.59,36526.99,12,4,Fashion,13.5,47,3.7,0,3,Valuable Active Customers
+C00300,21,Female,South,31811,5,1095.72,5815.84,59,2,Fashion,51.6,46,3.6,0,1,At-Risk Customers
+C00301,32,Female,South,24220,5,991.04,5564.35,70,1,Grocery,46.9,34,2.9,0,1,At-Risk Customers
+C00302,54,Male,West,48400,9,1630.67,14016.77,48,4,Beauty,17.4,25,3.1,0,2,Regular Customers
+C00303,42,Male,South,57904,11,1618.54,17600.03,61,4,Home & Kitchen,18.6,45,3.0,0,2,Regular Customers
+C00304,50,Female,North,83836,15,2640.26,36294.8,22,5,Home & Kitchen,19.3,40,2.9,0,3,Valuable Active Customers
+C00305,33,Female,East,77916,16,3276.07,49548.67,31,4,Grocery,39.9,37,3.5,0,3,Valuable Active Customers
+C00306,41,Female,East,156885,21,4626.69,89955.96,18,6,Electronics,18.3,38,3.9,0,0,High-Value Customers
+C00307,43,Female,West,48849,9,1616.41,13026.91,59,3,Fashion,40.7,44,3.2,0,2,Regular Customers
+C00308,48,Female,West,42837,8,1450.87,12875.24,48,3,Grocery,43.5,50,2.6,0,2,Regular Customers
+C00309,47,Male,North,85710,9,1876.3,14060.6,27,2,Grocery,28.1,22,3.2,0,2,Regular Customers
+C00310,28,Female,East,50000,10,854.64,9483.18,67,3,Electronics,65.4,41,3.2,0,1,At-Risk Customers
+C00311,23,Male,East,34136,9,1703.96,16864.37,51,4,Electronics,18.0,31,3.4,0,2,Regular Customers
+C00312,18,Female,West,36006,3,395.38,1233.57,74,3,Home & Kitchen,43.5,15,2.0,0,1,At-Risk Customers
+C00313,26,Female,West,28884,4,562.99,2051.17,52,2,Electronics,48.9,32,3.1,0,1,At-Risk Customers
+C00314,40,Male,East,100121,21,2458.35,45090.92,13,6,Beauty,3.2,34,3.6,0,3,Valuable Active Customers
+C00315,38,Male,East,90924,20,2353.48,45004.55,16,3,Electronics,20.8,26,3.6,0,3,Valuable Active Customers
+C00316,61,Female,North,89992,15,2777.15,43740.51,24,4,Electronics,26.6,31,2.7,0,3,Valuable Active Customers
+C00317,38,Male,South,52176,8,1956.23,15653.68,54,3,Home & Kitchen,40.0,23,3.7,0,2,Regular Customers
+C00318,26,Female,East,24526,3,457.23,1257.18,82,1,Grocery,30.3,24,2.7,0,1,At-Risk Customers
+C00319,18,Female,East,29398,5,818.33,4467.49,44,1,Home & Kitchen,50.6,18,2.4,0,1,At-Risk Customers
+C00320,25,Male,East,32215,3,945.27,3217.94,103,2,Fashion,40.1,26,2.8,0,1,At-Risk Customers
+C00321,38,Male,East,49593,11,1386.04,14970.05,39,3,Grocery,20.1,29,3.3,0,2,Regular Customers
+C00322,34,Female,South,60006,9,1930.49,17526.38,26,3,Home & Kitchen,24.1,38,3.7,0,2,Regular Customers
+C00323,43,Female,East,49567,18,3045.94,48208.88,12,5,Fashion,13.1,47,3.6,0,3,Valuable Active Customers
+C00324,30,Male,North,21149,1,804.3,777.64,67,2,Fashion,30.8,31,2.7,0,1,At-Risk Customers
+C00325,36,Female,North,131732,22,4346.0,99516.33,7,6,Fashion,4.9,41,3.8,0,0,High-Value Customers
+C00326,47,Female,North,106274,17,2488.61,43507.39,18,5,Home & Kitchen,8.6,37,3.8,0,3,Valuable Active Customers
+C00327,28,Female,West,48024,15,1632.92,23499.02,25,3,Home & Kitchen,23.9,30,3.1,0,2,Regular Customers
+C00328,37,Male,North,102620,10,3484.83,34083.75,34,5,Fashion,16.3,27,3.2,0,3,Valuable Active Customers
+C00329,35,Female,West,37668,9,1672.78,14516.4,65,2,Electronics,26.3,41,3.1,0,1,At-Risk Customers
+C00330,28,Male,North,20229,6,719.0,4217.9,65,2,Fashion,35.5,15,2.4,1,1,At-Risk Customers
+C00331,36,Male,South,49844,10,1245.04,12871.96,48,5,Home & Kitchen,31.4,34,3.7,1,2,Regular Customers
+C00332,52,Female,West,59976,16,1996.45,26915.25,6,4,Electronics,29.5,36,4.2,0,3,Valuable Active Customers
+C00333,36,Male,East,31701,2,850.93,1691.74,78,2,Electronics,22.9,35,2.6,0,1,At-Risk Customers
+C00334,23,Male,North,29551,6,350.97,2164.78,66,2,Grocery,55.2,18,2.3,0,1,At-Risk Customers
+C00335,34,Female,South,34078,3,423.0,1211.08,60,3,Home & Kitchen,61.7,30,2.9,0,1,At-Risk Customers
+C00336,34,Female,West,33005,6,760.97,4390.74,67,3,Electronics,33.7,36,2.7,1,1,At-Risk Customers
+C00337,52,Male,South,116949,29,3074.55,85949.31,16,4,Beauty,3.5,29,4.4,0,0,High-Value Customers
+C00338,45,Male,East,103170,12,1775.54,20489.93,23,4,Electronics,24.4,26,3.0,0,3,Valuable Active Customers
+C00339,44,Female,South,51406,17,1578.48,26846.79,36,2,Sports,27.4,39,3.6,0,2,Regular Customers
+C00340,27,Male,South,36722,6,605.16,3668.43,74,2,Sports,63.3,37,2.9,0,1,At-Risk Customers
+C00341,43,Male,North,59608,11,1635.91,14971.11,64,2,Beauty,26.5,38,2.9,0,2,Regular Customers
+C00342,30,Male,East,55792,15,1291.06,20377.39,3,3,Sports,39.1,44,3.5,0,2,Regular Customers
+C00343,33,Male,East,32997,4,580.24,2267.11,83,1,Electronics,71.2,20,3.0,0,1,At-Risk Customers
+C00344,41,Female,South,46194,9,1467.47,15249.56,38,4,Sports,31.9,18,3.2,1,2,Regular Customers
+C00345,30,Female,West,70904,11,1769.09,17604.83,31,4,Electronics,33.1,37,3.3,0,2,Regular Customers
+C00346,26,Male,West,121275,20,2381.54,44325.93,11,4,Fashion,20.7,30,3.4,0,3,Valuable Active Customers
+C00347,46,Female,West,88448,17,3396.02,56795.19,31,3,Grocery,30.9,31,4.1,0,3,Valuable Active Customers
+C00348,40,Male,North,50000,3,960.72,2977.44,18,2,Home & Kitchen,38.4,39,3.3,0,2,Regular Customers
+C00349,51,Female,South,44254,6,1335.06,6760.25,6,4,Grocery,9.3,34,3.0,0,2,Regular Customers
+C00350,43,Female,West,47599,14,3503.86,45800.38,28,4,Electronics,19.8,32,3.6,0,3,Valuable Active Customers
+C00351,36,Female,North,56726,7,1707.4,12517.19,3,3,Home & Kitchen,25.1,26,3.7,0,2,Regular Customers
+C00352,44,Male,North,125566,15,3412.01,47298.14,13,5,Electronics,8.5,45,3.3,0,3,Valuable Active Customers
+C00353,39,Male,West,97531,13,2551.55,36805.67,50,3,Beauty,5.2,39,3.6,0,3,Valuable Active Customers
+C00354,34,Female,South,25249,4,704.71,2716.49,64,3,Electronics,54.6,19,2.6,0,1,At-Risk Customers
+C00355,35,Female,South,20086,3,300.0,835.25,50,3,Electronics,51.2,11,3.4,0,1,At-Risk Customers
+C00356,41,Female,South,84599,12,2712.62,34140.59,33,3,Fashion,22.4,55,3.4,0,3,Valuable Active Customers
+C00357,36,Male,West,27094,6,1600.0,10834.65,67,2,Sports,36.1,20,3.4,0,1,At-Risk Customers
+C00358,37,Female,South,56603,12,1143.11,14174.27,46,5,Electronics,34.5,42,2.9,0,2,Regular Customers
+C00359,47,Male,West,119075,26,4423.41,126605.48,5,5,Sports,6.0,61,3.7,0,0,High-Value Customers
+C00360,31,Female,East,53893,12,1083.77,14749.64,61,4,Electronics,23.0,38,3.0,1,2,Regular Customers
+C00361,24,Female,East,50551,10,1539.6,14260.57,35,1,Electronics,26.1,29,3.3,0,2,Regular Customers
+C00362,40,Male,South,96406,12,3523.27,45453.2,2,5,Fashion,18.2,22,3.5,0,3,Valuable Active Customers
+C00363,43,Female,South,52798,14,1364.42,16773.79,22,4,Grocery,28.9,23,3.6,0,2,Regular Customers
+C00364,38,Male,East,64348,8,1708.42,14131.94,31,3,Electronics,30.7,37,3.1,0,2,Regular Customers
+C00365,27,Female,South,105529,29,4908.95,141547.33,12,5,Electronics,10.2,63,3.6,0,0,High-Value Customers
+C00366,47,Female,West,49996,12,1901.11,25081.79,28,5,Sports,14.7,32,3.5,0,2,Regular Customers
+C00367,52,Female,South,115683,21,2687.99,61741.47,9,4,Fashion,8.4,37,3.4,0,3,Valuable Active Customers
+C00368,38,Female,South,148945,23,4446.14,106922.56,4,4,Beauty,22.8,51,4.0,0,0,High-Value Customers
+C00369,24,Male,South,41593,5,900.57,4610.35,97,3,Fashion,43.7,25,3.3,1,1,At-Risk Customers
+C00370,26,Male,West,29609,6,1122.83,7010.97,70,2,Home & Kitchen,64.7,35,3.5,0,1,At-Risk Customers
+C00371,32,Male,South,32182,2,300.0,602.97,80,2,Fashion,38.8,30,2.4,0,1,At-Risk Customers
+C00372,31,Female,South,29577,7,921.53,6419.13,51,3,Home & Kitchen,42.4,29,3.2,0,1,At-Risk Customers
+C00373,33,Male,West,26658,4,921.04,4109.34,70,2,Sports,41.8,31,2.6,0,1,At-Risk Customers
+C00374,26,Male,East,77210,18,2436.44,49339.28,21,5,Sports,14.3,58,3.5,0,3,Valuable Active Customers
+C00375,18,Female,East,28876,4,658.44,2603.91,66,2,Home & Kitchen,44.9,37,2.6,0,1,At-Risk Customers
+C00376,38,Male,East,70134,10,1597.42,16277.88,33,2,Grocery,24.2,46,2.6,0,2,Regular Customers
+C00377,39,Male,East,91471,24,2206.18,53294.2,19,4,Fashion,23.2,36,3.8,0,3,Valuable Active Customers
+C00378,31,Female,South,38989,1,303.27,300.0,58,3,Fashion,26.2,40,2.8,0,1,At-Risk Customers
+C00379,22,Male,North,95281,16,2000.39,31144.8,12,3,Beauty,20.9,46,3.3,0,3,Valuable Active Customers
+C00380,31,Female,West,56941,4,1200.1,5414.74,22,3,Beauty,24.6,16,3.4,0,2,Regular Customers
+C00381,35,Female,North,18000,5,1039.58,4886.12,116,2,Electronics,48.9,37,2.6,0,1,At-Risk Customers
+C00382,27,Female,East,45000,18,2596.94,54652.45,38,3,Beauty,24.2,35,3.3,0,3,Valuable Active Customers
+C00383,60,Male,North,92555,16,2604.71,45583.26,5,5,Fashion,15.1,24,3.8,0,3,Valuable Active Customers
+C00384,43,Female,South,85924,16,5348.07,88317.59,10,6,Sports,11.5,40,3.4,0,0,High-Value Customers
+C00385,26,Male,North,101057,13,2984.28,40536.3,24,3,Sports,21.3,42,3.8,0,3,Valuable Active Customers
+C00386,63,Male,East,93874,15,3191.44,44358.95,27,4,Home & Kitchen,11.3,40,3.5,0,3,Valuable Active Customers
+C00387,38,Male,East,62354,8,1998.57,15649.31,40,2,Electronics,40.0,33,3.5,0,2,Regular Customers
+C00388,27,Female,North,35317,4,885.04,3948.38,82,2,Beauty,21.1,27,3.2,0,1,At-Risk Customers
+C00389,33,Male,South,101729,14,2311.95,30776.05,8,3,Sports,3.8,62,3.7,0,3,Valuable Active Customers
+C00390,42,Male,West,74228,11,2562.53,30580.71,28,6,Fashion,7.9,24,3.1,0,3,Valuable Active Customers
+C00391,48,Female,South,149328,18,4362.59,69875.88,9,5,Home & Kitchen,21.1,49,3.5,0,0,High-Value Customers
+C00392,41,Male,West,57086,10,980.58,8865.89,38,4,Grocery,14.7,35,2.6,0,2,Regular Customers
+C00393,28,Male,West,53263,8,1222.62,11268.75,34,2,Fashion,20.3,25,3.5,0,2,Regular Customers
+C00394,49,Male,West,61467,9,2253.49,20262.2,33,4,Fashion,16.3,34,3.2,0,2,Regular Customers
+C00395,36,Female,West,34543,12,1634.2,18765.58,35,4,Fashion,18.7,22,3.0,0,2,Regular Customers
+C00396,48,Female,South,128862,20,4184.1,92804.95,11,6,Home & Kitchen,5.5,36,3.9,0,0,High-Value Customers
+C00397,33,Female,West,150908,19,4920.43,102805.74,24,5,Grocery,16.1,41,4.3,0,0,High-Value Customers
+C00398,27,Female,West,59547,12,1665.56,21458.95,30,2,Beauty,35.0,21,3.6,0,2,Regular Customers
+C00399,24,Male,West,79288,19,2705.54,49061.6,47,5,Fashion,14.8,46,3.7,0,3,Valuable Active Customers
+C00400,43,Male,North,84147,9,2082.78,18314.76,17,3,Beauty,20.4,25,3.5,0,3,Valuable Active Customers
+C00401,27,Male,West,18290,6,1078.97,6635.21,76,2,Beauty,52.1,18,2.9,0,1,At-Risk Customers
+C00402,44,Male,West,132685,18,4421.28,84004.03,20,5,Beauty,24.6,30,4.0,0,0,High-Value Customers
+C00403,32,Male,West,52324,9,1578.14,13625.49,11,3,Electronics,19.1,56,3.3,0,2,Regular Customers
+C00404,44,Female,North,102900,18,1295.59,23639.16,49,4,Beauty,13.8,21,3.3,0,3,Valuable Active Customers
+C00405,37,Male,North,53762,9,1569.27,14425.55,31,3,Home & Kitchen,23.1,39,3.4,1,2,Regular Customers
+C00406,28,Female,West,128646,25,4611.91,127166.68,18,5,Electronics,8.8,38,4.2,0,0,High-Value Customers
+C00407,43,Female,South,38425,8,1162.53,9861.58,61,4,Home & Kitchen,34.9,30,2.7,0,1,At-Risk Customers
+C00408,37,Male,South,23845,6,868.71,4583.95,91,2,Grocery,40.4,38,3.0,0,1,At-Risk Customers
+C00409,43,Female,West,146904,19,4151.14,77523.71,5,3,Fashion,13.2,47,4.0,0,0,High-Value Customers
+C00410,33,Female,North,31834,1,812.29,751.93,15,3,Grocery,32.0,22,3.1,0,2,Regular Customers
+C00411,46,Male,South,61459,8,1103.53,9229.46,48,2,Electronics,31.0,20,3.0,0,2,Regular Customers
+C00412,35,Female,South,80471,11,4381.35,51754.15,8,5,Sports,16.2,42,4.0,0,3,Valuable Active Customers
+C00413,48,Female,South,118186,20,4600.11,92749.67,3,5,Electronics,15.3,48,4.0,0,0,High-Value Customers
+C00414,41,Female,South,32632,9,1192.61,10503.25,44,4,Fashion,45.0,31,3.3,0,2,Regular Customers
+C00415,39,Female,North,76044,20,2763.12,55568.2,39,4,Home & Kitchen,10.7,46,3.5,0,3,Valuable Active Customers
+C00416,25,Female,North,36485,13,1916.01,25324.43,75,4,Beauty,41.6,33,3.1,0,2,Regular Customers
+C00417,31,Male,East,40436,14,1646.19,21866.49,44,4,Sports,33.2,30,3.5,0,2,Regular Customers
+C00418,46,Female,West,64950,13,1796.03,21071.99,51,3,Beauty,37.6,37,3.1,0,2,Regular Customers
+C00419,30,Male,South,103970,10,2757.19,23049.8,14,5,Beauty,19.7,40,4.2,0,3,Valuable Active Customers
+C00420,29,Female,South,92573,13,3084.63,44165.33,24,5,Grocery,12.3,40,3.7,0,3,Valuable Active Customers
+C00421,38,Female,North,76745,18,3522.56,65923.89,14,5,Home & Kitchen,2.6,46,3.8,0,3,Valuable Active Customers
+C00422,32,Male,West,67742,10,1729.03,17791.73,29,4,Fashion,23.0,27,3.5,0,2,Regular Customers
+C00423,34,Male,West,31859,6,882.62,5831.73,40,3,Electronics,37.9,48,2.8,0,2,Regular Customers
+C00424,29,Male,South,50221,8,1353.9,9743.34,48,4,Fashion,21.0,30,3.4,0,2,Regular Customers
+C00425,26,Male,South,37520,6,1418.77,7330.64,100,3,Beauty,28.3,31,3.2,0,1,At-Risk Customers
+C00426,42,Female,East,51469,9,1558.81,14460.53,59,4,Electronics,21.2,21,3.5,0,2,Regular Customers
+C00427,42,Female,West,45624,12,1393.83,17118.38,38,4,Electronics,19.6,34,3.1,0,2,Regular Customers
+C00428,55,Male,South,79473,19,4496.17,73595.17,16,5,Electronics,11.7,47,3.5,0,0,High-Value Customers
+C00429,39,Female,East,49689,15,1793.77,27680.43,58,2,Beauty,29.2,46,3.1,0,2,Regular Customers
+C00430,27,Female,East,22961,6,765.59,4446.46,86,1,Fashion,65.6,48,2.7,1,1,At-Risk Customers
+C00431,23,Female,West,31535,7,757.34,4959.09,91,1,Electronics,62.4,38,3.4,0,1,At-Risk Customers
+C00432,43,Male,North,74265,14,3044.91,41491.67,17,4,Beauty,18.2,41,4.3,0,3,Valuable Active Customers
+C00433,32,Female,West,117770,13,3057.39,31982.78,27,3,Sports,20.0,33,3.6,0,3,Valuable Active Customers
+C00434,34,Female,South,28682,7,1155.38,7705.03,93,2,Fashion,32.0,26,2.9,0,1,At-Risk Customers
+C00435,25,Female,East,31374,6,357.11,2021.93,70,2,Home & Kitchen,41.7,42,2.7,0,1,At-Risk Customers
+C00436,55,Male,East,92592,20,2481.22,51836.07,35,6,Electronics,30.5,52,3.9,1,3,Valuable Active Customers
+C00437,21,Female,South,28224,4,1022.31,4037.48,87,1,Grocery,45.8,20,3.5,0,1,At-Risk Customers
+C00438,25,Female,East,110955,13,2630.73,35947.41,20,5,Fashion,2.0,44,4.1,0,3,Valuable Active Customers
+C00439,43,Male,South,83095,13,3549.42,36731.1,13,5,Grocery,22.9,44,4.0,0,3,Valuable Active Customers
+C00440,38,Male,North,25330,4,1174.02,4380.84,81,1,Grocery,38.5,20,3.2,0,1,At-Risk Customers
+C00441,32,Male,South,35864,4,300.0,1253.38,83,1,Sports,20.8,36,3.0,1,1,At-Risk Customers
+C00442,22,Male,East,145350,23,4019.47,90163.5,22,5,Electronics,21.7,34,3.9,0,0,High-Value Customers
+C00443,25,Female,North,51654,6,1419.72,9094.47,38,4,Home & Kitchen,30.5,8,2.8,0,2,Regular Customers
+C00444,41,Female,West,59034,17,1389.65,20213.49,25,3,Electronics,22.0,38,3.4,0,2,Regular Customers
+C00445,56,Female,North,79902,13,2340.78,32209.96,33,4,Grocery,14.9,40,3.5,0,3,Valuable Active Customers
+C00446,52,Male,South,103596,22,4721.84,98568.95,1,5,Sports,5.7,42,3.6,0,0,High-Value Customers
+C00447,46,Female,North,100934,25,5084.67,119630.11,18,5,Grocery,10.6,72,4.1,0,0,High-Value Customers
+C00448,38,Male,East,111479,12,2029.61,26286.3,32,4,Beauty,12.4,40,3.0,0,3,Valuable Active Customers
+C00449,24,Male,South,47171,11,1585.08,19056.58,59,4,Home & Kitchen,28.1,37,3.5,0,2,Regular Customers
+C00450,28,Female,South,33571,8,931.58,8069.54,58,1,Home & Kitchen,27.7,38,2.8,1,1,At-Risk Customers
+C00451,49,Female,North,95404,17,2529.24,50009.53,41,4,Fashion,27.6,35,3.6,0,3,Valuable Active Customers
+C00452,36,Female,North,45916,13,1643.37,23528.91,48,3,Home & Kitchen,29.6,46,3.0,0,2,Regular Customers
+C00453,55,Female,West,63843,13,1539.13,18735.44,60,4,Beauty,30.3,41,3.8,1,2,Regular Customers
+C00454,37,Female,East,122977,8,4368.48,35343.84,9,6,Grocery,12.1,37,3.0,0,3,Valuable Active Customers
+C00455,21,Male,South,29651,3,1018.35,2967.02,77,3,Beauty,35.5,24,2.9,1,1,At-Risk Customers
+C00456,36,Female,North,38350,13,1681.6,25409.4,51,3,Grocery,34.1,21,2.8,0,2,Regular Customers
+C00457,40,Female,West,28004,5,628.47,3420.1,48,2,Grocery,58.2,26,2.7,0,1,At-Risk Customers
+C00458,34,Female,North,49641,10,1312.84,12930.02,47,2,Home & Kitchen,42.8,38,3.2,0,2,Regular Customers
+C00459,24,Male,West,35053,2,1067.21,2284.33,87,2,Fashion,33.1,25,2.8,0,1,At-Risk Customers
+C00460,31,Male,South,21719,4,1157.35,4173.05,90,2,Beauty,33.3,34,2.9,0,1,At-Risk Customers
+C00461,34,Male,South,30136,1,1095.66,1117.6,69,3,Home & Kitchen,31.9,26,2.8,0,1,At-Risk Customers
+C00462,22,Male,West,90024,16,1670.13,24717.02,12,6,Electronics,17.6,44,3.2,0,3,Valuable Active Customers
+C00463,50,Female,West,73288,7,2506.36,15174.48,21,4,Fashion,19.1,23,3.2,0,2,Regular Customers
+C00464,38,Female,South,50499,7,1670.16,12424.89,7,1,Grocery,37.4,35,3.2,0,2,Regular Customers
+C00465,43,Female,South,123565,15,3633.67,58466.87,10,4,Electronics,7.6,32,3.8,0,3,Valuable Active Customers
+C00466,41,Female,South,66273,10,1764.77,18293.2,8,4,Beauty,22.0,20,3.3,1,2,Regular Customers
+C00467,38,Male,West,49522,15,1193.95,17647.11,53,3,Sports,28.4,37,3.5,0,2,Regular Customers
+C00468,38,Female,East,103858,22,4149.88,82048.14,14,5,Beauty,16.8,59,4.0,0,0,High-Value Customers
+C00469,35,Female,South,22646,7,603.42,3831.5,85,2,Home & Kitchen,22.1,18,2.9,0,1,At-Risk Customers
+C00470,40,Male,North,113288,18,5280.68,87681.66,7,4,Beauty,12.5,42,3.9,0,0,High-Value Customers
+C00471,34,Male,North,29008,7,1032.74,7094.04,16,2,Home & Kitchen,38.3,41,2.7,0,2,Regular Customers
+C00472,43,Male,South,70000,35,4624.82,175804.67,13,6,Electronics,26.1,72,4.5,0,0,High-Value Customers
+C00473,35,Female,North,36642,5,864.62,4689.84,58,1,Grocery,36.8,27,3.3,0,1,At-Risk Customers
+C00474,28,Male,East,123103,14,4352.73,52901.36,12,5,Home & Kitchen,8.9,31,3.9,0,3,Valuable Active Customers
+C00475,61,Male,North,65601,7,1581.5,10456.54,31,2,Beauty,16.6,21,2.8,0,2,Regular Customers
+C00476,42,Female,South,107965,27,4995.03,127095.8,22,4,Home & Kitchen,14.9,58,4.5,0,0,High-Value Customers
+C00477,33,Male,East,26681,3,1302.38,3115.84,76,2,Electronics,35.1,21,2.7,0,1,At-Risk Customers
+C00478,26,Male,South,46306,11,1127.52,12964.44,42,2,Grocery,18.8,32,3.4,0,2,Regular Customers
+C00479,44,Female,North,140095,20,3385.79,66382.29,5,5,Sports,15.9,24,3.7,0,0,High-Value Customers
+C00480,43,Female,North,47035,8,1593.75,12634.59,27,3,Electronics,43.3,42,3.3,1,2,Regular Customers
+C00481,50,Female,North,87844,10,2716.27,30087.3,37,4,Grocery,30.8,47,3.2,0,3,Valuable Active Customers
+C00482,55,Female,West,114947,16,2923.07,47099.53,41,5,Sports,16.0,48,3.4,0,3,Valuable Active Customers
+C00483,32,Male,East,54386,7,1449.86,9799.3,62,1,Home & Kitchen,45.3,17,2.5,1,1,At-Risk Customers
+C00484,53,Female,North,76724,17,2601.73,46253.62,39,5,Beauty,8.8,46,3.7,0,3,Valuable Active Customers
+C00485,41,Male,South,49944,11,1245.14,14856.77,73,4,Electronics,22.6,19,3.2,0,1,At-Risk Customers
+C00486,28,Male,South,115358,24,4392.16,107911.94,21,6,Home & Kitchen,17.8,45,4.2,0,0,High-Value Customers
+C00487,31,Male,East,20275,5,1165.02,6146.27,69,2,Electronics,41.2,34,3.0,0,1,At-Risk Customers
+C00488,28,Female,East,50767,12,1270.51,15068.57,38,2,Home & Kitchen,41.2,40,2.9,0,2,Regular Customers
+C00489,37,Female,South,161319,30,4135.16,123242.41,5,4,Home & Kitchen,3.2,54,4.6,0,0,High-Value Customers
+C00490,28,Female,South,159462,23,4511.68,104706.88,1,4,Grocery,17.3,44,4.4,0,0,High-Value Customers
+C00491,38,Female,North,50528,13,2072.53,25319.59,38,3,Sports,31.9,17,3.1,0,2,Regular Customers
+C00492,65,Female,West,47212,18,2536.86,43588.31,31,4,Fashion,19.6,46,3.8,0,3,Valuable Active Customers
+C00493,34,Male,West,50000,7,687.98,5346.71,59,2,Grocery,23.5,34,3.2,0,1,At-Risk Customers
+C00494,27,Female,West,35130,2,1162.12,2697.6,82,1,Home & Kitchen,43.3,20,2.6,0,1,At-Risk Customers
+C00495,49,Male,North,59335,11,1416.81,17570.05,43,3,Beauty,9.0,20,3.1,0,2,Regular Customers
+C00496,52,Female,East,53553,12,1479.73,15877.02,29,3,Electronics,14.0,52,3.4,0,2,Regular Customers
+C00497,54,Male,East,39655,8,1345.91,9544.24,65,3,Grocery,17.6,46,2.5,0,1,At-Risk Customers
+C00498,38,Male,West,35117,6,1078.93,5856.93,130,4,Grocery,36.8,39,2.3,0,1,At-Risk Customers
+C00499,52,Female,South,134579,24,2846.18,69042.7,11,4,Sports,17.0,38,3.5,0,0,High-Value Customers
+C00500,48,Male,West,73138,22,5097.49,86946.08,11,6,Grocery,14.1,18,3.5,0,0,High-Value Customers
+C00501,46,Male,North,80116,10,1983.16,18897.45,33,4,Fashion,18.9,43,3.6,0,2,Regular Customers
+C00502,33,Male,East,48948,14,1382.66,21536.24,18,4,Grocery,28.0,41,2.6,0,2,Regular Customers
+C00503,36,Male,South,68076,11,1601.21,18997.63,21,3,Home & Kitchen,36.1,32,3.4,0,2,Regular Customers
+C00504,29,Female,West,88615,15,2622.71,37738.4,36,4,Electronics,31.8,50,3.8,1,3,Valuable Active Customers
+C00505,34,Female,West,87447,15,2011.91,29132.4,35,6,Beauty,19.9,47,3.3,0,3,Valuable Active Customers
+C00506,33,Female,South,30592,4,444.81,1859.98,52,1,Beauty,65.4,33,2.6,1,1,At-Risk Customers
+C00507,38,Male,East,116352,26,3302.6,92292.34,7,5,Fashion,18.2,47,4.1,0,0,High-Value Customers
+C00508,48,Male,North,89470,15,2820.13,40497.73,26,3,Electronics,20.4,39,3.5,0,3,Valuable Active Customers
+C00509,30,Male,South,127027,20,6231.51,122293.47,12,4,Fashion,11.2,49,4.6,0,0,High-Value Customers
+C00510,48,Female,South,115121,13,1729.66,21467.42,34,3,Fashion,16.5,29,2.4,0,3,Valuable Active Customers
+C00511,41,Male,North,83747,18,2224.0,35768.27,21,4,Electronics,21.2,45,3.2,0,3,Valuable Active Customers
+C00512,37,Male,West,56360,14,1637.42,22520.89,50,2,Fashion,30.5,29,3.5,0,2,Regular Customers
+C00513,43,Female,North,143224,19,3672.77,68130.58,8,5,Fashion,18.2,55,3.9,0,0,High-Value Customers
+C00514,36,Female,East,147699,23,4100.57,84801.49,11,6,Grocery,14.0,49,4.3,0,0,High-Value Customers
+C00515,45,Female,West,24034,6,767.7,4844.28,48,2,Sports,46.6,25,3.0,0,1,At-Risk Customers
+C00516,49,Male,West,28711,3,968.25,3017.06,18,2,Fashion,45.2,31,2.9,0,2,Regular Customers
+C00517,42,Male,West,61736,9,1447.29,13750.58,28,2,Grocery,33.1,26,3.1,0,2,Regular Customers
+C00518,32,Female,North,77537,11,2902.33,29963.94,46,3,Beauty,5.2,51,4.2,0,3,Valuable Active Customers
+C00519,38,Female,West,125392,23,3842.94,74361.74,11,5,Home & Kitchen,18.2,60,4.5,0,0,High-Value Customers
+C00520,18,Male,South,27417,5,670.51,3477.89,113,2,Home & Kitchen,44.5,38,2.8,1,1,At-Risk Customers
+C00521,40,Male,West,46087,5,1349.97,6391.24,61,3,Home & Kitchen,21.5,47,3.0,0,1,At-Risk Customers
+C00522,43,Male,East,48692,9,1552.31,12975.32,56,5,Fashion,38.3,36,3.3,0,2,Regular Customers
+C00523,48,Male,West,112351,17,4249.87,64982.25,13,4,Fashion,10.9,48,4.1,0,0,High-Value Customers
+C00524,47,Female,North,91487,17,2760.03,45887.05,18,4,Home & Kitchen,10.4,52,3.8,0,3,Valuable Active Customers
+C00525,59,Male,East,85242,14,2089.16,32938.96,59,3,Home & Kitchen,16.6,38,3.0,0,3,Valuable Active Customers
+C00526,39,Female,West,58002,14,2132.66,28649.93,51,2,Sports,27.4,39,4.0,0,2,Regular Customers
+C00527,38,Male,West,72682,7,1920.9,12273.99,45,4,Fashion,29.0,42,3.2,0,2,Regular Customers
+C00528,23,Female,North,35256,6,1143.01,7215.74,70,2,Beauty,26.3,39,3.6,0,1,At-Risk Customers
+C00529,35,Male,West,32967,3,765.36,2327.82,58,1,Home & Kitchen,35.2,23,2.9,0,1,At-Risk Customers
+C00530,30,Female,North,114688,18,2898.4,43325.88,26,6,Grocery,7.3,19,3.6,0,3,Valuable Active Customers
+C00531,45,Male,East,92514,20,2149.77,45273.63,37,4,Fashion,9.3,40,4.0,0,3,Valuable Active Customers
+C00532,45,Female,East,157269,35,3240.22,132718.47,17,5,Grocery,16.7,32,4.3,0,0,High-Value Customers
+C00533,27,Female,North,93431,18,4263.17,60772.46,8,5,Sports,18.2,31,3.9,0,3,Valuable Active Customers
+C00534,41,Male,North,68188,12,1074.09,11614.91,67,3,Beauty,39.1,28,2.7,0,2,Regular Customers
+C00535,57,Female,West,93220,9,2094.98,14558.14,40,4,Beauty,20.6,29,3.5,0,2,Regular Customers
+C00536,45,Male,South,142408,23,4033.07,92201.79,10,6,Electronics,15.3,52,3.8,0,0,High-Value Customers
+C00537,41,Male,North,104478,14,2131.59,32206.69,15,3,Grocery,17.8,48,3.3,0,3,Valuable Active Customers
+C00538,38,Female,West,24364,5,735.83,3710.2,63,1,Electronics,42.4,37,2.7,0,1,At-Risk Customers
+C00539,34,Male,West,57403,12,1080.56,14410.69,62,3,Home & Kitchen,32.0,43,3.2,0,2,Regular Customers
+C00540,29,Male,East,26376,5,1018.9,5433.0,26,2,Fashion,41.9,38,2.5,0,2,Regular Customers
+C00541,41,Male,North,154833,18,3801.63,77747.49,8,4,Home & Kitchen,9.9,16,3.8,0,0,High-Value Customers
+C00542,50,Male,North,66031,17,1663.95,30912.67,17,4,Beauty,33.4,40,3.8,0,3,Valuable Active Customers
+C00543,27,Female,East,18000,1,908.51,879.22,85,2,Grocery,47.0,11,2.2,0,1,At-Risk Customers
+C00544,53,Female,East,75287,19,1702.39,32518.07,13,3,Home & Kitchen,17.8,46,3.6,0,3,Valuable Active Customers
+C00545,43,Male,East,87054,15,2089.85,29169.26,22,3,Grocery,30.9,18,3.2,0,3,Valuable Active Customers
+C00546,34,Female,West,47111,16,1065.21,16728.87,22,2,Beauty,29.3,37,3.2,0,2,Regular Customers
+C00547,32,Female,South,35178,10,337.64,3393.1,85,2,Electronics,38.0,40,3.4,1,1,At-Risk Customers
+C00548,37,Female,North,68642,22,3063.26,66933.96,24,5,Fashion,7.9,32,3.2,0,3,Valuable Active Customers
+C00549,25,Female,West,30220,9,1556.59,15513.63,44,3,Beauty,15.9,44,3.4,0,2,Regular Customers
+C00550,50,Male,East,89313,18,1558.98,27320.44,28,3,Electronics,16.8,46,3.3,0,3,Valuable Active Customers
+C00551,40,Male,East,52911,8,1502.2,11121.48,14,4,Home & Kitchen,27.9,37,3.0,0,2,Regular Customers
+C00552,48,Male,West,111837,19,3588.65,63440.84,18,5,Electronics,15.9,48,3.4,0,3,Valuable Active Customers
+C00553,33,Male,West,32240,9,1087.31,10298.64,43,2,Home & Kitchen,39.3,31,3.3,0,2,Regular Customers
+C00554,35,Female,East,50224,13,1837.37,21204.6,42,3,Sports,12.3,39,3.2,0,2,Regular Customers
+C00555,34,Female,South,109570,23,3923.88,88796.69,17,5,Home & Kitchen,11.7,44,3.8,0,0,High-Value Customers
+C00556,45,Female,West,55418,11,1289.32,15688.7,31,2,Electronics,24.6,36,3.2,0,2,Regular Customers
+C00557,34,Male,East,28447,2,1342.04,2746.91,78,1,Fashion,39.7,23,2.7,1,1,At-Risk Customers
+C00558,30,Female,South,41932,3,1144.01,3411.55,105,2,Fashion,41.7,18,2.0,0,1,At-Risk Customers
+C00559,34,Female,East,81338,15,2962.81,44314.48,37,4,Electronics,4.3,35,3.4,0,3,Valuable Active Customers
+C00560,43,Male,South,90284,16,2420.33,35535.67,25,5,Beauty,23.1,35,3.8,0,3,Valuable Active Customers
+C00561,40,Male,West,75996,14,3500.21,45642.77,22,4,Beauty,16.1,30,3.1,0,3,Valuable Active Customers
+C00562,37,Female,South,43719,6,920.69,5437.88,71,1,Electronics,53.9,41,2.5,0,1,At-Risk Customers
+C00563,30,Female,West,32998,4,803.89,3285.34,60,3,Home & Kitchen,40.5,19,2.7,1,1,At-Risk Customers
+C00564,44,Male,West,33016,2,867.86,1867.38,54,1,Home & Kitchen,64.2,28,2.5,0,1,At-Risk Customers
+C00565,42,Male,West,57332,11,1016.29,11261.97,33,4,Fashion,19.5,47,3.1,0,2,Regular Customers
+C00566,20,Female,East,49729,11,1547.45,18864.1,55,4,Home & Kitchen,32.6,45,2.8,0,2,Regular Customers
+C00567,46,Female,West,36810,13,1719.29,25220.96,20,2,Fashion,22.5,49,3.2,0,2,Regular Customers
+C00568,31,Male,South,59534,9,1200.28,11489.79,31,4,Home & Kitchen,30.1,28,3.1,0,2,Regular Customers
+C00569,38,Male,North,122250,28,3600.66,110698.54,21,5,Sports,11.0,55,4.3,0,0,High-Value Customers
+C00570,56,Male,West,41444,10,1068.65,9839.52,59,5,Electronics,46.7,24,3.5,1,2,Regular Customers
+C00571,46,Female,South,50024,10,915.09,8309.6,79,4,Beauty,25.1,32,2.9,0,1,At-Risk Customers
+C00572,55,Male,North,67490,17,2505.05,44350.52,32,4,Home & Kitchen,8.4,38,4.2,0,3,Valuable Active Customers
+C00573,37,Female,North,62489,11,1771.29,17393.6,23,3,Fashion,23.8,30,3.2,0,2,Regular Customers
+C00574,50,Female,North,85567,18,3198.24,56231.02,32,4,Sports,12.0,37,4.0,1,3,Valuable Active Customers
+C00575,39,Male,West,111673,20,3900.37,82820.09,5,4,Home & Kitchen,8.0,37,4.6,0,0,High-Value Customers
+C00576,41,Male,East,91296,22,5720.21,140073.85,19,6,Home & Kitchen,14.3,34,4.2,0,0,High-Value Customers
+C00577,37,Male,North,24932,4,300.0,1175.6,100,3,Beauty,38.4,39,2.1,1,1,At-Risk Customers
+C00578,37,Female,West,106153,24,5099.95,116034.61,1,5,Sports,10.3,43,4.2,0,0,High-Value Customers
+C00579,37,Male,South,56590,10,1463.74,15012.66,38,4,Grocery,34.2,37,3.0,0,2,Regular Customers
+C00580,31,Female,West,21103,4,1124.67,4112.32,71,2,Beauty,66.2,32,2.7,0,1,At-Risk Customers
+C00581,44,Male,South,52932,9,606.26,5380.7,39,3,Grocery,33.9,35,3.7,0,2,Regular Customers
+C00582,38,Female,East,116990,13,3448.03,44795.7,15,6,Electronics,11.4,38,3.2,0,3,Valuable Active Customers
+C00583,39,Male,South,61525,9,1628.38,14622.61,29,4,Home & Kitchen,31.5,31,3.3,0,2,Regular Customers
+C00584,38,Male,South,44174,13,2229.65,29190.68,24,3,Fashion,32.3,51,3.1,0,2,Regular Customers
+C00585,50,Female,West,74928,5,3347.55,15620.32,33,3,Electronics,15.1,39,3.2,0,2,Regular Customers
+C00586,40,Female,North,40135,7,855.97,5643.31,72,2,Home & Kitchen,58.5,33,3.1,0,1,At-Risk Customers
+C00587,23,Male,West,24359,7,888.91,5850.46,104,2,Sports,44.3,28,2.9,0,1,At-Risk Customers
+C00588,23,Male,East,30052,2,778.09,1354.49,34,2,Home & Kitchen,53.6,28,2.8,0,2,Regular Customers
+C00589,18,Female,South,39337,10,911.5,9364.26,54,4,Beauty,29.2,39,2.8,0,2,Regular Customers
+C00590,29,Female,East,31257,8,989.93,8486.25,58,1,Home & Kitchen,40.9,49,3.1,0,1,At-Risk Customers
+C00591,22,Female,North,30335,4,526.49,2240.12,101,2,Home & Kitchen,29.8,17,3.3,0,1,At-Risk Customers
+C00592,41,Male,South,86231,8,2782.41,21791.84,11,6,Fashion,24.2,40,3.1,0,3,Valuable Active Customers
+C00593,26,Female,West,24784,5,1053.2,4924.34,69,2,Fashion,45.7,43,3.5,0,1,At-Risk Customers
+C00594,31,Female,North,48568,5,1840.8,9752.05,47,3,Fashion,49.0,17,3.5,0,2,Regular Customers
+C00595,40,Male,East,99096,26,4518.44,123484.27,15,5,Beauty,14.7,44,4.6,0,0,High-Value Customers
+C00596,34,Male,South,57559,5,1348.14,6857.95,73,3,Electronics,24.0,21,3.0,1,1,At-Risk Customers
+C00597,39,Female,East,63133,6,2473.18,16909.8,26,4,Electronics,18.8,37,3.6,0,2,Regular Customers
+C00598,29,Male,North,37160,5,756.48,3774.4,63,2,Beauty,61.9,28,2.5,0,1,At-Risk Customers
+C00599,25,Male,South,30693,6,651.86,3830.78,71,1,Home & Kitchen,23.8,31,2.6,0,1,At-Risk Customers
+C00600,32,Female,West,27313,5,895.53,4334.43,46,2,Home & Kitchen,30.2,27,3.2,0,1,At-Risk Customers
+C00601,39,Female,North,20508,5,639.43,2797.92,84,2,Electronics,38.8,39,2.9,0,1,At-Risk Customers
+C00602,35,Male,East,30206,6,654.67,4135.84,35,2,Home & Kitchen,41.2,34,2.9,0,2,Regular Customers
+C00603,33,Female,East,29441,5,494.15,2449.9,117,2,Sports,53.4,34,1.7,0,1,At-Risk Customers
+C00604,23,Female,East,32156,2,1013.02,2108.69,61,2,Grocery,53.4,31,2.6,0,1,At-Risk Customers
+C00605,20,Female,East,25209,6,1424.56,9806.82,67,2,Beauty,43.7,38,2.5,0,1,At-Risk Customers
+C00606,52,Male,South,34528,11,931.06,9921.5,3,3,Electronics,31.4,33,3.4,0,2,Regular Customers
+C00607,27,Male,North,29257,11,835.46,7471.14,83,2,Beauty,48.5,53,2.9,0,1,At-Risk Customers
+C00608,34,Male,West,47895,16,1912.01,31769.52,44,1,Fashion,26.4,27,3.2,0,2,Regular Customers
+C00609,58,Female,West,49693,14,2004.68,28440.16,46,2,Fashion,5.6,21,4.3,0,2,Regular Customers
+C00610,49,Male,North,70334,16,1912.6,28808.46,21,4,Fashion,22.1,21,3.8,0,3,Valuable Active Customers
+C00611,21,Male,South,38378,4,481.38,1986.72,67,2,Sports,46.9,10,3.1,0,1,At-Risk Customers
+C00612,55,Female,West,80744,15,1993.25,31779.01,34,4,Beauty,16.6,45,4.2,0,3,Valuable Active Customers
+C00613,26,Male,West,110999,10,2274.8,21025.32,28,3,Beauty,8.1,41,3.6,0,3,Valuable Active Customers
+C00614,18,Female,West,35047,4,1600.0,6245.72,45,1,Beauty,38.2,43,2.7,0,2,Regular Customers
+C00615,41,Male,West,113245,25,3417.13,95520.77,2,4,Fashion,0.0,35,3.7,0,0,High-Value Customers
+C00616,35,Female,North,117475,19,5194.72,93001.77,21,5,Home & Kitchen,1.2,49,4.4,0,0,High-Value Customers
+C00617,25,Male,West,25801,4,725.57,2917.76,54,2,Beauty,37.4,31,2.1,0,1,At-Risk Customers
+C00618,30,Male,West,32523,3,1217.77,2886.29,45,1,Beauty,49.6,32,2.9,0,1,At-Risk Customers
+C00619,36,Male,South,90783,5,3365.85,14834.18,32,3,Sports,8.2,38,2.6,0,3,Valuable Active Customers
+C00620,58,Female,South,71727,12,1353.67,16448.74,20,4,Fashion,25.7,29,3.3,1,2,Regular Customers
+C00621,19,Female,South,19358,6,1151.68,7588.92,31,3,Sports,45.5,58,3.3,0,2,Regular Customers
+C00622,37,Female,East,29508,1,862.01,768.08,97,1,Home & Kitchen,40.3,42,2.7,1,1,At-Risk Customers
+C00623,35,Male,South,28000,16,1184.52,19065.37,51,3,Beauty,42.6,34,3.6,0,2,Regular Customers
+C00624,39,Male,North,49651,8,1779.25,13806.16,8,4,Home & Kitchen,19.0,23,3.9,0,2,Regular Customers
+C00625,54,Female,North,87903,18,2645.09,51241.87,3,4,Grocery,25.4,40,3.6,0,3,Valuable Active Customers
+C00626,37,Female,South,63810,12,1161.65,12581.73,28,3,Electronics,6.9,38,4.2,0,2,Regular Customers
+C00627,49,Male,South,56417,15,946.79,14690.48,64,5,Beauty,16.8,49,3.2,0,2,Regular Customers
+C00628,50,Male,West,85020,9,2871.09,24488.51,34,4,Home & Kitchen,29.3,23,3.7,0,3,Valuable Active Customers
+C00629,18,Female,North,19537,5,906.35,4612.61,52,3,Electronics,51.4,34,2.7,0,1,At-Risk Customers
+C00630,35,Female,West,29138,6,788.59,4757.63,121,1,Electronics,70.3,17,3.2,0,1,At-Risk Customers
+C00631,43,Female,West,60241,20,2669.25,52309.7,34,5,Sports,22.7,46,4.0,0,3,Valuable Active Customers
+C00632,34,Male,West,149393,22,4748.69,108464.59,1,5,Electronics,8.2,42,4.6,0,0,High-Value Customers
+C00633,49,Male,East,58231,12,1670.21,20112.51,24,5,Fashion,49.9,56,3.3,0,2,Regular Customers
+C00634,39,Male,North,67904,9,1221.01,10872.34,43,4,Grocery,26.1,19,2.6,0,2,Regular Customers
+C00635,33,Female,South,32145,3,1029.7,3001.02,92,2,Beauty,58.8,44,2.9,1,1,At-Risk Customers
+C00636,26,Male,North,56680,7,1110.07,7818.73,31,2,Fashion,24.5,16,2.5,0,2,Regular Customers
+C00637,34,Female,West,60372,10,945.03,9618.17,63,2,Beauty,29.4,22,2.9,0,2,Regular Customers
+C00638,32,Female,South,31397,7,1019.75,6573.39,48,4,Home & Kitchen,47.3,16,3.1,0,2,Regular Customers
+C00639,28,Male,East,36747,5,999.81,4859.29,132,2,Sports,41.2,34,3.5,0,1,At-Risk Customers
+C00640,37,Female,West,62715,6,812.06,4461.06,31,2,Sports,25.8,20,3.1,0,2,Regular Customers
+C00641,33,Female,West,23765,2,917.33,1828.81,92,1,Sports,54.8,16,2.7,0,1,At-Risk Customers
+C00642,43,Male,West,61541,15,2270.7,32446.49,36,3,Fashion,25.8,41,3.4,0,3,Valuable Active Customers
+C00643,29,Female,East,40730,2,684.74,1453.93,104,3,Beauty,40.6,34,2.1,0,1,At-Risk Customers
+C00644,43,Male,South,55412,16,1526.08,25731.37,60,6,Electronics,36.0,40,3.3,0,2,Regular Customers
+C00645,29,Male,East,35057,4,1496.99,5545.93,75,2,Electronics,35.0,29,2.9,0,1,At-Risk Customers
+C00646,48,Female,North,146680,20,4661.16,93205.99,1,5,Beauty,14.7,60,3.7,0,0,High-Value Customers
+C00647,50,Female,West,44292,7,1186.6,8730.49,18,4,Electronics,45.5,34,2.7,0,2,Regular Customers
+C00648,46,Female,East,106983,16,2547.69,40191.35,20,4,Home & Kitchen,7.6,47,3.4,0,3,Valuable Active Customers
+C00649,45,Female,North,84274,18,2651.44,44945.53,22,4,Sports,20.6,42,3.6,0,3,Valuable Active Customers
+C00650,42,Female,West,40567,11,1581.57,15876.88,29,3,Fashion,32.3,25,3.1,0,2,Regular Customers
+C00651,21,Male,South,32449,3,1165.71,3736.13,128,1,Electronics,51.4,36,2.3,1,1,At-Risk Customers
+C00652,30,Female,West,62410,7,1668.21,12520.78,26,3,Beauty,19.7,26,3.3,0,2,Regular Customers
+C00653,43,Female,West,43630,13,1379.57,17636.06,40,3,Grocery,22.4,36,3.4,1,2,Regular Customers
+C00654,45,Male,West,112546,12,3244.5,41320.3,42,4,Beauty,8.4,39,3.5,0,3,Valuable Active Customers
+C00655,38,Male,North,46526,17,1512.18,19608.91,28,2,Home & Kitchen,40.9,20,3.2,0,2,Regular Customers
+C00656,25,Male,South,30307,7,778.94,6031.67,69,2,Fashion,53.2,17,3.1,0,1,At-Risk Customers
+C00657,41,Female,West,49799,11,1369.88,14879.48,15,3,Electronics,48.9,45,3.2,0,2,Regular Customers
+C00658,29,Male,West,44270,8,1753.61,14188.0,50,3,Beauty,20.8,27,2.7,0,2,Regular Customers
+C00659,44,Male,South,56837,16,3079.34,48006.1,9,3,Fashion,32.6,33,4.0,0,3,Valuable Active Customers
+C00660,31,Female,South,63359,11,1443.32,17649.24,50,2,Grocery,31.3,37,3.3,0,2,Regular Customers
+C00661,33,Female,North,38795,12,1407.84,15460.47,39,2,Home & Kitchen,45.9,33,3.2,0,2,Regular Customers
+C00662,46,Female,West,149104,20,2816.65,62977.86,26,5,Home & Kitchen,7.5,46,3.1,0,0,High-Value Customers
+C00663,47,Male,North,106008,15,3303.22,51119.06,37,3,Sports,14.6,38,3.3,0,3,Valuable Active Customers
+C00664,36,Female,North,18000,5,542.29,2846.52,58,2,Sports,40.7,33,3.5,1,1,At-Risk Customers
+C00665,25,Male,East,22320,10,1366.87,13308.72,41,3,Beauty,40.2,28,2.6,0,2,Regular Customers
+C00666,30,Male,South,29557,4,1145.96,4104.11,73,2,Grocery,29.3,33,2.7,0,1,At-Risk Customers
+C00667,23,Male,West,18510,5,600.83,3227.78,63,3,Grocery,59.4,43,2.8,0,1,At-Risk Customers
+C00668,29,Female,North,29390,9,1030.19,9502.69,62,1,Grocery,49.7,29,3.1,1,1,At-Risk Customers
+C00669,35,Female,North,25578,6,809.11,5383.48,65,1,Sports,42.3,41,2.3,0,1,At-Risk Customers
+C00670,44,Female,South,45686,11,1235.42,13378.95,48,3,Beauty,20.6,35,3.2,0,2,Regular Customers
+C00671,38,Female,South,36503,4,1024.45,3960.37,83,2,Beauty,24.7,38,2.2,0,1,At-Risk Customers
+C00672,47,Male,North,110758,20,6310.31,140221.03,14,5,Electronics,0.0,43,4.3,0,0,High-Value Customers
+C00673,39,Female,South,20584,3,817.16,2826.44,105,3,Fashion,43.1,30,2.4,0,1,At-Risk Customers
+C00674,38,Female,South,45996,11,1525.67,16794.92,59,4,Electronics,34.9,39,2.8,0,2,Regular Customers
+C00675,33,Female,West,59418,11,1121.33,11591.83,35,3,Electronics,39.1,48,3.4,0,2,Regular Customers
+C00676,38,Female,North,94770,22,4290.76,100517.64,13,6,Home & Kitchen,18.1,46,3.9,0,0,High-Value Customers
+C00677,25,Male,West,25687,3,1074.7,3158.58,106,2,Electronics,42.1,35,2.9,0,1,At-Risk Customers
+C00678,48,Male,East,57056,12,1083.18,13621.31,54,2,Grocery,18.7,33,3.3,0,2,Regular Customers
+C00679,36,Male,North,110355,21,3047.21,62664.1,19,6,Sports,0.3,58,4.2,0,3,Valuable Active Customers
+C00680,47,Female,North,104737,26,4145.24,121261.32,12,5,Electronics,19.3,53,3.7,0,0,High-Value Customers
+C00681,32,Male,East,95941,19,2993.99,53702.53,52,4,Fashion,27.7,42,3.9,0,3,Valuable Active Customers
+C00682,28,Male,North,38634,5,803.03,4169.5,103,2,Sports,28.0,30,2.7,0,1,At-Risk Customers
+C00683,25,Female,South,34333,8,927.78,7132.06,103,1,Sports,39.7,43,2.7,1,1,At-Risk Customers
+C00684,40,Female,South,82938,15,2980.0,43693.33,19,4,Grocery,19.6,32,3.2,0,3,Valuable Active Customers
+C00685,32,Male,East,122158,21,4067.94,82610.69,12,5,Grocery,9.4,25,4.2,0,0,High-Value Customers
+C00686,46,Male,East,40305,9,2472.99,23572.04,23,2,Grocery,37.3,35,3.0,0,2,Regular Customers
+C00687,20,Male,North,49647,17,959.27,17505.69,6,2,Home & Kitchen,39.0,52,3.6,0,2,Regular Customers
+C00688,37,Female,East,26412,6,1247.56,7819.35,115,2,Fashion,17.4,48,3.4,0,1,At-Risk Customers
+C00689,36,Female,West,77318,14,2496.68,34651.57,37,5,Sports,18.6,37,3.8,0,3,Valuable Active Customers
+C00690,37,Male,North,32504,5,1126.64,5696.37,72,3,Fashion,27.7,32,3.4,1,1,At-Risk Customers
+C00691,32,Male,West,50735,12,1943.79,25000.66,42,2,Sports,38.4,42,3.0,0,2,Regular Customers
+C00692,42,Female,East,32581,11,943.45,11149.5,30,2,Home & Kitchen,38.1,33,3.4,0,2,Regular Customers
+C00693,37,Male,West,39144,14,998.17,10966.79,48,2,Sports,26.3,43,2.8,0,2,Regular Customers
+C00694,33,Female,North,33650,8,879.44,6882.3,78,2,Fashion,47.2,33,2.8,1,1,At-Risk Customers
+C00695,32,Male,West,29312,1,982.87,965.24,79,2,Home & Kitchen,29.6,39,3.3,0,1,At-Risk Customers
+C00696,56,Male,East,93846,14,1974.63,29124.93,14,5,Home & Kitchen,21.1,45,3.2,0,3,Valuable Active Customers
+C00697,32,Male,East,57097,9,2025.3,18130.33,66,3,Grocery,23.7,42,3.5,0,2,Regular Customers
+C00698,20,Female,South,37184,7,1547.32,11454.41,36,2,Fashion,27.2,31,3.5,0,2,Regular Customers
+C00699,33,Female,North,33695,1,867.93,793.03,35,3,Grocery,54.4,48,3.2,0,1,At-Risk Customers
+C00700,29,Male,West,44340,10,711.52,7263.23,48,3,Sports,39.7,40,2.6,0,2,Regular Customers
+C00701,27,Male,East,45809,6,1148.5,7387.27,21,4,Sports,23.0,35,3.2,0,2,Regular Customers
+C00702,30,Male,North,27335,2,857.92,1513.46,85,1,Sports,54.7,22,2.6,0,1,At-Risk Customers
+C00703,29,Male,North,47170,13,1267.8,19795.67,43,3,Beauty,31.3,36,3.6,0,2,Regular Customers
+C00704,18,Male,North,18000,6,1159.3,7618.49,47,2,Fashion,48.5,33,2.4,0,1,At-Risk Customers
+C00705,34,Female,East,18000,3,816.86,2450.85,88,4,Fashion,42.3,22,2.8,1,1,At-Risk Customers
+C00706,28,Female,East,135057,29,4286.41,116067.81,6,6,Grocery,16.0,45,4.3,0,0,High-Value Customers
+C00707,28,Female,South,55814,14,1913.66,26415.98,41,3,Sports,42.3,36,2.6,0,2,Regular Customers
+C00708,32,Female,South,92894,10,3185.96,32073.19,21,5,Fashion,23.9,36,3.2,0,3,Valuable Active Customers
+C00709,20,Male,East,39972,8,1120.57,9280.59,51,2,Beauty,46.7,16,2.4,1,2,Regular Customers
+C00710,37,Female,South,115462,16,1113.16,19948.77,28,4,Home & Kitchen,19.4,38,3.1,0,3,Valuable Active Customers
+C00711,40,Female,North,99527,19,2755.68,50363.72,20,4,Electronics,20.2,38,3.9,0,3,Valuable Active Customers
+C00712,30,Male,South,57789,12,2039.15,25571.35,65,3,Home & Kitchen,38.2,36,3.3,0,2,Regular Customers
+C00713,28,Male,North,58959,9,1141.86,9214.18,47,1,Fashion,12.5,45,3.1,0,2,Regular Customers
+C00714,35,Male,West,52824,10,947.2,9158.59,27,4,Electronics,35.8,56,2.8,0,2,Regular Customers
+C00715,36,Female,East,63568,12,1238.39,15308.54,37,2,Home & Kitchen,28.9,43,3.6,0,2,Regular Customers
+C00716,48,Male,West,142132,29,3957.69,121120.07,21,5,Beauty,20.8,36,4.1,0,0,High-Value Customers
+C00717,43,Female,South,97730,21,2493.61,49210.32,27,5,Electronics,18.9,39,3.7,0,3,Valuable Active Customers
+C00718,28,Female,West,178575,20,4327.0,83488.31,20,5,Home & Kitchen,6.0,48,4.3,1,0,High-Value Customers
+C00719,31,Female,East,18000,4,961.26,4294.31,63,1,Fashion,64.1,36,2.5,0,1,At-Risk Customers
+C00720,44,Female,South,110761,14,2115.99,32377.48,27,4,Electronics,10.6,48,3.5,0,3,Valuable Active Customers
+C00721,51,Female,North,109443,13,5262.53,69553.78,8,5,Electronics,1.4,36,4.0,0,0,High-Value Customers
+C00722,41,Male,East,20974,5,1128.16,4631.48,81,2,Electronics,24.6,28,2.6,0,1,At-Risk Customers
+C00723,23,Female,West,31315,3,950.84,3425.56,87,3,Fashion,30.3,48,3.0,1,1,At-Risk Customers
+C00724,63,Male,North,98815,15,3199.25,47912.23,52,3,Sports,18.2,39,3.7,0,3,Valuable Active Customers
+C00725,20,Female,North,53927,12,1486.29,17389.5,30,1,Home & Kitchen,33.7,26,3.2,0,2,Regular Customers
+C00726,56,Female,East,74362,17,1737.52,28303.49,29,4,Electronics,13.9,55,3.4,0,3,Valuable Active Customers
+C00727,24,Female,West,27245,6,571.96,3535.09,60,2,Electronics,31.8,17,3.0,1,1,At-Risk Customers
+C00728,59,Male,West,69637,12,2061.93,25508.38,46,5,Fashion,12.5,2,3.6,0,2,Regular Customers
+C00729,37,Male,South,31405,6,813.88,5254.65,51,2,Sports,38.5,40,2.9,0,1,At-Risk Customers
+C00730,42,Male,South,21115,8,872.17,6460.44,77,3,Fashion,37.4,43,3.3,0,1,At-Risk Customers
+C00731,35,Male,South,18000,4,668.98,2609.02,39,2,Electronics,49.6,35,3.1,0,1,At-Risk Customers
+C00732,49,Male,West,89336,12,2802.96,39099.4,25,5,Home & Kitchen,26.2,23,2.8,0,3,Valuable Active Customers
+C00733,43,Male,West,68849,12,2297.62,28066.82,20,4,Home & Kitchen,25.7,36,2.9,0,3,Valuable Active Customers
+C00734,36,Male,East,52161,11,1319.43,14313.41,25,2,Electronics,23.0,33,3.6,0,2,Regular Customers
+C00735,40,Female,South,44971,10,1663.25,15379.58,51,2,Beauty,40.0,30,3.1,0,2,Regular Customers
+C00736,48,Male,West,96754,18,5152.87,96505.76,11,3,Fashion,3.6,55,4.1,0,0,High-Value Customers
+C00737,34,Female,East,40370,10,1511.34,16359.98,68,3,Electronics,40.7,25,3.5,0,1,At-Risk Customers
+C00738,56,Female,West,110818,16,1520.19,26024.85,30,5,Beauty,19.4,42,3.4,0,3,Valuable Active Customers
+C00739,50,Male,East,60598,13,1880.23,23936.92,48,1,Beauty,25.0,49,3.3,0,2,Regular Customers
+C00740,46,Female,West,43924,10,1134.31,11670.92,74,5,Beauty,21.2,39,2.7,0,1,At-Risk Customers
+C00741,37,Female,West,45195,13,1678.39,24736.99,57,3,Fashion,59.4,50,3.4,0,2,Regular Customers
+C00742,28,Female,South,34894,10,951.2,10326.9,15,2,Home & Kitchen,20.8,41,3.4,0,2,Regular Customers
+C00743,34,Male,West,94328,13,2501.27,30476.65,35,4,Fashion,17.9,41,3.2,0,3,Valuable Active Customers
+C00744,39,Female,North,32584,4,1621.14,5163.78,51,5,Beauty,31.6,34,2.7,1,1,At-Risk Customers
+C00745,35,Female,West,28632,6,1316.81,8088.44,17,2,Beauty,70.6,38,4.0,0,2,Regular Customers
+C00746,41,Male,West,166264,19,4174.36,84379.78,12,3,Electronics,5.0,37,3.9,0,0,High-Value Customers
+C00747,27,Female,South,60221,14,1613.41,20619.49,57,3,Beauty,42.0,25,3.0,1,2,Regular Customers
+C00748,36,Female,East,52579,10,1739.56,17383.37,34,4,Beauty,18.7,45,3.5,0,2,Regular Customers
+C00749,30,Female,East,142186,22,3836.89,82630.84,18,5,Fashion,10.8,55,3.9,0,0,High-Value Customers
+C00750,56,Female,West,112705,21,2444.83,51769.77,39,3,Grocery,12.7,45,3.2,0,3,Valuable Active Customers
+C00751,18,Female,West,41710,3,868.37,2491.59,47,2,Sports,40.5,25,3.0,0,1,At-Risk Customers
+C00752,29,Female,East,136042,15,3530.08,58417.93,1,4,Electronics,13.1,23,3.4,0,3,Valuable Active Customers
+C00753,25,Female,West,58339,15,2301.02,34923.88,48,6,Grocery,13.1,39,3.9,0,2,Regular Customers
+C00754,40,Male,South,59493,9,976.56,8170.98,42,3,Home & Kitchen,25.6,21,3.2,0,2,Regular Customers
+C00755,32,Male,North,24745,3,927.27,2985.99,80,1,Sports,56.1,15,2.7,0,1,At-Risk Customers
+C00756,27,Male,South,74594,14,2250.08,28315.25,17,6,Sports,13.2,38,3.5,0,3,Valuable Active Customers
+C00757,65,Female,East,92868,15,2861.93,47340.31,54,3,Home & Kitchen,11.0,31,3.8,0,3,Valuable Active Customers
+C00758,30,Female,North,52321,6,1507.82,9764.2,72,3,Fashion,27.1,36,3.0,0,1,At-Risk Customers
+C00759,34,Male,East,147463,18,5677.12,113549.65,26,5,Grocery,11.9,39,4.8,0,0,High-Value Customers
+C00760,52,Female,South,104706,12,2310.39,27373.69,8,5,Fashion,25.3,30,3.8,0,3,Valuable Active Customers
+C00761,20,Male,West,26814,2,675.3,1297.0,84,1,Fashion,41.4,12,2.8,0,1,At-Risk Customers
+C00762,23,Female,North,53870,11,1244.86,13785.5,39,3,Fashion,21.9,27,2.8,0,2,Regular Customers
+C00763,19,Male,East,42639,4,875.81,3479.58,95,4,Grocery,30.1,23,2.7,0,1,At-Risk Customers
+C00764,47,Female,East,72264,13,2203.88,27154.35,10,4,Grocery,8.2,25,3.6,0,3,Valuable Active Customers
+C00765,36,Female,West,30385,6,783.45,4492.51,61,2,Fashion,31.0,29,2.6,0,1,At-Risk Customers
+C00766,33,Male,East,43404,8,761.56,5913.91,66,3,Grocery,41.6,22,3.4,0,1,At-Risk Customers
+C00767,53,Male,West,61852,11,4008.28,39964.14,45,4,Fashion,22.1,34,3.2,0,3,Valuable Active Customers
+C00768,34,Female,West,135809,18,2574.12,48847.19,3,5,Grocery,5.2,43,3.4,0,3,Valuable Active Customers
+C00769,35,Male,East,41253,9,1798.61,16119.77,46,3,Beauty,38.8,26,3.0,0,2,Regular Customers
+C00770,47,Female,South,111038,13,2363.7,29970.03,8,4,Electronics,27.7,41,3.7,0,3,Valuable Active Customers
+C00771,38,Female,West,36722,1,1170.79,1066.79,24,3,Electronics,40.6,15,2.6,0,2,Regular Customers
+C00772,49,Male,West,61016,20,1794.26,32553.98,16,3,Electronics,6.0,31,2.9,0,3,Valuable Active Customers
+C00773,30,Male,South,42643,10,924.29,10674.38,98,2,Fashion,51.0,34,3.3,0,1,At-Risk Customers
+C00774,33,Male,East,53951,13,1297.54,16021.57,41,3,Sports,38.3,44,3.1,0,2,Regular Customers
+C00775,33,Female,West,84072,23,3240.23,78165.27,40,4,Fashion,22.6,53,3.4,0,3,Valuable Active Customers
+C00776,36,Female,West,40922,1,571.14,578.57,103,2,Grocery,36.9,45,2.3,0,1,At-Risk Customers
+C00777,20,Male,West,26115,2,1422.77,2213.79,69,2,Beauty,52.1,26,3.4,0,1,At-Risk Customers
+C00778,52,Female,South,102026,19,2253.03,48946.01,20,5,Beauty,15.8,40,3.4,0,3,Valuable Active Customers
+C00779,43,Female,South,92178,18,1622.28,30799.12,33,4,Fashion,25.7,30,3.4,0,3,Valuable Active Customers
+C00780,50,Female,North,113942,20,3340.61,62709.02,41,4,Grocery,20.3,29,3.6,0,3,Valuable Active Customers
+C00781,51,Female,South,98177,14,2822.65,39427.42,24,4,Beauty,30.3,40,3.1,0,3,Valuable Active Customers
+C00782,36,Female,West,72487,6,1305.13,7110.86,43,4,Grocery,34.0,24,2.8,0,2,Regular Customers
+C00783,31,Female,South,22109,3,980.63,3371.69,36,2,Grocery,51.0,42,2.5,0,2,Regular Customers
+C00784,28,Male,East,68054,15,950.0,13215.27,25,1,Electronics,22.2,24,3.6,1,2,Regular Customers
+C00785,34,Male,East,27103,6,519.42,2986.1,90,2,Electronics,45.1,37,2.8,1,1,At-Risk Customers
+C00786,38,Female,West,93211,16,4974.24,74942.7,15,6,Sports,13.9,29,4.8,0,0,High-Value Customers
+C00787,37,Female,North,34740,10,1490.42,15000.04,77,4,Grocery,45.4,27,2.8,0,1,At-Risk Customers
+C00788,41,Female,South,44887,11,1582.68,19318.0,25,3,Beauty,27.9,41,3.0,0,2,Regular Customers
+C00789,49,Female,South,31193,15,1172.12,20098.63,17,4,Fashion,37.3,32,3.9,0,2,Regular Customers
+C00790,49,Male,South,145018,32,4646.98,143956.79,11,5,Beauty,19.5,45,4.7,0,0,High-Value Customers
+C00791,24,Male,West,25437,4,373.85,1540.65,73,1,Fashion,45.6,23,2.9,0,1,At-Risk Customers
+C00792,43,Male,West,47231,16,988.82,15924.79,63,4,Fashion,12.8,57,2.8,1,2,Regular Customers
+C00793,58,Male,South,51363,8,1007.52,7427.21,38,3,Home & Kitchen,31.0,27,3.7,0,2,Regular Customers
+C00794,40,Female,West,96398,13,1535.77,23834.32,22,2,Fashion,22.8,38,3.3,0,3,Valuable Active Customers
+C00795,22,Female,South,31144,8,662.81,5880.56,97,2,Home & Kitchen,66.0,32,2.6,0,1,At-Risk Customers
+C00796,36,Male,West,103988,25,3851.37,97740.96,6,5,Grocery,11.7,48,4.4,0,0,High-Value Customers
+C00797,50,Male,North,76648,22,4699.92,116483.3,13,6,Sports,11.6,37,4.0,0,0,High-Value Customers
+C00798,35,Female,West,57923,11,1363.36,16451.19,51,3,Grocery,23.9,34,2.7,0,2,Regular Customers
+C00799,38,Female,South,109355,5,2817.58,14180.16,24,3,Sports,22.5,35,3.3,0,3,Valuable Active Customers
+C00800,43,Male,North,139741,9,5293.11,48880.25,7,5,Fashion,16.4,26,3.5,0,0,High-Value Customers
+C00801,35,Female,South,96888,13,1460.74,21286.8,38,4,Sports,13.2,48,2.2,0,3,Valuable Active Customers
+C00802,26,Male,South,31906,5,1037.02,4792.63,37,1,Grocery,43.6,43,2.7,0,2,Regular Customers
+C00803,51,Male,West,50862,14,1513.49,24025.95,33,3,Grocery,28.3,44,3.1,0,2,Regular Customers
+C00804,48,Female,North,109743,16,3252.89,51108.94,12,4,Beauty,14.2,40,3.3,0,3,Valuable Active Customers
+C00805,39,Male,East,48410,13,1174.15,17125.76,43,4,Fashion,9.3,7,3.4,0,2,Regular Customers
+C00806,62,Male,East,79903,7,2686.95,18800.79,24,4,Electronics,27.9,37,3.0,0,3,Valuable Active Customers
+C00807,45,Male,East,132447,24,4116.51,101464.58,24,4,Electronics,12.8,41,4.2,0,0,High-Value Customers
+C00808,40,Female,West,145332,18,2805.06,50352.5,13,5,Grocery,20.9,38,3.2,1,3,Valuable Active Customers
+C00809,26,Female,North,63547,18,1367.78,23572.52,19,3,Home & Kitchen,30.1,22,3.8,0,2,Regular Customers
+C00810,33,Male,East,25860,8,621.37,4863.57,27,3,Grocery,17.7,39,2.6,0,2,Regular Customers
+C00811,37,Female,West,200000,22,3303.39,80692.69,12,5,Home & Kitchen,13.0,29,3.0,0,0,High-Value Customers
+C00812,49,Female,East,66296,22,2734.81,49027.13,33,4,Beauty,30.3,45,4.1,0,3,Valuable Active Customers
+C00813,27,Female,East,31943,3,650.77,1758.8,87,2,Electronics,34.8,39,2.4,0,1,At-Risk Customers
+C00814,34,Male,East,142474,19,4105.88,73484.1,12,4,Fashion,3.2,37,4.5,0,0,High-Value Customers
+C00815,42,Female,South,106574,27,4973.45,122698.87,17,6,Home & Kitchen,11.5,59,4.4,0,0,High-Value Customers
+C00816,41,Female,East,46156,18,2194.27,44268.02,42,4,Beauty,43.6,33,3.8,0,3,Valuable Active Customers
+C00817,35,Female,West,45434,14,1527.45,23535.86,45,2,Electronics,12.8,44,3.6,0,2,Regular Customers
+C00818,38,Male,North,61050,10,2002.75,20976.05,29,2,Sports,29.3,22,3.3,0,2,Regular Customers
+C00819,28,Male,West,35390,3,1242.02,3535.94,119,2,Fashion,60.0,40,2.7,1,1,At-Risk Customers
+C00820,28,Female,North,62752,14,1802.2,27925.55,42,1,Sports,23.6,47,3.8,0,2,Regular Customers
+C00821,37,Male,South,67391,15,2369.57,31027.73,14,3,Electronics,14.3,43,3.6,0,3,Valuable Active Customers
+C00822,37,Female,West,25373,4,785.83,3681.95,78,2,Beauty,10.0,27,2.5,1,1,At-Risk Customers
+C00823,44,Male,West,66364,8,1159.7,8769.46,34,3,Fashion,32.2,20,3.3,0,2,Regular Customers
+C00824,20,Male,West,40821,16,1175.12,18407.78,64,4,Sports,11.9,35,2.5,0,2,Regular Customers
+C00825,41,Male,West,50823,10,1585.73,15312.64,51,4,Home & Kitchen,41.8,46,3.6,0,2,Regular Customers
+C00826,42,Female,South,90609,20,6500.0,118839.68,17,6,Beauty,20.4,43,4.7,0,0,High-Value Customers
+C00827,38,Male,East,55014,11,891.77,11320.22,42,4,Grocery,24.0,20,3.5,0,2,Regular Customers
+C00828,39,Male,South,60516,8,1342.04,11413.91,24,2,Electronics,17.1,22,3.5,0,2,Regular Customers
+C00829,35,Male,South,110550,11,2669.55,32220.44,18,5,Electronics,30.5,48,3.4,0,3,Valuable Active Customers
+C00830,43,Female,South,55061,10,1082.84,9768.37,77,3,Sports,36.6,40,2.9,1,1,At-Risk Customers
+C00831,36,Female,West,26113,7,1091.05,7747.9,113,2,Beauty,29.6,21,2.3,0,1,At-Risk Customers
+C00832,32,Male,South,54089,11,1362.3,15609.92,8,4,Fashion,49.7,18,3.9,0,2,Regular Customers
+C00833,32,Female,West,34264,6,999.26,6125.43,93,2,Home & Kitchen,41.2,26,2.6,1,1,At-Risk Customers
+C00834,23,Male,West,28257,6,820.98,4468.61,78,2,Electronics,55.0,14,2.9,0,1,At-Risk Customers
+C00835,46,Female,North,52780,7,1379.21,10485.14,43,2,Fashion,43.9,31,3.1,0,2,Regular Customers
+C00836,37,Male,East,55814,15,1279.45,19378.37,52,3,Home & Kitchen,28.2,63,2.8,0,2,Regular Customers
+C00837,33,Female,South,166640,20,4759.57,87919.05,1,6,Sports,18.3,26,3.4,0,0,High-Value Customers
+C00838,37,Female,South,49731,12,2301.08,23514.64,10,4,Home & Kitchen,20.9,35,3.4,0,2,Regular Customers
+C00839,36,Female,West,49521,10,1496.34,15689.62,22,4,Beauty,12.1,48,3.1,0,2,Regular Customers
+C00840,48,Female,East,79122,10,2711.31,32428.26,5,4,Grocery,8.6,42,3.4,0,3,Valuable Active Customers
+C00841,32,Male,West,23529,4,973.49,3577.69,51,2,Fashion,26.8,29,3.3,0,1,At-Risk Customers
+C00842,49,Male,East,116768,26,2650.14,69843.19,33,3,Beauty,32.0,45,3.9,0,0,High-Value Customers
+C00843,34,Male,East,26612,7,836.38,6374.79,59,2,Grocery,32.2,21,3.2,0,1,At-Risk Customers
+C00844,47,Male,West,98600,17,3472.25,53032.62,17,5,Fashion,3.9,37,3.9,0,3,Valuable Active Customers
+C00845,25,Male,North,29776,3,612.08,1765.73,123,1,Fashion,41.1,33,2.5,1,1,At-Risk Customers
+C00846,33,Female,North,47786,13,1831.85,22175.34,36,2,Grocery,42.7,48,3.0,0,2,Regular Customers
+C00847,28,Female,North,42112,1,948.85,1023.59,118,2,Grocery,42.3,22,2.7,1,1,At-Risk Customers
+C00848,41,Female,South,111030,20,3929.75,86929.36,8,6,Fashion,14.8,40,3.9,0,0,High-Value Customers
+C00849,38,Male,North,60086,10,1229.03,12446.67,31,3,Electronics,19.4,26,3.5,0,2,Regular Customers
+C00850,32,Female,West,46839,17,600.0,9513.14,39,5,Fashion,31.2,42,3.2,1,2,Regular Customers
+C00851,34,Female,East,30699,4,339.52,1309.97,75,1,Fashion,35.4,39,2.6,0,1,At-Risk Customers
+C00852,39,Male,East,116408,25,2719.46,64557.27,18,3,Home & Kitchen,23.7,52,3.8,0,0,High-Value Customers
+C00853,41,Male,South,28269,1,1067.51,984.05,95,1,Beauty,47.1,17,2.3,1,1,At-Risk Customers
+C00854,43,Male,South,123172,18,5012.75,89492.95,9,4,Grocery,0.0,42,4.5,0,0,High-Value Customers
+C00855,38,Male,South,34317,5,789.93,4131.28,57,1,Fashion,39.8,25,3.3,0,1,At-Risk Customers
+C00856,18,Male,East,24848,4,1052.47,4374.99,69,3,Sports,61.2,41,2.4,1,1,At-Risk Customers
+C00857,36,Female,South,33294,5,654.8,3271.84,88,3,Electronics,49.1,30,3.0,1,1,At-Risk Customers
+C00858,51,Male,South,36744,8,1799.32,14460.26,47,4,Electronics,29.8,18,2.5,0,2,Regular Customers
+C00859,29,Male,East,49864,6,1104.99,6586.69,60,4,Home & Kitchen,33.6,30,3.3,0,1,At-Risk Customers
+C00860,18,Female,West,27491,3,1194.13,3210.62,55,1,Electronics,45.4,35,2.6,0,1,At-Risk Customers
+C00861,37,Female,North,111707,12,1830.42,22246.43,2,4,Fashion,15.5,39,3.5,0,3,Valuable Active Customers
+C00862,25,Female,West,63892,13,1490.12,18467.1,67,4,Grocery,21.8,32,2.5,0,2,Regular Customers
+C00863,28,Female,East,60180,12,1559.41,16695.9,27,4,Fashion,22.4,31,2.9,0,2,Regular Customers
+C00864,35,Male,East,66469,9,949.45,8798.47,23,4,Beauty,32.5,24,3.3,0,2,Regular Customers
+C00865,35,Female,South,46909,12,1202.81,13727.36,48,3,Fashion,21.0,32,2.9,0,2,Regular Customers
+C00866,31,Female,South,48246,11,1582.41,17723.66,3,2,Electronics,26.1,27,3.0,0,2,Regular Customers
+C00867,40,Male,North,22440,5,1273.76,6800.67,37,2,Home & Kitchen,35.4,41,3.5,0,2,Regular Customers
+C00868,25,Female,West,24378,4,1580.48,5841.33,91,3,Sports,50.9,22,3.6,0,1,At-Risk Customers
+C00869,26,Male,South,134874,27,3517.28,95666.44,19,5,Home & Kitchen,23.1,48,4.3,0,0,High-Value Customers
+C00870,36,Male,West,97560,20,5348.46,91476.44,1,4,Beauty,12.5,43,3.8,0,0,High-Value Customers
+C00871,32,Female,South,52077,14,1306.6,20535.1,8,5,Grocery,20.0,47,4.0,0,2,Regular Customers
+C00872,22,Male,North,37726,4,884.15,3152.08,82,3,Sports,41.0,42,2.2,1,1,At-Risk Customers
+C00873,57,Female,South,46556,18,2138.26,36903.5,40,4,Fashion,14.6,48,3.4,0,3,Valuable Active Customers
+C00874,41,Female,North,60932,13,1139.61,16401.17,33,3,Sports,29.6,41,3.2,0,2,Regular Customers
+C00875,34,Female,West,18000,6,827.5,4871.85,49,1,Home & Kitchen,42.4,22,3.6,0,1,At-Risk Customers
+C00876,18,Female,West,25091,3,1033.2,2802.68,50,2,Sports,63.5,19,3.2,0,1,At-Risk Customers
+C00877,52,Male,East,101241,13,2898.67,39832.35,21,4,Home & Kitchen,23.3,29,3.4,0,3,Valuable Active Customers
+C00878,38,Male,East,111874,14,2940.1,43435.26,41,5,Electronics,8.7,45,3.2,0,3,Valuable Active Customers
+C00879,32,Male,East,35955,7,621.68,4131.32,54,3,Home & Kitchen,35.9,34,3.3,0,1,At-Risk Customers
+C00880,27,Female,West,41031,5,718.31,3440.73,48,2,Home & Kitchen,29.0,40,2.7,0,1,At-Risk Customers
+C00881,27,Male,South,32333,8,1066.89,8237.82,52,3,Home & Kitchen,41.4,44,3.1,1,2,Regular Customers
+C00882,32,Male,West,81903,21,2690.88,55572.59,24,6,Grocery,8.5,35,3.2,0,3,Valuable Active Customers
+C00883,20,Female,East,18689,6,941.62,4794.14,109,2,Grocery,40.2,33,2.9,0,1,At-Risk Customers
+C00884,29,Male,West,30824,2,1577.58,3109.37,83,2,Home & Kitchen,52.4,29,3.0,0,1,At-Risk Customers
+C00885,49,Female,West,82470,12,2929.7,40173.68,29,4,Home & Kitchen,31.4,33,3.0,0,3,Valuable Active Customers
+C00886,31,Female,West,35109,8,905.47,6724.54,78,3,Home & Kitchen,36.3,28,3.3,0,1,At-Risk Customers
+C00887,43,Male,East,87260,11,3874.7,40632.14,7,3,Home & Kitchen,30.5,48,3.8,0,3,Valuable Active Customers
+C00888,34,Male,North,22818,6,1266.96,6881.95,69,4,Grocery,24.3,33,3.2,0,1,At-Risk Customers
+C00889,34,Female,South,38166,7,848.91,6233.39,63,2,Beauty,54.8,33,2.8,1,1,At-Risk Customers
+C00890,33,Female,East,37280,3,843.06,2772.63,46,2,Fashion,57.2,22,2.9,0,1,At-Risk Customers
+C00891,44,Male,West,131923,16,2632.83,46102.98,25,4,Home & Kitchen,19.5,46,3.6,0,3,Valuable Active Customers
+C00892,48,Male,North,127849,18,3459.93,56060.78,9,5,Beauty,19.2,31,3.7,0,3,Valuable Active Customers
+C00893,31,Female,South,79243,16,1591.46,26481.47,14,4,Beauty,13.6,44,3.5,0,3,Valuable Active Customers
+C00894,38,Female,North,50394,9,1649.79,16551.19,73,5,Beauty,10.8,39,3.5,0,1,At-Risk Customers
+C00895,48,Female,West,81796,16,2380.94,39648.29,25,4,Electronics,15.4,35,3.9,0,3,Valuable Active Customers
+C00896,23,Male,North,26859,5,1049.75,5449.63,91,2,Electronics,48.4,35,2.4,0,1,At-Risk Customers
+C00897,44,Female,East,63656,11,1422.67,15058.9,45,2,Fashion,28.1,38,3.5,0,2,Regular Customers
+C00898,45,Female,South,141049,21,4374.17,93475.07,6,5,Home & Kitchen,11.5,42,4.4,0,0,High-Value Customers
+C00899,27,Female,South,27468,5,788.03,4329.85,86,2,Electronics,64.1,32,2.7,0,1,At-Risk Customers
+C00900,39,Male,West,23759,5,737.34,3783.5,62,3,Sports,41.3,32,3.0,0,1,At-Risk Customers
+C00901,32,Male,South,33789,3,686.23,1853.11,40,1,Fashion,10.8,31,3.0,1,1,At-Risk Customers
+C00902,33,Male,North,44379,5,545.93,2630.06,54,2,Grocery,32.8,32,2.5,0,1,At-Risk Customers
+C00903,35,Female,North,35672,3,1081.27,3557.62,108,3,Electronics,79.4,19,2.5,1,1,At-Risk Customers
+C00904,29,Female,South,80242,10,1292.64,13262.22,48,3,Electronics,34.0,33,3.4,0,2,Regular Customers
+C00905,25,Male,East,49612,15,1480.03,22411.91,45,4,Home & Kitchen,41.7,41,3.1,0,2,Regular Customers
+C00906,26,Male,South,139613,21,4333.31,86966.3,19,4,Fashion,5.9,44,4.3,0,0,High-Value Customers
+C00907,26,Male,East,75115,20,2533.68,55492.05,8,4,Grocery,8.1,52,4.2,0,3,Valuable Active Customers
+C00908,27,Male,North,55888,7,1889.42,14984.9,41,3,Electronics,27.2,39,3.5,0,2,Regular Customers
+C00909,34,Male,West,35482,6,1041.2,6878.51,65,2,Home & Kitchen,40.9,23,3.6,0,1,At-Risk Customers
+C00910,36,Male,West,49254,10,1258.81,14040.86,50,4,Grocery,41.7,33,3.1,0,2,Regular Customers
+C00911,26,Male,West,64892,10,1710.26,16611.82,26,3,Fashion,33.1,32,3.3,0,2,Regular Customers
+C00912,19,Male,West,34258,8,856.34,6576.6,104,2,Electronics,55.2,34,2.9,1,1,At-Risk Customers
+C00913,23,Female,South,128538,21,2443.46,50670.86,2,4,Fashion,8.4,43,3.7,0,3,Valuable Active Customers
+C00914,40,Female,South,56116,8,1892.34,15185.44,57,4,Home & Kitchen,30.1,40,3.3,0,2,Regular Customers
+C00915,25,Male,West,61779,10,1013.58,11296.16,66,5,Fashion,29.6,37,2.4,1,2,Regular Customers
+C00916,53,Female,North,52913,10,1279.34,13986.65,71,2,Home & Kitchen,37.4,47,3.1,0,1,At-Risk Customers
+C00917,32,Male,South,47397,14,1366.99,19962.27,35,4,Sports,46.0,40,2.8,0,2,Regular Customers
+C00918,44,Female,North,108631,19,4263.93,71738.9,14,4,Grocery,16.3,33,3.6,0,0,High-Value Customers
+C00919,44,Female,South,54117,11,2322.73,22099.71,23,6,Electronics,21.9,31,3.6,1,2,Regular Customers
+C00920,23,Female,East,31544,4,981.19,4000.26,85,3,Electronics,44.7,37,2.7,1,1,At-Risk Customers
+C00921,52,Female,North,147701,18,5967.88,114986.6,14,4,Fashion,21.9,24,4.4,0,0,High-Value Customers
+C00922,53,Female,North,51670,9,1439.67,12874.55,55,4,Beauty,35.7,21,3.0,0,2,Regular Customers
+C00923,40,Female,East,162450,20,5024.74,115889.84,10,5,Fashion,11.3,42,4.4,0,0,High-Value Customers
+C00924,42,Male,North,78207,20,2196.89,40132.99,15,6,Sports,27.8,52,3.6,0,3,Valuable Active Customers
+C00925,20,Female,West,46347,6,1167.26,6326.54,3,3,Beauty,18.6,45,2.4,0,2,Regular Customers
+C00926,29,Female,North,18624,5,796.27,3769.77,108,3,Electronics,54.4,29,2.8,0,1,At-Risk Customers
+C00927,27,Female,East,43898,2,549.11,1036.52,68,4,Beauty,42.6,40,1.9,0,1,At-Risk Customers
+C00928,35,Male,South,37581,14,1833.61,26751.34,56,3,Electronics,22.9,39,2.8,0,2,Regular Customers
+C00929,31,Male,North,86510,11,1952.42,20752.06,19,4,Fashion,15.7,20,3.0,0,3,Valuable Active Customers
+C00930,32,Male,South,30553,4,945.75,3314.56,45,2,Electronics,46.8,31,2.5,1,1,At-Risk Customers
+C00931,18,Female,South,36970,3,922.58,2965.15,99,3,Electronics,45.4,24,2.5,0,1,At-Risk Customers
+C00932,40,Female,West,102055,18,2259.9,34950.87,14,3,Beauty,21.2,50,3.2,0,3,Valuable Active Customers
+C00933,38,Male,East,153405,24,5267.38,115583.49,7,6,Home & Kitchen,8.8,45,3.7,0,0,High-Value Customers
+C00934,42,Male,North,37412,12,805.36,8409.73,37,4,Electronics,24.8,24,3.7,0,2,Regular Customers
+C00935,22,Female,North,35923,5,777.61,3952.47,71,4,Grocery,58.8,17,2.6,0,1,At-Risk Customers
+C00936,37,Female,South,33049,5,300.98,1527.3,53,2,Home & Kitchen,22.5,31,2.0,0,1,At-Risk Customers
+C00937,21,Female,North,18000,5,1104.69,6370.29,98,2,Electronics,33.4,7,2.6,1,1,At-Risk Customers
+C00938,24,Female,South,81078,16,3488.91,59903.53,11,4,Electronics,14.0,34,3.3,0,3,Valuable Active Customers
+C00939,27,Male,West,30074,7,604.94,4722.96,80,2,Beauty,41.0,35,2.5,1,1,At-Risk Customers
+C00940,43,Male,South,60790,8,1436.24,11755.21,47,3,Grocery,35.9,23,3.3,0,2,Regular Customers
+C00941,31,Female,West,42828,2,869.39,1602.89,47,2,Home & Kitchen,25.6,39,2.7,0,1,At-Risk Customers
+C00942,39,Female,East,45700,9,993.73,9035.23,34,4,Grocery,29.7,46,2.7,0,2,Regular Customers
+C00943,49,Male,West,114964,16,2292.66,38421.08,30,4,Home & Kitchen,16.0,29,3.6,1,3,Valuable Active Customers
+C00944,29,Male,North,101673,13,2700.15,37078.35,12,5,Home & Kitchen,13.9,34,3.9,0,3,Valuable Active Customers
+C00945,28,Male,West,36145,7,894.49,6024.79,26,4,Home & Kitchen,66.0,43,3.2,0,2,Regular Customers
+C00946,34,Female,West,24728,5,764.14,3970.1,102,2,Beauty,35.6,31,1.9,0,1,At-Risk Customers
+C00947,26,Male,North,37848,8,1282.08,9491.06,89,2,Fashion,10.0,20,2.5,0,1,At-Risk Customers
+C00948,41,Female,South,124954,23,4243.12,89446.54,3,5,Grocery,15.8,43,4.1,0,0,High-Value Customers
+C00949,44,Female,West,148664,25,3871.98,88158.91,12,5,Electronics,12.6,37,3.9,0,0,High-Value Customers
+C00950,44,Female,West,58437,17,2272.26,38704.52,43,1,Home & Kitchen,42.4,51,3.4,1,3,Valuable Active Customers
+C00951,38,Male,South,70573,13,2354.35,27722.59,31,3,Home & Kitchen,11.4,43,3.1,0,3,Valuable Active Customers
+C00952,46,Female,East,96213,18,2167.13,37682.85,12,4,Beauty,21.9,37,3.1,0,3,Valuable Active Customers
+C00953,39,Male,South,18000,5,566.83,3038.87,29,3,Fashion,51.5,33,3.6,0,2,Regular Customers
+C00954,43,Female,South,148026,20,3853.89,70731.96,27,5,Home & Kitchen,16.4,29,3.8,0,0,High-Value Customers
+C00955,36,Female,South,33517,5,1297.36,6225.09,61,4,Home & Kitchen,39.1,24,3.1,1,1,At-Risk Customers
+C00956,28,Female,South,68159,8,1574.49,12668.1,42,3,Beauty,43.4,49,3.1,0,2,Regular Customers
+C00957,30,Female,East,38504,11,1360.06,15256.15,100,4,Sports,25.9,36,3.0,1,1,At-Risk Customers
+C00958,22,Female,West,18000,3,928.74,2674.93,106,3,Sports,47.7,39,2.6,1,1,At-Risk Customers
+C00959,27,Female,West,31882,4,1329.59,5653.14,65,2,Fashion,18.4,33,2.5,0,1,At-Risk Customers
+C00960,41,Female,North,100057,11,2187.1,25194.51,34,3,Grocery,28.5,49,2.8,0,3,Valuable Active Customers
+C00961,25,Female,West,27280,3,994.51,3255.59,131,3,Sports,34.6,10,2.7,0,1,At-Risk Customers
+C00962,53,Male,South,79300,20,3043.67,60476.01,2,3,Fashion,27.6,40,3.9,0,3,Valuable Active Customers
+C00963,30,Female,South,22834,4,423.44,1624.27,68,4,Fashion,54.7,47,3.1,1,1,At-Risk Customers
+C00964,54,Male,West,60824,14,2190.93,28997.95,49,3,Fashion,40.3,47,3.6,0,2,Regular Customers
+C00965,48,Female,South,47200,9,1548.6,14279.73,57,4,Home & Kitchen,15.8,48,2.8,1,2,Regular Customers
+C00966,51,Female,North,45588,10,1184.07,11483.44,91,3,Grocery,21.5,35,3.3,0,1,At-Risk Customers
+C00967,51,Male,North,98844,14,3062.33,40920.48,14,4,Sports,3.9,32,3.9,0,3,Valuable Active Customers
+C00968,25,Male,South,70076,16,1523.03,23494.55,72,3,Grocery,27.6,29,3.5,0,2,Regular Customers
+C00969,36,Female,West,50751,10,1900.19,17962.59,45,4,Fashion,40.3,24,4.0,0,2,Regular Customers
+C00970,39,Male,West,42297,7,1552.07,11037.47,39,3,Beauty,29.8,41,3.8,0,2,Regular Customers
+C00971,66,Male,West,61056,7,2782.81,17278.34,19,4,Fashion,24.7,38,3.6,0,2,Regular Customers
+C00972,49,Male,West,87319,19,4543.01,88409.63,17,6,Electronics,17.7,41,4.1,0,0,High-Value Customers
+C00973,42,Male,West,68972,13,2274.01,31162.15,32,4,Beauty,9.4,42,3.8,0,3,Valuable Active Customers
+C00974,26,Female,West,36143,6,1042.16,5962.38,80,3,Electronics,47.8,34,2.6,1,1,At-Risk Customers
+C00975,26,Female,North,23590,5,300.0,1730.64,65,2,Beauty,28.6,41,2.6,0,1,At-Risk Customers
+C00976,23,Male,West,35668,5,925.45,4633.77,78,2,Beauty,59.9,41,3.1,1,1,At-Risk Customers
+C00977,37,Male,South,37418,16,1629.62,22817.09,31,2,Sports,34.0,29,3.1,0,2,Regular Customers
+C00978,28,Male,West,41019,4,690.65,2700.44,92,3,Electronics,47.0,34,2.9,0,1,At-Risk Customers
+C00979,41,Male,North,51623,12,1907.75,23007.75,53,3,Sports,43.5,20,3.3,1,2,Regular Customers
+C00980,20,Female,East,72521,6,1280.52,7959.08,41,3,Grocery,40.1,34,2.7,0,2,Regular Customers
+C00981,28,Female,East,54608,9,1603.3,14132.53,41,3,Grocery,24.5,40,3.2,0,2,Regular Customers
+C00982,38,Male,West,90171,19,2270.95,39656.27,14,5,Sports,19.7,28,4.1,0,3,Valuable Active Customers
+C00983,35,Male,West,23659,1,766.75,699.58,51,2,Beauty,37.4,25,2.8,1,1,At-Risk Customers
+C00984,34,Male,South,27983,5,939.41,4451.45,75,2,Home & Kitchen,51.1,32,2.9,0,1,At-Risk Customers
+C00985,36,Male,East,110190,14,1878.65,25127.49,26,4,Sports,25.3,40,3.5,0,3,Valuable Active Customers
+C00986,54,Female,South,44134,12,885.57,9661.94,50,2,Sports,23.8,34,3.3,0,2,Regular Customers
+C00987,33,Male,North,98179,19,2612.86,46733.94,14,5,Beauty,14.0,30,3.6,0,3,Valuable Active Customers
+C00988,20,Male,South,56584,8,1846.01,15547.19,35,4,Sports,44.0,33,3.3,1,2,Regular Customers
+C00989,21,Male,North,26038,5,1284.39,7268.83,54,2,Home & Kitchen,50.7,15,2.6,0,1,At-Risk Customers
+C00990,38,Female,East,87745,9,3817.88,36437.59,8,4,Electronics,19.7,32,3.3,0,3,Valuable Active Customers
+C00991,60,Female,West,61153,23,3016.45,76626.23,29,3,Home & Kitchen,24.6,40,3.6,1,3,Valuable Active Customers
+C00992,36,Female,West,107800,11,2537.76,30090.79,17,3,Fashion,25.9,34,3.6,0,3,Valuable Active Customers
+C00993,33,Female,North,38463,1,1166.04,1243.76,133,2,Fashion,67.7,23,2.6,1,1,At-Risk Customers
+C00994,34,Male,North,38276,10,1866.87,18164.2,27,3,Electronics,35.9,20,3.2,0,2,Regular Customers
+C00995,36,Female,South,57846,12,1667.87,20240.06,34,3,Fashion,20.7,33,3.5,0,2,Regular Customers
+C00996,38,Female,South,25560,7,841.6,5692.96,75,2,Sports,32.8,42,3.0,1,1,At-Risk Customers
+C00997,25,Male,North,98617,20,4369.5,85858.18,19,5,Home & Kitchen,6.7,55,3.8,0,0,High-Value Customers
+C00998,19,Female,South,33360,8,1216.58,9785.72,88,2,Electronics,65.4,58,2.5,1,1,At-Risk Customers
+C00999,42,Male,East,141153,20,3110.37,65758.53,7,5,Home & Kitchen,12.4,59,3.5,0,0,High-Value Customers
+C01000,51,Female,East,52813,15,1347.72,20900.43,36,2,Fashion,22.6,27,2.8,1,2,Regular Customers
+C01001,33,Male,East,30053,7,945.31,6531.5,61,4,Home & Kitchen,43.9,29,3.0,0,1,At-Risk Customers
+C01002,45,Female,South,47988,13,1824.81,23827.93,46,1,Home & Kitchen,30.2,37,3.0,0,2,Regular Customers
+C01003,49,Female,East,138187,24,2822.19,70081.33,7,5,Grocery,14.5,44,3.7,0,0,High-Value Customers
+C01004,54,Male,West,82392,17,2609.01,46721.25,12,2,Electronics,23.4,41,3.6,0,3,Valuable Active Customers
+C01005,45,Male,South,73873,9,2946.36,23294.88,21,5,Beauty,34.9,58,3.8,0,3,Valuable Active Customers
+C01006,24,Female,North,72407,14,3400.15,43499.22,4,6,Grocery,21.1,27,4.0,0,3,Valuable Active Customers
+C01007,42,Male,South,81435,13,3176.46,44952.0,11,4,Grocery,16.9,30,3.6,1,3,Valuable Active Customers
+C01008,36,Female,North,131548,17,2937.3,49690.94,38,3,Electronics,34.0,56,4.0,0,3,Valuable Active Customers
+C01009,18,Male,South,24619,4,1045.43,4039.85,75,2,Home & Kitchen,44.9,25,2.1,1,1,At-Risk Customers
+C01010,28,Female,North,37028,13,1742.8,22178.8,71,2,Electronics,36.9,41,3.8,0,2,Regular Customers
+C01011,27,Female,South,38333,7,952.8,6528.9,62,3,Home & Kitchen,52.8,43,3.2,0,1,At-Risk Customers
+C01012,34,Female,North,91805,21,5412.33,118732.1,20,4,Electronics,5.0,48,4.1,0,0,High-Value Customers
+C01013,49,Female,East,96609,25,3707.14,84463.36,23,4,Sports,18.9,47,3.7,0,0,High-Value Customers
+C01014,30,Male,North,31765,1,349.27,349.96,64,2,Electronics,31.5,38,2.5,0,1,At-Risk Customers
+C01015,33,Female,East,95107,17,2524.24,43756.99,33,3,Home & Kitchen,17.2,31,3.7,0,3,Valuable Active Customers
+C01016,52,Female,North,126708,23,6044.76,143436.91,2,6,Home & Kitchen,22.0,39,4.5,0,0,High-Value Customers
+C01017,27,Female,North,36017,3,728.32,2223.92,80,3,Grocery,58.5,35,3.0,0,1,At-Risk Customers
+C01018,49,Female,West,51326,15,1380.19,21557.31,58,3,Beauty,34.5,18,3.0,1,2,Regular Customers
+C01019,42,Male,East,84882,16,4282.03,65373.53,1,6,Fashion,17.2,53,3.5,0,3,Valuable Active Customers
+C01020,31,Male,North,22152,8,1409.3,10424.94,74,2,Fashion,47.4,37,3.1,0,1,At-Risk Customers
+C01021,48,Male,East,82848,15,3098.14,55606.67,52,3,Electronics,19.2,40,3.8,0,3,Valuable Active Customers
+C01022,27,Male,East,67920,9,994.88,8738.12,53,5,Sports,36.6,18,3.0,0,2,Regular Customers
+C01023,41,Male,South,135229,29,3500.64,100020.52,11,5,Beauty,5.0,35,4.6,0,0,High-Value Customers
+C01024,36,Male,South,152693,25,4715.45,124278.89,13,5,Beauty,7.2,42,4.2,0,0,High-Value Customers
+C01025,37,Female,West,129800,23,4456.15,115578.29,11,5,Electronics,30.9,52,4.1,0,0,High-Value Customers
+C01026,43,Female,South,56131,10,1342.07,12836.06,40,3,Sports,11.2,14,3.4,0,2,Regular Customers
+C01027,26,Female,South,109078,23,4008.58,84830.29,22,4,Beauty,7.5,52,4.4,0,0,High-Value Customers
+C01028,57,Female,South,87360,19,3728.19,63796.51,16,4,Grocery,17.8,38,3.3,0,3,Valuable Active Customers
+C01029,20,Male,West,48896,14,1689.21,26662.96,53,3,Beauty,23.4,36,2.9,1,2,Regular Customers
+C01030,54,Male,West,76048,16,2689.83,39463.1,42,5,Fashion,9.6,42,3.4,0,3,Valuable Active Customers
+C01031,21,Female,West,34052,5,786.21,3922.38,95,2,Fashion,45.6,34,3.8,0,1,At-Risk Customers
+C01032,42,Male,West,48249,16,1224.18,18055.52,54,4,Electronics,16.2,32,3.2,1,2,Regular Customers
+C01033,27,Female,West,37995,7,857.13,5304.71,52,3,Sports,59.2,39,2.9,0,1,At-Risk Customers
+C01034,21,Female,East,21573,5,1057.34,5163.04,63,2,Beauty,36.5,8,3.1,1,1,At-Risk Customers
+C01035,18,Male,West,27033,5,831.04,3843.46,41,1,Fashion,38.8,27,3.3,0,2,Regular Customers
+C01036,51,Male,West,107612,20,2151.25,40644.41,10,5,Electronics,25.1,44,3.7,0,3,Valuable Active Customers
+C01037,39,Male,North,31859,8,1489.61,13829.4,51,4,Electronics,31.4,30,3.5,0,2,Regular Customers
+C01038,46,Male,East,86528,18,2772.08,51593.54,25,4,Grocery,20.7,22,3.2,0,3,Valuable Active Customers
+C01039,32,Female,East,31872,6,1235.68,7966.56,77,2,Fashion,55.6,40,2.6,0,1,At-Risk Customers
+C01040,25,Female,West,41186,12,1680.74,21499.48,20,3,Fashion,23.9,24,3.7,0,2,Regular Customers
+C01041,32,Female,West,61436,13,1493.31,19256.39,32,2,Fashion,44.2,36,3.3,0,2,Regular Customers
+C01042,48,Male,West,72280,18,2561.38,44482.99,21,5,Home & Kitchen,14.1,42,3.2,0,3,Valuable Active Customers
+C01043,33,Female,West,53215,10,1734.18,17687.16,76,3,Beauty,13.3,35,2.6,0,1,At-Risk Customers
+C01044,25,Female,East,82292,12,2714.32,33010.78,26,3,Grocery,5.5,48,3.2,0,3,Valuable Active Customers
+C01045,41,Male,North,128386,20,2874.29,54869.94,15,6,Fashion,13.7,41,3.7,0,3,Valuable Active Customers
+C01046,35,Male,North,85802,10,3181.88,32149.33,25,3,Beauty,17.6,39,3.6,0,3,Valuable Active Customers
+C01047,32,Male,East,27669,4,593.9,2241.36,84,2,Fashion,19.1,30,2.6,0,1,At-Risk Customers
+C01048,26,Female,South,36868,4,1334.5,5264.78,81,2,Grocery,43.5,37,3.0,0,1,At-Risk Customers
+C01049,38,Female,South,118414,20,4624.69,90012.87,5,4,Fashion,5.3,56,3.9,0,0,High-Value Customers
+C01050,43,Female,South,33712,6,635.62,3426.59,86,2,Electronics,47.6,34,3.2,1,1,At-Risk Customers
+C01051,31,Male,West,129007,20,3587.51,58254.51,17,4,Home & Kitchen,15.4,50,4.7,0,0,High-Value Customers
+C01052,41,Female,South,43204,9,1421.94,11836.05,47,3,Electronics,34.3,49,3.0,0,2,Regular Customers
+C01053,53,Male,West,112307,13,4860.74,72309.68,24,5,Electronics,5.5,51,4.0,1,0,High-Value Customers
+C01054,42,Male,West,64867,18,1856.79,32594.2,20,3,Beauty,21.0,37,3.7,0,3,Valuable Active Customers
+C01055,36,Female,South,129419,22,3410.67,79692.71,16,5,Sports,6.1,54,3.9,0,0,High-Value Customers
+C01056,54,Female,South,56764,11,1995.32,18218.25,75,3,Home & Kitchen,33.5,38,3.4,0,2,Regular Customers
+C01057,34,Male,West,82351,14,2701.65,34772.18,28,5,Beauty,21.9,49,3.7,0,3,Valuable Active Customers
+C01058,26,Male,East,42615,9,1401.22,11244.46,61,2,Home & Kitchen,26.4,40,2.9,0,2,Regular Customers
+C01059,44,Male,South,49001,12,1451.16,17132.09,47,3,Beauty,36.7,39,3.7,0,2,Regular Customers
+C01060,29,Female,North,78460,16,2893.53,55266.72,42,4,Beauty,31.8,44,3.6,0,3,Valuable Active Customers
+C01061,34,Female,South,158216,26,3469.23,93521.06,14,5,Beauty,15.8,49,3.9,0,0,High-Value Customers
+C01062,37,Male,North,117319,29,4121.02,135720.94,18,5,Fashion,22.0,51,5.0,0,0,High-Value Customers
+C01063,37,Male,South,73945,21,2355.28,48454.11,43,5,Fashion,18.8,41,3.6,0,3,Valuable Active Customers
+C01064,21,Female,South,51807,11,1908.53,23286.14,71,3,Home & Kitchen,38.0,33,3.2,0,2,Regular Customers
+C01065,42,Female,East,62734,12,820.13,11473.89,39,2,Home & Kitchen,28.0,54,3.2,0,2,Regular Customers
+C01066,52,Male,West,90493,20,2787.96,55271.33,8,2,Sports,21.2,47,3.7,0,3,Valuable Active Customers
+C01067,28,Female,East,23161,2,716.31,1370.82,65,2,Fashion,47.3,24,2.9,0,1,At-Risk Customers
+C01068,40,Male,West,22751,7,911.82,5709.84,87,2,Electronics,57.9,30,2.5,0,1,At-Risk Customers
+C01069,38,Female,West,45206,11,1416.16,15192.6,51,2,Fashion,29.7,46,3.4,0,2,Regular Customers
+C01070,39,Male,East,52330,15,1770.91,26737.69,42,3,Fashion,33.0,31,2.7,0,2,Regular Customers
+C01071,39,Male,South,33743,10,980.45,11397.5,65,3,Sports,28.1,20,2.6,0,1,At-Risk Customers
+C01072,35,Female,South,32956,3,882.27,2372.61,62,1,Home & Kitchen,36.7,16,3.4,0,1,At-Risk Customers
+C01073,28,Male,West,29195,2,1187.92,2387.18,67,2,Beauty,49.8,12,2.4,0,1,At-Risk Customers
+C01074,23,Male,West,33194,4,675.85,2311.02,84,3,Home & Kitchen,53.7,18,2.0,0,1,At-Risk Customers
+C01075,46,Male,South,111984,14,5392.11,72912.25,26,6,Grocery,10.0,26,3.5,0,0,High-Value Customers
+C01076,27,Female,North,41343,6,1462.42,8993.11,71,3,Grocery,33.0,46,3.6,0,1,At-Risk Customers
+C01077,47,Male,West,47959,17,2197.23,38884.63,40,3,Beauty,37.0,39,2.8,1,3,Valuable Active Customers
+C01078,40,Male,South,64182,20,3269.05,68461.87,26,3,Grocery,10.2,38,3.4,0,3,Valuable Active Customers
+C01079,30,Male,North,26501,4,1155.49,4768.9,88,3,Home & Kitchen,33.1,16,2.3,1,1,At-Risk Customers
+C01080,36,Male,West,143975,24,5425.9,136268.28,15,6,Grocery,15.2,43,4.1,0,0,High-Value Customers
+C01081,53,Female,South,79177,15,3101.02,46685.51,43,5,Sports,19.3,21,3.4,1,3,Valuable Active Customers
+C01082,39,Female,East,18000,2,1070.41,1961.36,70,2,Grocery,45.8,26,2.6,0,1,At-Risk Customers
+C01083,41,Male,West,43856,13,1848.05,20465.82,64,5,Beauty,32.4,58,3.9,0,2,Regular Customers
+C01084,41,Female,East,86921,19,4045.53,73503.37,19,5,Sports,16.8,48,3.4,0,0,High-Value Customers
+C01085,39,Male,South,120571,23,3887.07,88439.81,9,4,Home & Kitchen,10.5,42,3.9,0,0,High-Value Customers
+C01086,32,Male,South,46840,12,1730.52,22849.4,46,4,Fashion,35.8,43,3.4,0,2,Regular Customers
+C01087,40,Female,South,76669,16,2915.57,46273.68,41,5,Fashion,15.7,34,3.2,0,3,Valuable Active Customers
+C01088,28,Male,West,34697,7,1134.74,7818.27,68,1,Grocery,33.0,25,3.1,0,1,At-Risk Customers
+C01089,41,Female,South,133556,17,4235.66,74227.05,16,4,Electronics,18.6,57,3.7,0,0,High-Value Customers
+C01090,26,Male,North,38803,4,643.34,2517.77,59,2,Beauty,40.3,19,2.9,0,1,At-Risk Customers
+C01091,37,Female,North,133349,21,4147.11,92736.47,1,5,Fashion,11.5,39,4.0,0,0,High-Value Customers
+C01092,57,Female,South,68088,8,2939.94,27243.76,28,3,Fashion,7.8,37,2.6,1,3,Valuable Active Customers
+C01093,57,Female,South,110454,5,2347.98,13797.47,44,4,Grocery,16.1,22,3.6,0,2,Regular Customers
+C01094,34,Male,East,40791,6,1868.39,11297.37,9,3,Grocery,38.9,39,3.9,0,2,Regular Customers
+C01095,19,Female,South,23530,7,1033.22,7427.47,55,3,Beauty,59.5,30,2.9,0,1,At-Risk Customers
+C01096,31,Female,North,23699,4,971.6,4377.29,65,3,Fashion,26.6,37,2.5,0,1,At-Risk Customers
+C01097,19,Female,South,31266,4,743.24,2937.29,26,2,Home & Kitchen,44.4,37,3.5,1,2,Regular Customers
+C01098,34,Female,West,30482,5,1194.25,6295.7,37,2,Home & Kitchen,24.9,29,3.7,0,2,Regular Customers
+C01099,35,Male,North,63172,18,2564.02,41961.13,24,3,Fashion,17.6,58,3.5,0,3,Valuable Active Customers
+C01100,30,Female,East,55835,8,1965.43,15332.44,12,2,Electronics,46.8,27,3.2,0,2,Regular Customers
+C01101,26,Male,East,20796,5,781.15,4266.99,49,1,Home & Kitchen,78.2,45,2.9,1,1,At-Risk Customers
+C01102,37,Female,West,76861,29,4688.86,128164.3,7,4,Fashion,16.0,60,3.7,0,0,High-Value Customers
+C01103,37,Male,North,76851,31,3852.81,118213.58,22,6,Beauty,6.0,67,4.1,0,0,High-Value Customers
+C01104,47,Female,West,108714,13,3860.32,43864.13,15,5,Fashion,10.2,39,4.3,0,3,Valuable Active Customers
+C01105,48,Male,East,127662,18,4761.62,99462.18,13,3,Home & Kitchen,14.6,33,3.9,0,0,High-Value Customers
+C01106,32,Female,West,30141,7,731.9,5640.97,78,1,Electronics,49.9,54,2.5,0,1,At-Risk Customers
+C01107,52,Male,South,42051,9,1251.49,11432.9,44,2,Grocery,34.2,31,3.3,0,2,Regular Customers
+C01108,51,Male,East,94618,8,3147.34,26201.0,35,5,Home & Kitchen,23.0,25,3.1,1,3,Valuable Active Customers
+C01109,45,Male,West,103583,23,2075.83,49256.23,37,4,Electronics,19.0,42,3.6,0,3,Valuable Active Customers
+C01110,18,Male,South,28006,3,784.04,2612.61,43,2,Home & Kitchen,40.1,20,2.4,0,1,At-Risk Customers
+C01111,44,Male,South,55935,9,2799.05,24145.9,14,5,Grocery,21.8,40,3.0,0,2,Regular Customers
+C01112,33,Male,East,39875,4,756.38,3202.76,92,2,Sports,42.8,25,3.0,0,1,At-Risk Customers
+C01113,39,Female,North,28514,5,905.31,4916.71,47,2,Beauty,61.8,29,3.0,1,1,At-Risk Customers
+C01114,40,Female,East,52311,11,1615.8,19501.88,55,4,Electronics,26.7,45,2.9,0,2,Regular Customers
+C01115,39,Female,North,56799,8,1558.88,10216.9,3,4,Beauty,36.6,40,3.3,0,2,Regular Customers
+C01116,42,Female,North,48050,12,1998.38,22830.88,67,3,Sports,31.4,37,3.0,0,2,Regular Customers
+C01117,37,Male,East,19494,4,1233.89,4533.15,94,2,Home & Kitchen,26.9,33,2.5,0,1,At-Risk Customers
+C01118,39,Male,North,110252,24,3552.52,86280.8,5,4,Grocery,19.3,45,4.4,0,0,High-Value Customers
+C01119,26,Female,West,31100,5,633.14,2655.13,39,1,Fashion,36.3,27,3.2,0,2,Regular Customers
+C01120,32,Male,West,24430,8,1156.79,7739.85,90,2,Fashion,63.2,34,2.9,0,1,At-Risk Customers
+C01121,37,Female,East,124218,23,4761.46,128525.97,16,5,Grocery,8.8,49,4.1,0,0,High-Value Customers
+C01122,44,Male,West,142881,20,2930.25,61500.97,11,5,Beauty,22.8,41,3.8,0,0,High-Value Customers
+C01123,29,Male,West,114336,20,5284.64,106715.98,12,4,Electronics,15.4,46,4.3,0,0,High-Value Customers
+C01124,39,Male,South,62961,11,3553.72,40228.22,29,4,Fashion,18.0,27,3.2,0,3,Valuable Active Customers
+C01125,46,Male,West,90044,16,2663.16,43109.41,34,4,Grocery,12.2,33,3.8,0,3,Valuable Active Customers
+C01126,31,Female,North,32210,17,1801.96,33077.49,27,3,Electronics,23.6,33,3.6,0,2,Regular Customers
+C01127,40,Male,South,20061,5,872.87,4143.53,91,2,Electronics,23.9,26,2.7,0,1,At-Risk Customers
+C01128,34,Female,East,42278,11,2001.96,22350.32,11,2,Fashion,24.5,49,3.2,0,2,Regular Customers
+C01129,33,Female,East,59401,10,1645.53,16754.68,31,3,Grocery,37.8,42,3.5,0,2,Regular Customers
+C01130,24,Male,North,35470,5,1161.37,5320.53,65,2,Grocery,44.5,21,2.8,0,1,At-Risk Customers
+C01131,42,Female,South,89661,17,1912.74,35838.43,41,3,Home & Kitchen,14.5,44,3.2,0,3,Valuable Active Customers
+C01132,35,Male,East,56124,16,849.6,13108.93,33,1,Home & Kitchen,30.3,35,3.1,1,2,Regular Customers
+C01133,31,Male,South,41136,5,1161.01,6277.54,85,2,Fashion,28.1,25,3.1,0,1,At-Risk Customers
+C01134,31,Female,West,19555,8,859.48,6939.05,100,2,Fashion,48.2,19,2.3,0,1,At-Risk Customers
+C01135,45,Female,East,84189,13,2815.85,41389.98,13,3,Sports,29.9,47,3.4,0,3,Valuable Active Customers
+C01136,34,Female,North,30461,8,833.06,6109.26,103,2,Electronics,32.7,20,3.2,0,1,At-Risk Customers
+C01137,54,Male,North,149768,21,4781.74,91702.32,9,6,Home & Kitchen,0.0,42,4.0,0,0,High-Value Customers
+C01138,28,Male,East,61793,10,1572.64,14586.93,18,5,Beauty,41.9,26,3.3,0,2,Regular Customers
+C01139,34,Female,South,47953,14,2193.86,31041.56,59,5,Electronics,20.8,46,3.7,0,2,Regular Customers
+C01140,29,Female,North,40111,12,1561.46,21048.18,39,4,Home & Kitchen,42.3,33,3.5,0,2,Regular Customers
+C01141,29,Female,South,74255,18,2342.74,47543.69,14,5,Home & Kitchen,9.7,39,3.4,0,3,Valuable Active Customers
+C01142,34,Male,South,55286,9,1774.1,13016.26,32,4,Sports,28.7,33,3.2,0,2,Regular Customers
+C01143,49,Female,North,98428,12,1470.58,17999.49,28,4,Fashion,24.4,39,3.6,0,3,Valuable Active Customers
+C01144,34,Female,East,47696,17,984.68,12436.89,55,3,Fashion,26.6,40,3.6,0,2,Regular Customers
+C01145,27,Male,West,24376,6,1247.66,7962.09,82,2,Home & Kitchen,33.2,32,2.8,1,1,At-Risk Customers
+C01146,43,Male,East,178909,20,3899.21,84960.16,8,5,Grocery,0.0,37,3.9,0,0,High-Value Customers
+C01147,47,Male,West,69780,9,3014.25,27040.91,11,4,Fashion,31.7,19,3.5,0,3,Valuable Active Customers
+C01148,30,Female,North,57413,16,3232.22,52062.97,5,5,Grocery,24.6,28,4.2,0,3,Valuable Active Customers
+C01149,23,Male,South,144963,26,3950.57,103319.92,21,6,Beauty,12.6,53,4.4,0,0,High-Value Customers
+C01150,35,Male,East,100679,22,4655.81,95999.93,10,3,Sports,19.6,40,4.3,0,0,High-Value Customers
+C01151,45,Female,East,78167,18,3438.55,64031.5,2,5,Electronics,8.6,34,3.4,0,3,Valuable Active Customers
+C01152,47,Male,East,87303,18,2325.41,41082.49,2,4,Fashion,23.3,27,3.5,0,3,Valuable Active Customers
+C01153,52,Female,East,63907,19,2243.67,45802.38,28,4,Electronics,21.5,24,3.5,1,3,Valuable Active Customers
+C01154,51,Female,East,62914,12,2701.73,32126.05,53,4,Fashion,36.3,29,3.8,0,2,Regular Customers
+C01155,61,Male,North,83248,14,2219.36,28930.81,23,3,Grocery,19.4,47,3.4,0,3,Valuable Active Customers
+C01156,56,Female,East,74000,14,1664.37,20438.18,28,4,Electronics,20.5,32,3.8,0,2,Regular Customers
+C01157,27,Male,East,27951,6,892.8,4557.97,78,2,Home & Kitchen,58.5,36,2.6,1,1,At-Risk Customers
+C01158,44,Female,West,129822,30,4536.21,150375.46,21,5,Electronics,0.9,43,4.1,0,0,High-Value Customers
+C01159,49,Female,East,128379,22,4425.08,93786.43,10,5,Beauty,8.4,50,4.2,0,0,High-Value Customers
+C01160,38,Male,East,29205,4,668.77,2747.54,77,2,Fashion,49.7,27,3.3,0,1,At-Risk Customers
+C01161,34,Male,South,56179,18,3416.55,70271.09,12,5,Electronics,22.3,28,3.7,0,3,Valuable Active Customers
+C01162,29,Female,West,27217,2,1146.93,2190.58,51,1,Fashion,56.9,27,2.0,0,1,At-Risk Customers
+C01163,21,Male,West,36764,11,1602.65,16744.2,51,3,Sports,55.3,54,2.6,0,2,Regular Customers
+C01164,41,Female,West,80846,12,2668.15,31679.28,31,5,Electronics,8.1,54,3.5,1,3,Valuable Active Customers
+C01165,27,Male,East,33127,6,901.64,5422.58,84,1,Fashion,63.7,37,2.3,1,1,At-Risk Customers
+C01166,52,Female,North,60791,11,2024.19,25628.36,32,3,Electronics,17.4,34,3.0,0,2,Regular Customers
+C01167,47,Male,East,83809,16,2013.81,36257.14,31,4,Grocery,17.4,42,3.4,0,3,Valuable Active Customers
+C01168,38,Female,East,53031,11,1237.28,14286.09,37,3,Beauty,16.2,39,2.3,0,2,Regular Customers
+C01169,26,Male,West,32714,2,1189.15,2654.07,102,1,Beauty,61.3,29,2.6,1,1,At-Risk Customers
+C01170,35,Male,North,56185,10,1823.07,17970.78,49,2,Beauty,18.3,39,2.8,0,2,Regular Customers
+C01171,30,Female,East,88383,17,2958.03,51490.03,23,3,Electronics,14.5,42,3.1,0,3,Valuable Active Customers
+C01172,48,Male,South,112884,23,3339.48,74955.35,14,5,Beauty,18.3,41,3.6,0,0,High-Value Customers
+C01173,50,Female,West,76077,14,2296.89,28836.97,7,4,Electronics,21.6,26,3.1,0,3,Valuable Active Customers
+C01174,31,Female,South,31040,4,1133.27,4969.66,72,2,Home & Kitchen,23.7,26,3.0,0,1,At-Risk Customers
+C01175,22,Male,East,90108,9,2483.15,23298.96,20,5,Home & Kitchen,23.2,42,3.8,0,3,Valuable Active Customers
+C01176,37,Female,South,60370,12,1339.81,16100.97,61,2,Home & Kitchen,33.2,36,3.0,0,2,Regular Customers
+C01177,29,Female,North,88671,16,3522.05,56341.67,5,4,Electronics,26.6,42,3.5,0,3,Valuable Active Customers
+C01178,31,Female,East,31262,3,752.3,1984.95,101,2,Electronics,49.5,27,2.5,0,1,At-Risk Customers
+C01179,42,Male,North,63704,19,2876.78,50384.61,52,3,Sports,26.6,31,3.2,0,3,Valuable Active Customers
+C01180,26,Female,East,53573,14,774.75,11138.19,38,3,Sports,23.0,35,2.7,0,2,Regular Customers
+C01181,42,Male,West,153017,21,4364.39,87772.64,13,5,Electronics,5.5,32,3.4,0,0,High-Value Customers
+C01182,45,Male,West,54952,12,1217.72,14358.13,34,3,Electronics,14.7,26,2.7,0,2,Regular Customers
+C01183,28,Male,North,74187,17,2240.77,37774.16,12,4,Grocery,16.4,52,4.1,0,3,Valuable Active Customers
+C01184,36,Male,West,179138,27,5019.82,128135.26,20,4,Sports,4.7,43,4.0,1,0,High-Value Customers
+C01185,21,Male,South,39342,4,587.16,2166.78,59,2,Grocery,48.2,23,1.8,0,1,At-Risk Customers
+C01186,41,Male,West,104295,25,3688.65,80321.4,11,5,Fashion,8.1,62,3.8,0,0,High-Value Customers
+C01187,38,Female,West,95650,12,2388.36,28324.38,31,6,Home & Kitchen,24.8,45,2.8,0,3,Valuable Active Customers
+C01188,32,Female,North,33716,3,928.9,2924.61,69,2,Fashion,46.4,26,2.8,0,1,At-Risk Customers
+C01189,39,Male,South,48885,11,1070.26,10224.84,36,4,Beauty,33.2,40,3.1,0,2,Regular Customers
+C01190,43,Male,South,119130,10,1989.8,19859.72,45,4,Electronics,18.1,33,3.2,0,3,Valuable Active Customers
+C01191,21,Male,West,33134,6,626.38,3842.81,66,2,Electronics,48.1,25,2.8,1,1,At-Risk Customers
+C01192,27,Female,South,64519,14,1372.89,17698.84,38,3,Electronics,22.2,43,3.1,0,2,Regular Customers
+C01193,32,Female,East,49297,16,1831.32,32634.75,59,4,Beauty,18.8,36,2.8,0,2,Regular Customers
+C01194,43,Male,East,102469,10,2950.1,28590.68,52,5,Home & Kitchen,31.3,36,3.3,0,3,Valuable Active Customers
+C01195,31,Male,West,36776,4,1098.97,4360.27,86,2,Beauty,60.8,41,3.1,0,1,At-Risk Customers
+C01196,35,Male,West,120324,22,3376.31,73320.51,14,4,Grocery,18.3,53,4.5,0,0,High-Value Customers
+C01197,39,Male,South,111978,18,4012.34,61990.99,17,5,Sports,7.8,35,3.7,0,0,High-Value Customers
+C01198,32,Female,East,141422,18,4247.93,82633.3,13,5,Home & Kitchen,17.1,45,3.8,0,0,High-Value Customers
+C01199,32,Male,West,50599,13,3590.84,43112.56,48,6,Grocery,18.5,26,3.7,1,3,Valuable Active Customers
+C01200,18,Male,West,18000,4,850.48,3337.55,103,3,Home & Kitchen,47.7,35,3.2,0,1,At-Risk Customers
+C01201,35,Female,North,67706,16,2983.38,50016.38,29,3,Electronics,25.2,41,3.4,0,3,Valuable Active Customers
+C01202,32,Female,South,22505,3,1072.12,3592.26,64,3,Grocery,51.0,34,3.1,0,1,At-Risk Customers
+C01203,26,Male,South,29929,5,717.9,3279.39,47,2,Electronics,55.1,29,2.6,0,1,At-Risk Customers
+C01204,41,Male,South,67153,9,2085.99,18103.33,26,2,Home & Kitchen,12.4,55,3.4,0,2,Regular Customers
+C01205,32,Female,North,46963,13,1585.36,22888.98,21,3,Fashion,26.3,28,3.7,1,2,Regular Customers
+C01206,27,Female,South,67343,12,3388.49,42170.32,26,5,Home & Kitchen,8.0,46,3.1,0,3,Valuable Active Customers
+C01207,54,Female,East,108420,7,2212.08,16315.98,30,5,Home & Kitchen,14.6,23,3.0,1,3,Valuable Active Customers
+C01208,34,Female,South,46026,11,1919.01,19334.03,28,4,Fashion,22.2,41,3.6,0,2,Regular Customers
+C01209,23,Male,East,35730,7,1112.85,7553.63,37,2,Home & Kitchen,54.9,39,3.3,0,2,Regular Customers
+C01210,39,Male,North,98158,24,3628.15,85906.45,25,6,Sports,15.6,45,4.3,0,0,High-Value Customers
+C01211,47,Male,West,52648,13,2017.2,24423.83,46,3,Fashion,13.0,32,3.6,0,2,Regular Customers
+C01212,35,Male,West,60234,14,1676.53,20327.06,32,1,Fashion,25.0,39,3.2,0,2,Regular Customers
+C01213,27,Female,East,27809,6,1396.42,8036.34,73,2,Fashion,41.9,35,3.7,0,1,At-Risk Customers
+C01214,44,Female,West,70091,15,2847.95,47347.58,27,5,Sports,23.5,56,3.6,0,3,Valuable Active Customers
+C01215,27,Female,North,96464,12,1997.29,24080.94,11,5,Sports,18.2,28,2.3,0,3,Valuable Active Customers
+C01216,18,Female,West,33346,2,934.96,2075.51,76,3,Grocery,66.4,24,2.6,1,1,At-Risk Customers
+C01217,19,Female,North,29633,4,1008.44,4091.53,75,2,Electronics,39.7,34,2.6,0,1,At-Risk Customers
+C01218,33,Male,South,102782,17,3104.77,49552.12,20,4,Electronics,11.4,37,3.9,0,3,Valuable Active Customers
+C01219,46,Male,South,66284,22,1880.8,45606.78,27,5,Electronics,24.8,42,3.4,0,3,Valuable Active Customers
+C01220,30,Male,East,23221,2,1092.51,2222.13,108,2,Electronics,31.3,40,3.0,1,1,At-Risk Customers
+C01221,22,Male,South,100481,21,5479.3,123919.24,17,5,Home & Kitchen,9.6,14,4.3,0,0,High-Value Customers
+C01222,25,Male,East,39840,5,374.35,1711.78,53,1,Grocery,38.4,26,2.5,0,1,At-Risk Customers
+C01223,41,Male,South,50926,11,1959.72,23348.31,29,5,Fashion,23.3,18,3.2,0,2,Regular Customers
+C01224,40,Female,West,117970,23,4555.67,113740.3,15,4,Grocery,5.3,32,3.8,0,0,High-Value Customers
+C01225,56,Male,East,47160,13,937.33,12467.76,37,3,Electronics,34.7,61,3.2,0,2,Regular Customers
+C01226,22,Female,North,87991,10,2778.39,25990.34,12,4,Grocery,17.8,41,3.2,0,3,Valuable Active Customers
+C01227,28,Female,South,47245,7,858.39,5986.61,60,2,Fashion,28.2,42,2.9,0,1,At-Risk Customers
+C01228,34,Female,West,25695,3,956.56,3010.02,98,1,Grocery,43.2,29,2.6,0,1,At-Risk Customers
+C01229,25,Male,South,115170,22,3516.3,78810.28,9,4,Electronics,12.5,51,3.8,0,0,High-Value Customers
+C01230,44,Male,East,41029,9,1675.89,15808.3,64,2,Grocery,28.3,17,3.8,0,2,Regular Customers
+C01231,41,Male,East,122449,10,4600.87,49734.47,23,5,Fashion,5.8,45,3.5,0,3,Valuable Active Customers
+C01232,25,Male,South,42389,7,1060.01,7035.15,79,2,Fashion,42.6,25,2.2,0,1,At-Risk Customers
+C01233,28,Male,South,33847,8,1179.58,8564.64,35,2,Home & Kitchen,53.8,28,3.4,0,2,Regular Customers
+C01234,33,Male,South,25595,11,580.73,6368.85,43,2,Fashion,70.4,41,3.4,0,2,Regular Customers
+C01235,35,Male,North,80215,19,2590.18,47915.2,20,5,Beauty,22.2,44,3.0,0,3,Valuable Active Customers
+C01236,44,Male,South,64915,12,1602.11,20433.97,46,4,Grocery,30.6,37,3.0,0,2,Regular Customers
+C01237,39,Female,North,154916,30,2993.96,82097.99,12,5,Beauty,10.1,35,4.2,0,0,High-Value Customers
+C01238,39,Female,South,58694,11,830.33,9879.21,25,4,Sports,5.0,37,3.3,0,2,Regular Customers
+C01239,48,Male,South,138031,29,4041.14,129883.78,1,5,Electronics,19.6,58,4.2,0,0,High-Value Customers
+C01240,35,Female,West,25361,5,766.79,3834.04,50,3,Beauty,30.6,26,2.9,0,1,At-Risk Customers
+C01241,32,Male,East,97399,15,4317.13,65071.6,20,5,Home & Kitchen,3.0,52,3.5,0,3,Valuable Active Customers
+C01242,51,Female,West,115343,12,2336.8,26319.74,30,5,Grocery,15.8,28,2.5,0,3,Valuable Active Customers
+C01243,31,Male,North,96366,18,2603.37,44826.3,17,5,Fashion,24.2,41,4.3,0,3,Valuable Active Customers
+C01244,36,Female,North,85884,10,2977.24,28799.83,21,4,Beauty,19.7,50,3.1,0,3,Valuable Active Customers
+C01245,43,Male,West,101109,17,2513.97,47670.9,33,5,Fashion,16.6,33,3.6,0,3,Valuable Active Customers
+C01246,42,Female,East,82332,17,2398.14,40533.98,19,6,Fashion,27.5,50,3.5,1,3,Valuable Active Customers
+C01247,24,Male,North,33997,5,997.89,4461.7,73,3,Fashion,49.1,51,3.2,0,1,At-Risk Customers
+C01248,29,Female,South,37295,5,930.37,4746.88,78,2,Fashion,45.1,33,2.9,0,1,At-Risk Customers
+C01249,34,Male,East,106221,17,3086.41,55937.34,6,5,Fashion,12.6,35,3.8,0,3,Valuable Active Customers
+C01250,41,Male,West,45000,21,3197.56,67012.25,29,6,Electronics,12.2,35,2.8,0,3,Valuable Active Customers
+C01251,60,Female,North,67626,16,1899.39,33962.22,24,5,Sports,18.8,52,3.2,0,3,Valuable Active Customers
+C01252,42,Male,East,52990,9,1301.62,12443.23,57,3,Electronics,39.2,47,3.3,0,2,Regular Customers
+C01253,38,Female,East,18319,7,1415.11,9074.38,76,2,Grocery,57.4,47,3.2,0,1,At-Risk Customers
+C01254,27,Female,West,31276,2,934.66,1786.86,82,2,Electronics,57.8,29,2.4,0,1,At-Risk Customers
+C01255,36,Female,West,75413,23,2517.32,58946.21,26,4,Electronics,13.4,54,3.2,0,3,Valuable Active Customers
+C01256,49,Male,South,46723,8,1342.24,9306.61,6,3,Home & Kitchen,20.3,33,3.2,0,2,Regular Customers
+C01257,33,Female,East,25286,7,1249.62,8982.72,90,2,Home & Kitchen,46.7,24,1.9,0,1,At-Risk Customers
+C01258,24,Female,West,50662,8,1743.01,11978.99,88,4,Home & Kitchen,10.1,45,2.6,0,1,At-Risk Customers
+C01259,26,Male,East,30857,5,717.3,3880.14,76,1,Home & Kitchen,33.7,48,3.4,1,1,At-Risk Customers
+C01260,41,Male,West,41843,13,1020.69,14232.06,74,3,Fashion,27.8,27,3.6,0,1,At-Risk Customers
+C01261,31,Female,West,26043,5,1043.84,5429.96,94,3,Beauty,42.9,21,2.9,0,1,At-Risk Customers
+C01262,42,Male,North,127284,19,2093.0,37616.79,25,4,Home & Kitchen,18.9,42,3.7,0,3,Valuable Active Customers
+C01263,26,Male,North,47881,16,1702.68,27613.83,3,4,Fashion,40.9,49,2.8,0,2,Regular Customers
+C01264,33,Female,West,59173,8,1335.41,10244.52,69,3,Sports,11.3,22,2.7,0,1,At-Risk Customers
+C01265,29,Male,South,29450,7,903.58,5803.46,59,3,Sports,46.4,35,2.8,0,1,At-Risk Customers
+C01266,24,Male,North,38085,5,900.73,4381.6,74,1,Fashion,38.7,26,2.6,0,1,At-Risk Customers
+C01267,36,Male,South,50053,15,1576.09,24961.99,57,3,Sports,40.6,46,3.1,0,2,Regular Customers
+C01268,39,Female,West,52134,11,1165.95,12870.4,51,3,Grocery,25.0,28,3.6,0,2,Regular Customers
+C01269,53,Male,North,62496,13,3165.25,45923.78,28,4,Home & Kitchen,22.0,45,3.3,0,3,Valuable Active Customers
+C01270,37,Female,East,36833,10,2065.78,21923.35,30,3,Fashion,24.6,33,3.2,0,2,Regular Customers
+C01271,42,Male,North,74504,17,2708.52,48471.19,33,3,Grocery,17.3,31,3.8,0,3,Valuable Active Customers
+C01272,37,Female,North,136391,18,4932.52,77357.43,20,4,Fashion,9.1,41,3.5,0,0,High-Value Customers
+C01273,38,Female,South,132383,13,3522.69,44750.26,9,3,Electronics,14.5,18,3.4,0,3,Valuable Active Customers
+C01274,23,Female,North,28125,4,695.16,2543.87,99,3,Fashion,56.4,25,2.4,0,1,At-Risk Customers
+C01275,40,Male,West,52927,10,1166.39,11493.14,49,2,Sports,20.1,38,3.1,0,2,Regular Customers
+C01276,37,Female,West,43305,6,1176.61,6668.12,64,1,Grocery,52.3,14,2.8,0,1,At-Risk Customers
+C01277,33,Female,West,30502,5,1140.55,5530.48,45,1,Beauty,32.9,6,2.8,0,2,Regular Customers
+C01278,40,Female,South,97803,19,3635.4,74936.38,10,4,Grocery,12.5,18,3.6,0,0,High-Value Customers
+C01279,38,Male,East,30948,8,1233.5,10243.18,89,2,Electronics,45.3,47,2.5,0,1,At-Risk Customers
+C01280,42,Female,North,48083,5,1672.2,9034.64,22,2,Electronics,30.0,31,3.3,0,2,Regular Customers
+C01281,42,Male,South,59583,16,3131.38,43686.28,10,5,Beauty,7.5,34,3.6,0,3,Valuable Active Customers
+C01282,62,Female,South,77597,16,1559.38,25065.8,23,4,Grocery,19.3,49,3.6,0,3,Valuable Active Customers
+C01283,31,Female,East,42534,14,1510.78,22786.66,70,3,Home & Kitchen,25.7,34,2.8,1,2,Regular Customers
+C01284,35,Male,North,18639,3,1174.37,3947.66,41,1,Electronics,67.4,33,2.7,0,1,At-Risk Customers
+C01285,25,Male,South,53841,11,600.0,5782.61,37,4,Fashion,33.5,36,3.0,0,2,Regular Customers
+C01286,43,Female,West,48125,13,1258.73,15903.37,17,2,Fashion,15.4,32,3.2,0,2,Regular Customers
+C01287,36,Female,South,19398,6,833.52,5414.9,67,3,Fashion,39.7,35,3.1,1,1,At-Risk Customers
+C01288,41,Female,West,52376,11,2304.99,24964.87,16,4,Electronics,36.6,43,3.2,0,2,Regular Customers
+C01289,26,Male,West,41405,1,769.56,713.51,40,2,Grocery,31.6,27,3.1,0,1,At-Risk Customers
+C01290,32,Female,East,28695,4,997.16,3494.05,63,1,Home & Kitchen,78.6,26,3.0,0,1,At-Risk Customers
+C01291,32,Male,South,29824,8,1056.45,7810.16,57,3,Beauty,34.0,30,3.0,0,1,At-Risk Customers
+C01292,26,Female,West,28045,4,879.7,3043.37,91,2,Electronics,51.0,8,2.4,0,1,At-Risk Customers
+C01293,40,Female,North,60844,12,1625.6,19598.43,63,3,Electronics,21.4,39,3.4,0,2,Regular Customers
+C01294,32,Female,South,88292,8,2854.18,24470.71,23,5,Beauty,14.6,22,3.0,0,3,Valuable Active Customers
+C01295,41,Male,West,105200,21,2225.92,42028.85,26,4,Grocery,23.0,49,3.6,0,3,Valuable Active Customers
+C01296,27,Male,South,38970,1,794.72,811.11,81,2,Home & Kitchen,61.2,28,2.7,0,1,At-Risk Customers
+C01297,37,Female,North,28001,8,721.49,6162.23,93,3,Grocery,59.6,35,2.7,0,1,At-Risk Customers
+C01298,30,Male,East,27678,2,977.63,1954.84,42,1,Sports,30.7,36,2.7,0,1,At-Risk Customers
+C01299,39,Female,East,84497,16,2269.72,31636.06,37,4,Electronics,13.7,30,3.2,0,3,Valuable Active Customers
+C01300,45,Male,North,120344,16,2400.43,39593.53,6,4,Fashion,21.9,43,3.0,0,3,Valuable Active Customers
+C01301,26,Male,South,18342,3,1263.63,3774.32,106,1,Beauty,53.1,33,3.2,0,1,At-Risk Customers
+C01302,30,Female,North,160108,23,4959.71,112645.09,1,5,Home & Kitchen,12.0,42,4.0,0,0,High-Value Customers
+C01303,35,Male,South,36404,5,749.79,3584.94,89,2,Fashion,34.5,22,2.7,1,1,At-Risk Customers
+C01304,29,Male,West,37228,9,1885.94,17091.31,45,3,Home & Kitchen,38.0,40,3.1,1,2,Regular Customers
+C01305,36,Female,East,86716,14,3028.52,44128.55,5,4,Home & Kitchen,6.9,45,4.0,0,3,Valuable Active Customers
+C01306,37,Male,East,155286,19,3791.45,85814.86,18,6,Grocery,11.5,42,4.5,0,0,High-Value Customers
+C01307,49,Female,North,65615,21,3781.79,80131.28,30,3,Electronics,15.5,32,3.9,0,3,Valuable Active Customers
+C01308,49,Male,North,77413,20,2923.49,65538.29,16,4,Fashion,12.8,37,3.7,0,3,Valuable Active Customers
+C01309,35,Female,North,46454,15,2240.6,34570.9,16,1,Home & Kitchen,27.5,38,3.1,0,3,Valuable Active Customers
+C01310,29,Male,South,85832,18,3421.78,61101.63,26,4,Beauty,4.2,47,3.2,0,3,Valuable Active Customers
+C01311,29,Female,North,30499,6,722.88,4388.82,59,1,Beauty,17.5,16,2.3,0,1,At-Risk Customers
+C01312,30,Female,South,85742,24,3785.49,81972.01,8,4,Grocery,0.0,39,3.7,0,0,High-Value Customers
+C01313,48,Female,North,41997,10,990.79,10150.33,59,3,Sports,21.7,31,2.3,1,2,Regular Customers
+C01314,39,Female,West,115207,15,2500.05,31524.44,13,3,Home & Kitchen,18.7,38,3.9,0,3,Valuable Active Customers
+C01315,39,Female,West,62996,4,1106.22,4119.5,32,3,Fashion,28.5,18,3.1,0,2,Regular Customers
+C01316,42,Female,East,92346,11,3113.78,34552.56,29,4,Home & Kitchen,32.8,34,3.4,0,3,Valuable Active Customers
+C01317,48,Male,North,61329,4,2052.63,8994.78,56,5,Beauty,42.4,28,3.4,0,2,Regular Customers
+C01318,57,Female,West,100816,20,3696.77,82397.3,27,3,Sports,17.5,32,3.4,0,0,High-Value Customers
+C01319,32,Male,West,30524,3,492.23,1448.75,51,3,Grocery,64.0,29,2.5,1,1,At-Risk Customers
+C01320,35,Male,North,37402,5,464.48,2351.33,59,2,Beauty,39.0,26,2.1,0,1,At-Risk Customers
+C01321,29,Male,East,33090,7,830.47,6271.08,22,2,Home & Kitchen,45.5,38,3.3,0,2,Regular Customers
+C01322,38,Male,West,26025,6,972.52,5214.5,71,3,Electronics,37.1,23,2.6,0,1,At-Risk Customers
+C01323,34,Male,East,124702,19,4606.41,90355.73,7,5,Electronics,11.4,42,4.0,0,0,High-Value Customers
+C01324,31,Male,South,26782,4,924.0,3451.21,75,2,Electronics,65.5,23,3.1,0,1,At-Risk Customers
+C01325,31,Female,South,123395,14,4497.67,62101.83,4,5,Electronics,9.8,32,4.3,0,0,High-Value Customers
+C01326,38,Male,South,46472,9,2002.55,17361.11,47,3,Home & Kitchen,27.5,37,3.2,0,2,Regular Customers
+C01327,41,Male,South,28354,4,728.75,3016.53,56,2,Fashion,29.6,33,3.0,0,1,At-Risk Customers
+C01328,33,Female,West,70072,17,2390.32,42424.39,22,5,Beauty,30.4,36,3.2,0,3,Valuable Active Customers
+C01329,40,Male,West,73644,12,2981.03,38322.44,22,4,Home & Kitchen,13.5,34,4.1,0,3,Valuable Active Customers
+C01330,30,Female,South,55201,7,1848.2,13297.78,32,3,Beauty,16.6,18,3.1,0,2,Regular Customers
+C01331,36,Male,East,48717,11,2015.1,22470.49,45,2,Home & Kitchen,22.9,50,3.3,0,2,Regular Customers
+C01332,48,Female,East,108376,16,2978.79,54729.76,31,5,Fashion,4.4,46,3.4,0,3,Valuable Active Customers
+C01333,34,Male,North,36886,2,678.58,1191.66,49,1,Grocery,39.2,36,3.2,0,1,At-Risk Customers
+C01334,41,Male,South,146642,27,3529.74,108230.71,6,6,Electronics,15.9,31,4.1,0,0,High-Value Customers
+C01335,40,Male,West,136833,22,4619.67,99276.31,10,5,Grocery,2.9,37,4.3,0,0,High-Value Customers
+C01336,37,Male,East,72814,14,2090.42,30602.49,18,3,Fashion,24.4,34,3.6,0,3,Valuable Active Customers
+C01337,28,Male,North,18064,3,984.15,2875.53,56,2,Home & Kitchen,44.1,11,2.8,0,1,At-Risk Customers
+C01338,46,Female,North,59146,17,2159.84,34653.65,24,4,Electronics,15.8,49,3.8,0,3,Valuable Active Customers
+C01339,22,Female,South,28000,8,559.58,4650.18,112,2,Electronics,45.4,48,2.9,0,1,At-Risk Customers
+C01340,21,Female,East,24601,4,638.58,2767.27,65,2,Home & Kitchen,67.2,51,2.5,0,1,At-Risk Customers
+C01341,21,Female,South,30719,5,632.42,3281.76,87,2,Sports,15.1,21,2.4,0,1,At-Risk Customers
+C01342,41,Female,East,40831,8,1740.77,13322.19,36,4,Fashion,42.1,35,3.2,0,2,Regular Customers
+C01343,34,Male,North,144832,18,5986.49,138888.63,7,6,Home & Kitchen,17.1,54,4.5,0,0,High-Value Customers
+C01344,46,Male,North,72930,14,1415.53,21717.63,27,4,Fashion,21.1,35,3.9,0,2,Regular Customers
+C01345,22,Male,East,62219,12,2760.41,35598.27,27,4,Fashion,25.1,31,2.8,0,3,Valuable Active Customers
+C01346,28,Female,North,58102,12,1632.14,19032.64,39,5,Grocery,34.9,18,3.3,0,2,Regular Customers
+C01347,28,Female,West,54483,13,1294.16,15982.65,62,4,Grocery,6.6,48,3.3,0,2,Regular Customers
+C01348,38,Male,North,47940,13,1830.48,23263.51,46,5,Home & Kitchen,28.2,37,3.4,0,2,Regular Customers
+C01349,44,Female,East,145124,22,4823.02,115285.98,8,5,Fashion,4.1,36,4.4,0,0,High-Value Customers
+C01350,31,Female,South,32277,7,1097.79,7075.54,63,1,Fashion,50.2,36,3.2,0,1,At-Risk Customers
+C01351,48,Female,South,143880,27,4030.49,99523.6,9,4,Grocery,11.7,48,3.8,0,0,High-Value Customers
+C01352,35,Female,West,54067,11,1453.23,16675.53,28,4,Fashion,30.8,37,2.9,0,2,Regular Customers
+C01353,35,Female,South,44526,7,1957.79,14054.48,52,2,Sports,37.6,31,3.2,0,2,Regular Customers
+C01354,51,Female,East,87239,21,2719.2,53584.21,7,4,Fashion,22.0,59,4.1,0,3,Valuable Active Customers
+C01355,31,Female,South,57736,6,1846.7,10112.94,26,2,Grocery,28.9,31,3.2,0,2,Regular Customers
+C01356,42,Male,East,129098,18,3795.13,76170.43,4,5,Fashion,18.5,57,3.3,0,0,High-Value Customers
+C01357,39,Female,West,146485,29,3729.59,111247.14,11,6,Fashion,20.7,54,3.8,0,0,High-Value Customers
+C01358,23,Female,East,55871,11,1789.26,17534.91,29,2,Beauty,23.2,39,3.5,0,2,Regular Customers
+C01359,25,Male,East,35707,3,744.35,2001.95,25,3,Grocery,60.3,29,2.8,0,2,Regular Customers
+C01360,33,Male,West,49021,12,2016.07,23493.16,49,3,Grocery,13.8,46,3.3,0,2,Regular Customers
+C01361,30,Female,West,126830,19,4355.97,87615.63,8,4,Beauty,4.9,42,4.3,0,0,High-Value Customers
+C01362,40,Male,South,36223,8,1034.99,8674.05,59,3,Sports,44.6,24,2.6,0,1,At-Risk Customers
+C01363,45,Female,East,84229,5,3482.6,18989.47,30,4,Home & Kitchen,19.5,22,3.2,0,3,Valuable Active Customers
+C01364,44,Female,North,74249,17,1881.1,28165.94,26,5,Sports,18.4,44,3.3,0,3,Valuable Active Customers
+C01365,46,Male,South,67156,11,2730.19,30569.9,32,3,Grocery,24.2,27,3.5,0,3,Valuable Active Customers
+C01366,25,Male,South,28650,2,687.1,1530.96,94,2,Home & Kitchen,40.4,29,2.9,0,1,At-Risk Customers
+C01367,42,Female,West,93806,17,2558.74,48136.58,37,5,Beauty,23.3,50,3.0,0,3,Valuable Active Customers
+C01368,39,Male,South,141433,24,5048.64,124646.41,18,4,Home & Kitchen,5.5,48,4.1,0,0,High-Value Customers
+C01369,24,Male,East,36833,2,998.69,2372.57,79,3,Home & Kitchen,47.2,22,3.0,0,1,At-Risk Customers
+C01370,20,Female,North,23285,3,765.51,2408.47,65,1,Grocery,62.6,44,2.1,0,1,At-Risk Customers
+C01371,28,Female,South,158653,28,4918.64,149210.65,7,5,Fashion,4.3,53,4.3,0,0,High-Value Customers
+C01372,35,Female,West,29482,4,594.06,2384.69,8,1,Fashion,58.4,41,2.5,0,2,Regular Customers
+C01373,36,Male,North,120767,25,5644.54,132297.01,21,4,Home & Kitchen,0.3,23,4.0,0,0,High-Value Customers
+C01374,55,Female,North,74690,12,1055.33,11777.27,59,3,Fashion,28.9,40,2.2,0,2,Regular Customers
+C01375,35,Male,South,32341,3,818.81,2492.12,87,2,Home & Kitchen,48.1,39,3.2,1,1,At-Risk Customers
+C01376,46,Female,East,115957,23,1800.0,40699.51,9,6,Grocery,9.7,61,3.6,0,3,Valuable Active Customers
+C01377,32,Female,South,41585,14,1691.96,20335.98,57,2,Beauty,28.4,23,3.0,0,2,Regular Customers
+C01378,34,Male,South,49194,9,1378.86,11391.35,57,1,Grocery,47.8,46,3.2,0,2,Regular Customers
+C01379,40,Male,East,51577,14,991.86,13532.33,30,3,Electronics,43.7,54,2.9,0,2,Regular Customers
+C01380,36,Female,South,56501,9,1670.39,15908.19,72,4,Grocery,29.2,14,2.7,0,1,At-Risk Customers
+C01381,34,Female,West,34043,6,1177.99,7058.85,98,2,Beauty,52.7,37,3.3,1,1,At-Risk Customers
+C01382,33,Male,North,42769,10,1473.3,14648.06,12,4,Electronics,5.0,41,3.9,0,2,Regular Customers
+C01383,61,Female,South,162547,21,4207.54,81382.18,14,5,Beauty,13.2,39,3.7,0,0,High-Value Customers
+C01384,28,Female,East,29340,5,571.62,2863.4,71,2,Grocery,46.5,27,3.2,0,1,At-Risk Customers
+C01385,41,Male,West,105481,14,2725.03,42176.36,40,4,Electronics,21.7,44,3.6,0,3,Valuable Active Customers
+C01386,35,Male,West,64374,10,1949.17,19734.29,40,2,Beauty,36.8,29,2.7,0,2,Regular Customers
+C01387,40,Female,East,96169,5,2602.86,11444.97,18,3,Grocery,15.6,29,2.9,0,3,Valuable Active Customers
+C01388,25,Male,South,29664,2,979.07,1762.09,104,2,Electronics,54.7,38,3.2,1,1,At-Risk Customers
+C01389,48,Male,North,155912,31,3800.64,123369.52,7,6,Beauty,16.2,67,3.7,0,0,High-Value Customers
+C01390,42,Female,North,70893,11,1649.15,17815.11,24,5,Home & Kitchen,26.6,41,4.1,1,2,Regular Customers
+C01391,27,Male,West,27573,4,717.64,2853.43,57,1,Fashion,35.6,32,2.6,0,1,At-Risk Customers
+C01392,43,Female,West,35150,7,1194.3,7950.3,116,1,Beauty,30.2,28,3.3,0,1,At-Risk Customers
+C01393,23,Female,West,26712,4,788.26,3280.02,75,2,Electronics,36.3,21,2.7,0,1,At-Risk Customers
+C01394,20,Female,North,42071,9,1413.52,12415.43,22,3,Sports,18.7,45,3.5,0,2,Regular Customers
+C01395,35,Female,East,41269,8,1041.96,8211.24,39,2,Electronics,39.1,32,3.5,1,2,Regular Customers
+C01396,47,Male,East,83743,12,2809.29,31415.8,32,4,Fashion,32.8,48,3.9,0,3,Valuable Active Customers
+C01397,40,Female,East,61136,11,1736.48,20509.72,28,3,Home & Kitchen,33.5,32,3.1,0,2,Regular Customers
+C01398,31,Male,East,33553,7,543.76,3738.98,46,2,Fashion,36.3,26,2.6,0,2,Regular Customers
+C01399,70,Female,West,94283,15,2316.49,36437.13,18,4,Fashion,20.9,43,3.5,0,3,Valuable Active Customers
+C01400,39,Female,South,80083,20,3361.48,60810.03,27,3,Sports,24.3,41,3.3,0,3,Valuable Active Customers
+C01401,40,Female,North,39588,6,1255.61,8578.66,71,2,Grocery,36.8,20,3.0,0,1,At-Risk Customers
+C01402,31,Male,North,39307,4,684.64,3018.41,72,2,Grocery,52.8,49,2.5,0,1,At-Risk Customers
+C01403,26,Male,North,42029,2,1213.43,2056.08,51,1,Home & Kitchen,47.9,23,3.2,0,1,At-Risk Customers
+C01404,41,Male,South,65027,8,2595.4,19431.14,36,5,Grocery,20.5,43,3.1,0,2,Regular Customers
+C01405,47,Female,North,84510,9,1818.51,16991.97,22,4,Grocery,26.8,43,2.6,0,2,Regular Customers
+C01406,42,Male,South,58051,10,1016.77,9094.21,49,4,Home & Kitchen,6.1,22,3.6,0,2,Regular Customers
+C01407,35,Female,East,72561,15,2158.15,32031.45,24,4,Fashion,18.7,28,3.5,0,3,Valuable Active Customers
+C01408,37,Male,West,73498,11,2809.04,31954.05,31,4,Electronics,32.2,33,3.4,0,3,Valuable Active Customers
+C01409,33,Male,West,67302,9,790.7,7011.13,49,3,Home & Kitchen,30.3,26,3.4,0,2,Regular Customers
+C01410,34,Female,South,124136,19,3958.12,78446.12,18,5,Grocery,15.7,59,4.2,0,0,High-Value Customers
+C01411,27,Female,North,27606,3,807.49,2288.1,5,2,Home & Kitchen,44.0,28,2.7,0,2,Regular Customers
+C01412,33,Male,North,28119,6,355.05,1747.84,69,1,Beauty,30.5,41,2.6,0,1,At-Risk Customers
+C01413,28,Male,West,38934,6,904.56,5853.78,70,2,Electronics,38.5,37,2.5,0,1,At-Risk Customers
+C01414,32,Female,East,20302,6,802.87,5193.28,91,3,Electronics,24.9,35,2.3,0,1,At-Risk Customers
+C01415,31,Male,North,43445,6,1138.61,8199.98,86,4,Home & Kitchen,49.2,33,3.0,1,1,At-Risk Customers
+C01416,46,Male,West,106454,20,4670.75,76920.25,15,5,Grocery,2.9,54,4.1,0,0,High-Value Customers
+C01417,52,Female,South,29012,4,928.33,3936.37,64,2,Fashion,60.4,23,3.1,0,1,At-Risk Customers
+C01418,28,Female,West,21861,5,783.9,3302.2,106,3,Grocery,46.3,49,3.2,0,1,At-Risk Customers
+C01419,26,Male,South,39741,11,1617.71,20295.33,35,3,Electronics,24.1,23,3.5,0,2,Regular Customers
+C01420,39,Female,South,70000,16,3698.36,61483.27,20,4,Beauty,13.1,47,4.0,0,3,Valuable Active Customers
+C01421,38,Female,South,64979,15,1479.87,20507.57,33,3,Beauty,27.6,24,2.6,0,2,Regular Customers
+C01422,33,Male,West,57536,12,1707.13,21764.22,65,5,Grocery,31.2,33,3.1,0,2,Regular Customers
+C01423,37,Male,West,27538,7,1165.38,7796.74,95,2,Electronics,37.0,34,3.2,0,1,At-Risk Customers
+C01424,19,Male,East,29720,8,822.54,6738.47,90,3,Fashion,41.6,29,2.4,0,1,At-Risk Customers
+C01425,50,Female,North,70000,16,3467.49,56393.97,6,5,Fashion,13.7,37,3.8,0,3,Valuable Active Customers
+C01426,42,Male,South,139902,17,3225.46,62483.83,15,5,Grocery,2.6,26,3.9,0,0,High-Value Customers
+C01427,36,Male,West,39766,8,946.75,8673.7,86,3,Electronics,37.3,24,3.0,0,1,At-Risk Customers
+C01428,48,Female,East,131885,27,4348.87,111809.04,21,5,Electronics,3.1,52,4.3,0,0,High-Value Customers
+C01429,56,Male,West,67944,20,2550.37,55325.1,38,5,Home & Kitchen,23.4,42,3.8,0,3,Valuable Active Customers
+C01430,43,Male,South,135566,12,4294.66,52998.88,4,5,Home & Kitchen,5.1,29,3.8,0,3,Valuable Active Customers
+C01431,27,Male,East,68049,14,1498.55,18608.69,45,3,Sports,35.7,51,2.8,0,2,Regular Customers
+C01432,31,Male,South,61937,10,1353.05,12776.87,42,3,Grocery,33.3,23,3.3,0,2,Regular Customers
+C01433,32,Female,East,56685,15,1248.24,22222.89,40,4,Home & Kitchen,25.6,35,3.4,0,2,Regular Customers
+C01434,47,Male,West,94997,19,2266.71,44300.44,13,4,Grocery,12.3,36,3.1,0,3,Valuable Active Customers
+C01435,33,Male,South,21868,10,1223.98,13218.77,70,3,Sports,25.4,41,3.5,0,1,At-Risk Customers
+C01436,47,Male,South,25868,5,436.02,2143.12,82,1,Fashion,46.2,32,2.9,0,1,At-Risk Customers
+C01437,32,Male,South,41223,9,1579.03,13597.41,19,3,Grocery,36.6,33,2.7,0,2,Regular Customers
+C01438,66,Female,North,93597,11,2398.09,26436.53,24,4,Beauty,27.2,17,3.1,0,3,Valuable Active Customers
+C01439,31,Female,West,36355,4,1231.38,4820.66,66,1,Home & Kitchen,71.1,39,2.7,0,1,At-Risk Customers
+C01440,27,Female,South,71703,12,3979.57,42050.04,46,5,Beauty,17.4,34,3.4,0,3,Valuable Active Customers
+C01441,58,Male,West,134209,27,4343.76,107867.8,12,5,Home & Kitchen,10.7,48,4.3,0,0,High-Value Customers
+C01442,33,Female,East,32570,5,1277.38,6748.6,5,2,Electronics,53.6,24,2.8,0,2,Regular Customers
+C01443,53,Male,West,83832,16,3142.27,48745.14,42,4,Beauty,22.1,30,4.0,0,3,Valuable Active Customers
+C01444,49,Female,West,30760,9,2013.04,18154.62,62,4,Sports,25.5,49,3.5,1,2,Regular Customers
+C01445,32,Female,East,110220,30,3697.25,113002.07,13,4,Sports,17.1,31,4.4,0,0,High-Value Customers
+C01446,25,Female,West,29317,2,496.66,1018.2,70,1,Fashion,70.3,19,2.7,1,1,At-Risk Customers
+C01447,24,Male,North,70597,15,2399.18,39288.72,11,3,Grocery,12.1,53,3.9,0,3,Valuable Active Customers
+C01448,40,Male,East,120135,15,3250.6,44473.3,30,5,Electronics,2.0,45,3.5,0,3,Valuable Active Customers
+C01449,37,Male,West,157678,19,5609.98,111452.26,22,5,Fashion,9.0,38,3.8,0,0,High-Value Customers
+C01450,34,Male,South,73667,10,2835.85,30071.42,7,5,Fashion,25.0,47,3.9,0,3,Valuable Active Customers
+C01451,23,Female,West,67498,13,1762.39,24718.02,28,4,Electronics,41.3,42,3.4,1,2,Regular Customers
+C01452,42,Female,West,121035,15,3227.43,42939.34,28,5,Home & Kitchen,6.6,41,3.4,0,3,Valuable Active Customers
+C01453,42,Male,West,106626,18,5595.28,102768.17,11,4,Beauty,9.8,43,3.9,0,0,High-Value Customers
+C01454,26,Male,South,66339,9,1685.25,17249.5,66,3,Grocery,35.3,39,2.8,0,2,Regular Customers
+C01455,22,Female,East,47120,7,851.85,5915.67,51,2,Grocery,40.9,38,3.7,0,2,Regular Customers
+C01456,55,Male,South,94362,23,4185.33,99985.99,11,5,Sports,11.3,66,4.0,0,0,High-Value Customers
+C01457,51,Female,East,95962,17,1000.0,18061.34,28,3,Home & Kitchen,25.2,38,3.4,0,3,Valuable Active Customers
+C01458,56,Female,South,68328,14,2270.35,29177.34,39,4,Sports,33.8,36,3.6,1,3,Valuable Active Customers
+C01459,32,Female,East,31697,5,1104.5,6332.68,27,2,Sports,44.2,19,2.6,0,2,Regular Customers
+C01460,50,Male,South,81621,11,2604.04,29789.07,11,3,Home & Kitchen,25.8,35,3.8,0,3,Valuable Active Customers
+C01461,41,Female,North,56671,15,1267.24,19798.6,16,3,Sports,26.5,57,3.1,0,2,Regular Customers
+C01462,35,Female,North,83563,13,1590.2,17923.93,19,3,Home & Kitchen,21.9,47,4.0,1,3,Valuable Active Customers
+C01463,24,Female,North,37781,8,1069.85,9102.83,31,3,Fashion,63.9,28,3.0,1,2,Regular Customers
+C01464,43,Female,East,108813,13,1573.56,21285.02,15,6,Home & Kitchen,8.1,37,3.7,0,3,Valuable Active Customers
+C01465,39,Female,West,125854,19,3845.18,82551.29,13,5,Beauty,3.5,28,3.0,0,0,High-Value Customers
+C01466,31,Female,North,37514,7,697.57,4761.4,39,2,Sports,63.8,23,2.6,0,2,Regular Customers
+C01467,44,Female,North,142599,26,4536.61,108632.17,13,5,Fashion,8.7,48,4.0,0,0,High-Value Customers
+C01468,25,Male,South,59230,15,1108.62,15721.69,57,5,Home & Kitchen,30.0,34,2.5,1,2,Regular Customers
+C01469,32,Female,East,128075,19,3706.62,67580.7,15,4,Grocery,3.3,31,4.0,0,0,High-Value Customers
+C01470,43,Female,North,84598,16,3631.37,52901.35,25,5,Grocery,12.2,44,3.8,0,3,Valuable Active Customers
+C01471,42,Female,South,46736,11,1461.9,17740.65,61,2,Fashion,7.2,35,2.8,1,2,Regular Customers
+C01472,41,Male,North,93434,16,3277.71,58013.67,29,4,Fashion,2.0,24,3.6,0,3,Valuable Active Customers
+C01473,37,Male,South,150699,20,4222.66,83130.38,15,4,Beauty,15.7,21,4.2,0,0,High-Value Customers
+C01474,49,Female,North,50272,8,1476.69,11442.33,3,4,Home & Kitchen,34.5,28,2.5,0,2,Regular Customers
+C01475,49,Male,South,50060,12,1198.55,12293.69,36,2,Electronics,28.1,21,2.7,0,2,Regular Customers
+C01476,40,Male,East,90386,13,2645.84,36310.98,20,4,Fashion,20.6,18,3.4,0,3,Valuable Active Customers
+C01477,43,Male,East,98701,15,2407.56,40890.31,22,4,Sports,17.1,50,3.5,0,3,Valuable Active Customers
+C01478,61,Female,North,68572,14,2386.88,31712.9,21,4,Sports,22.2,37,3.5,0,3,Valuable Active Customers
+C01479,28,Female,East,103669,18,1916.42,34173.28,2,3,Home & Kitchen,18.1,38,3.9,0,3,Valuable Active Customers
+C01480,57,Male,South,57433,6,1258.62,7814.09,41,3,Home & Kitchen,16.9,30,3.2,0,2,Regular Customers
+C01481,42,Male,West,72082,11,2742.78,34332.72,33,5,Home & Kitchen,24.6,24,3.6,0,3,Valuable Active Customers
+C01482,26,Male,South,35002,6,933.49,5690.45,55,2,Fashion,45.9,36,2.4,1,1,At-Risk Customers
+C01483,56,Female,East,55012,9,1208.66,11048.01,33,5,Home & Kitchen,26.0,33,3.2,0,2,Regular Customers
+C01484,35,Female,East,27369,6,1097.94,6682.14,56,2,Electronics,64.9,25,2.8,0,1,At-Risk Customers
+C01485,44,Male,North,59907,13,1660.85,19129.61,78,3,Home & Kitchen,35.8,31,3.7,0,2,Regular Customers
+C01486,24,Male,West,43750,7,1945.92,12044.85,3,3,Fashion,5.0,21,3.3,1,2,Regular Customers
+C01487,29,Female,South,47091,15,1638.82,22993.31,27,4,Beauty,30.2,34,3.1,0,2,Regular Customers
+C01488,43,Female,East,63352,11,2146.2,25521.2,25,4,Beauty,32.4,33,3.6,0,2,Regular Customers
+C01489,39,Female,North,28000,12,992.49,11590.36,25,2,Fashion,23.4,32,3.4,0,2,Regular Customers
+C01490,25,Male,South,54035,7,1624.83,10891.92,82,2,Electronics,27.2,33,2.7,0,1,At-Risk Customers
+C01491,18,Male,East,27893,6,1080.16,6197.26,72,3,Fashion,75.6,31,2.8,0,1,At-Risk Customers
+C01492,50,Male,South,46775,7,1357.85,9400.28,25,4,Beauty,18.2,35,3.0,0,2,Regular Customers
+C01493,28,Male,South,35866,5,663.42,3768.78,99,1,Electronics,41.1,41,3.1,1,1,At-Risk Customers
+C01494,29,Female,South,30111,5,1052.61,5199.39,69,2,Electronics,40.1,37,2.9,1,1,At-Risk Customers
+C01495,37,Male,East,99176,12,3065.72,34474.5,24,4,Beauty,24.9,46,3.8,0,3,Valuable Active Customers
+C01496,36,Male,South,96487,16,2272.02,36425.74,30,5,Sports,29.3,31,3.3,0,3,Valuable Active Customers
+C01497,52,Male,North,93843,10,3946.72,45008.66,7,5,Fashion,23.5,30,3.7,0,3,Valuable Active Customers
+C01498,27,Male,East,50757,11,1956.95,20660.53,29,3,Home & Kitchen,6.6,42,3.8,0,2,Regular Customers
+C01499,50,Female,South,41295,12,1464.51,15913.71,40,4,Grocery,46.7,43,3.1,0,2,Regular Customers
+C01500,41,Male,South,141377,24,5014.03,115513.71,9,6,Grocery,18.7,38,4.2,0,0,High-Value Customers
+C01501,45,Male,North,45399,10,1583.81,16001.25,17,5,Fashion,29.9,41,2.8,0,2,Regular Customers
+C01502,38,Male,North,46230,7,1288.59,9516.77,46,4,Sports,31.6,23,2.8,0,2,Regular Customers
+C01503,31,Female,North,27641,6,1270.71,8238.4,88,3,Beauty,48.5,37,2.7,0,1,At-Risk Customers
+C01504,24,Male,West,41553,12,1496.17,16452.05,50,5,Grocery,37.3,36,2.8,0,2,Regular Customers
+C01505,46,Female,South,52947,9,1479.75,12304.7,28,5,Home & Kitchen,37.9,20,3.6,0,2,Regular Customers
+C01506,40,Female,North,64359,5,1705.85,8308.68,18,3,Sports,26.9,27,2.8,1,2,Regular Customers
+C01507,41,Female,North,54282,15,1289.34,20399.15,55,3,Sports,13.6,60,3.5,0,2,Regular Customers
+C01508,29,Male,North,50501,14,1662.3,20926.35,21,3,Home & Kitchen,50.2,40,3.4,0,2,Regular Customers
+C01509,44,Female,East,79108,17,3019.87,48843.48,19,5,Sports,17.4,63,3.7,0,3,Valuable Active Customers
+C01510,49,Female,North,88054,17,2182.45,35342.31,14,5,Fashion,19.4,25,4.1,0,3,Valuable Active Customers
+C01511,46,Male,South,79485,19,2265.7,46291.55,22,5,Electronics,29.4,49,2.8,0,3,Valuable Active Customers
+C01512,38,Male,South,120274,16,2026.39,33792.43,28,4,Home & Kitchen,23.5,14,3.4,0,3,Valuable Active Customers
+C01513,39,Male,West,126857,17,4992.05,91000.36,4,4,Grocery,14.2,40,3.6,0,0,High-Value Customers
+C01514,40,Female,South,27532,6,1168.34,7760.77,90,2,Home & Kitchen,31.9,39,2.2,1,1,At-Risk Customers
+C01515,18,Male,South,28160,7,618.96,4226.78,88,1,Beauty,46.3,41,2.4,0,1,At-Risk Customers
+C01516,34,Female,East,25384,5,796.23,3602.97,88,2,Beauty,45.7,24,2.8,0,1,At-Risk Customers
+C01517,57,Female,South,96922,12,2552.77,27739.1,23,4,Electronics,40.2,47,3.2,0,3,Valuable Active Customers
+C01518,42,Female,West,74102,19,2654.1,43012.55,10,4,Fashion,6.8,36,4.0,0,3,Valuable Active Customers
+C01519,18,Male,East,32689,5,975.74,4699.65,67,1,Beauty,51.2,30,2.8,1,1,At-Risk Customers
+C01520,54,Female,South,135230,20,3057.55,59271.35,6,5,Grocery,18.4,38,3.7,0,0,High-Value Customers
+C01521,31,Female,South,35599,6,1026.63,6547.87,54,2,Electronics,34.8,21,2.8,0,1,At-Risk Customers
+C01522,39,Female,West,133272,30,3152.21,94694.26,15,6,Home & Kitchen,16.6,65,4.0,0,0,High-Value Customers
+C01523,43,Female,East,57877,15,1119.38,16132.06,17,3,Electronics,8.4,39,3.2,0,2,Regular Customers
+C01524,38,Male,West,38545,4,807.31,3199.27,68,2,Fashion,46.5,42,2.5,0,1,At-Risk Customers
+C01525,40,Male,North,50274,14,1656.08,21258.02,31,4,Fashion,16.4,48,3.7,0,2,Regular Customers
+C01526,28,Female,South,36768,4,977.39,4230.27,84,1,Home & Kitchen,44.1,21,2.6,0,1,At-Risk Customers
+C01527,35,Female,West,46483,18,1232.91,20797.07,60,3,Fashion,19.1,53,3.2,0,2,Regular Customers
+C01528,37,Female,South,58491,14,2046.79,26041.88,95,3,Fashion,23.4,43,3.3,0,1,At-Risk Customers
+C01529,47,Male,West,80208,19,1886.56,38189.97,52,5,Sports,6.5,31,3.6,0,3,Valuable Active Customers
+C01530,30,Female,North,60161,15,1054.72,16547.5,55,1,Grocery,29.1,43,2.9,0,2,Regular Customers
+C01531,45,Female,West,46485,6,1551.18,8023.68,31,4,Fashion,21.1,22,3.4,0,2,Regular Customers
+C01532,36,Male,South,48622,16,2511.5,42932.59,10,4,Beauty,28.2,55,3.8,0,3,Valuable Active Customers
+C01533,41,Female,North,89827,16,1937.62,29162.66,49,4,Fashion,25.2,47,3.4,0,3,Valuable Active Customers
+C01534,34,Female,West,29023,6,961.45,5596.05,35,2,Grocery,37.6,31,2.8,0,2,Regular Customers
+C01535,32,Female,South,38960,14,2060.7,29281.44,60,4,Beauty,26.6,50,3.2,0,2,Regular Customers
+C01536,25,Female,North,24550,6,956.77,6010.03,68,3,Sports,49.9,16,2.8,0,1,At-Risk Customers
+C01537,23,Female,North,25234,6,1160.43,7210.71,84,3,Electronics,64.6,25,2.4,1,1,At-Risk Customers
+C01538,47,Male,East,69906,10,2386.94,23774.27,33,6,Beauty,23.3,32,3.3,0,2,Regular Customers
+C01539,37,Female,West,28283,6,1105.84,6409.64,21,2,Home & Kitchen,56.4,55,3.4,0,2,Regular Customers
+C01540,38,Female,North,40035,4,1371.98,5668.9,41,2,Fashion,31.4,20,3.3,0,2,Regular Customers
+C01541,48,Male,South,97072,6,1877.14,11156.17,20,5,Fashion,23.9,15,3.0,0,2,Regular Customers
+C01542,32,Male,North,27316,4,717.92,3286.43,89,1,Beauty,55.2,16,3.1,1,1,At-Risk Customers
+C01543,38,Female,West,51550,9,1025.56,9663.05,30,3,Beauty,6.3,43,3.8,0,2,Regular Customers
+C01544,28,Male,North,36471,6,775.95,4311.77,71,2,Electronics,46.8,26,2.7,1,1,At-Risk Customers
+C01545,51,Female,North,149212,25,3805.69,91507.06,17,4,Home & Kitchen,10.5,44,4.2,0,0,High-Value Customers
+C01546,41,Male,North,59404,13,1603.19,20921.82,38,4,Electronics,20.5,45,2.5,0,2,Regular Customers
+C01547,35,Male,East,86111,16,1595.91,28188.99,29,5,Electronics,19.4,38,2.9,0,3,Valuable Active Customers
+C01548,55,Male,West,45171,10,1361.73,15154.54,41,3,Beauty,15.9,37,3.2,0,2,Regular Customers
+C01549,25,Female,South,29317,7,1450.56,9832.13,103,1,Fashion,36.7,38,2.5,0,1,At-Risk Customers
+C01550,42,Female,North,117122,14,1869.87,24222.91,18,5,Home & Kitchen,25.5,33,4.1,0,3,Valuable Active Customers
+C01551,37,Male,East,142085,11,4283.06,43112.78,18,4,Fashion,7.0,34,3.9,0,3,Valuable Active Customers
+C01552,26,Male,West,113618,12,2732.57,33453.03,31,5,Beauty,18.8,39,3.8,0,3,Valuable Active Customers
+C01553,38,Male,North,88115,20,2506.41,59366.96,13,3,Home & Kitchen,10.2,51,3.7,0,3,Valuable Active Customers
+C01554,46,Female,North,116984,19,3627.23,71889.61,13,5,Grocery,10.4,33,3.5,0,0,High-Value Customers
+C01555,38,Male,North,40766,2,981.9,1713.39,51,2,Fashion,48.7,2,2.6,0,1,At-Risk Customers
+C01556,28,Male,West,31613,6,973.64,5502.54,54,2,Sports,27.7,39,3.0,0,1,At-Risk Customers
+C01557,35,Female,East,120317,12,1943.64,22159.52,28,4,Fashion,18.4,46,3.1,0,3,Valuable Active Customers
+C01558,47,Female,East,57491,9,1351.43,11363.04,33,4,Home & Kitchen,26.9,36,3.4,0,2,Regular Customers
+C01559,27,Female,South,84130,9,3801.33,33150.32,12,4,Home & Kitchen,22.1,37,3.8,1,3,Valuable Active Customers
+C01560,37,Male,South,117749,24,5420.97,133948.04,17,6,Fashion,5.7,39,4.2,0,0,High-Value Customers
+C01561,39,Male,West,53552,12,1981.68,25077.57,38,3,Home & Kitchen,35.3,41,2.7,0,2,Regular Customers
+C01562,18,Male,South,28342,5,669.91,3642.1,96,1,Fashion,43.4,40,3.3,1,1,At-Risk Customers
+C01563,46,Female,West,109362,15,3114.88,48682.59,32,4,Electronics,11.3,39,3.5,0,3,Valuable Active Customers
+C01564,19,Male,East,30746,4,1129.82,3812.77,89,2,Fashion,31.1,56,3.7,0,1,At-Risk Customers
+C01565,48,Male,North,66677,12,2061.32,22643.57,22,5,Beauty,20.0,21,3.6,0,2,Regular Customers
+C01566,32,Female,South,36744,13,1226.86,15747.46,44,3,Sports,38.4,39,3.1,0,2,Regular Customers
+C01567,42,Female,West,83939,17,3758.82,64652.83,35,4,Fashion,20.0,28,3.9,0,3,Valuable Active Customers
+C01568,25,Female,South,23350,4,706.96,3022.72,86,1,Home & Kitchen,61.0,40,2.0,0,1,At-Risk Customers
+C01569,50,Male,West,85369,15,2293.5,34521.35,27,5,Electronics,14.4,23,3.8,0,3,Valuable Active Customers
+C01570,24,Female,South,59032,12,1107.93,13349.09,29,2,Fashion,22.8,23,4.1,0,2,Regular Customers
+C01571,33,Female,East,49335,9,1234.64,11323.15,38,3,Sports,26.8,28,2.4,0,2,Regular Customers
+C01572,37,Female,West,33557,2,1030.93,2019.79,85,2,Beauty,27.1,32,2.6,0,1,At-Risk Customers
+C01573,43,Male,West,84861,11,1801.83,19957.9,23,4,Fashion,16.7,30,3.3,0,2,Regular Customers
+C01574,38,Female,South,97431,20,4626.66,100867.35,10,4,Fashion,9.2,36,4.3,0,0,High-Value Customers
+C01575,22,Female,East,31870,6,485.31,2892.31,89,1,Sports,63.7,30,3.5,0,1,At-Risk Customers
+C01576,29,Female,North,21275,3,987.02,2953.9,60,2,Fashion,64.4,28,3.0,0,1,At-Risk Customers
+C01577,24,Female,South,30420,8,967.63,7720.24,30,2,Fashion,31.0,48,3.8,0,2,Regular Customers
+C01578,56,Female,South,70188,27,3407.06,101541.26,14,4,Beauty,26.0,54,4.1,0,0,High-Value Customers
+C01579,50,Female,North,92962,20,2532.37,46157.8,20,4,Home & Kitchen,26.9,39,3.8,0,3,Valuable Active Customers
+C01580,39,Male,South,54913,13,782.13,11612.19,48,3,Home & Kitchen,46.7,58,3.2,0,2,Regular Customers
+C01581,18,Male,South,40900,5,1022.25,4630.23,112,2,Grocery,49.8,36,3.1,0,1,At-Risk Customers
+C01582,38,Male,West,47165,11,1249.57,13025.88,41,1,Fashion,34.3,26,3.0,1,2,Regular Customers
+C01583,35,Female,East,48638,12,998.25,12692.7,77,3,Sports,28.5,39,3.3,1,1,At-Risk Customers
+C01584,28,Male,South,52239,15,1862.57,30241.39,57,4,Electronics,26.4,44,2.9,0,2,Regular Customers
+C01585,27,Female,West,119974,21,5039.04,93938.4,14,6,Beauty,19.2,36,4.0,0,0,High-Value Customers
+C01586,26,Female,North,18000,8,1239.85,9051.74,36,3,Grocery,49.6,23,2.9,0,2,Regular Customers
+C01587,44,Male,South,114066,20,2958.23,60479.68,30,5,Home & Kitchen,16.8,43,3.7,0,3,Valuable Active Customers
+C01588,36,Male,East,42977,10,1371.68,16289.43,31,3,Sports,26.8,31,3.1,0,2,Regular Customers
+C01589,40,Male,North,35777,11,1546.04,18702.0,36,3,Sports,14.1,50,3.6,0,2,Regular Customers
+C01590,46,Male,East,96657,17,3171.3,52842.07,26,5,Electronics,21.2,47,3.3,0,3,Valuable Active Customers
+C01591,49,Male,North,56610,11,3472.79,30807.7,2,4,Beauty,29.4,29,3.0,0,3,Valuable Active Customers
+C01592,38,Male,North,114875,23,3917.5,90691.0,12,5,Grocery,18.7,48,3.5,0,0,High-Value Customers
+C01593,39,Male,North,29066,2,769.04,1582.66,65,2,Home & Kitchen,32.9,42,3.1,0,1,At-Risk Customers
+C01594,24,Male,West,33575,7,744.6,5052.63,37,4,Fashion,54.4,19,2.6,0,2,Regular Customers
+C01595,41,Female,East,100643,15,3076.94,43012.95,26,4,Electronics,19.1,28,3.7,0,3,Valuable Active Customers
+C01596,24,Female,East,71381,8,1023.99,8296.23,38,2,Fashion,29.5,33,2.9,0,2,Regular Customers
+C01597,34,Male,East,36967,7,823.59,5330.55,71,2,Electronics,23.9,33,3.2,0,1,At-Risk Customers
+C01598,33,Female,South,19799,9,798.87,8266.84,65,1,Home & Kitchen,37.4,34,2.9,0,1,At-Risk Customers
+C01599,45,Female,East,36583,2,1276.05,2861.77,100,2,Electronics,48.7,26,3.7,0,1,At-Risk Customers
+C01600,39,Female,South,174314,18,4316.81,81792.3,9,4,Fashion,25.1,37,4.6,0,0,High-Value Customers
+C01601,21,Female,North,31541,2,800.23,1611.95,81,1,Home & Kitchen,52.0,33,2.6,1,1,At-Risk Customers
+C01602,34,Male,East,63601,15,1294.64,18393.99,43,3,Home & Kitchen,36.2,50,3.1,0,2,Regular Customers
+C01603,29,Male,North,31331,5,928.81,4636.33,102,2,Home & Kitchen,53.4,27,3.8,1,1,At-Risk Customers
+C01604,42,Male,North,50462,12,1120.19,15205.15,65,1,Beauty,29.1,61,2.7,1,2,Regular Customers
+C01605,37,Male,West,20453,6,729.81,4683.16,61,3,Electronics,47.4,52,2.9,0,1,At-Risk Customers
+C01606,20,Male,East,42236,14,1657.13,23577.87,73,5,Electronics,26.6,51,3.2,1,2,Regular Customers
+C01607,47,Female,East,30171,3,741.59,2389.22,14,3,Electronics,64.1,36,2.9,0,2,Regular Customers
+C01608,34,Male,South,80898,15,2071.81,32433.63,3,4,Home & Kitchen,17.4,59,2.9,0,3,Valuable Active Customers
+C01609,26,Female,South,31559,8,824.23,6802.88,74,3,Electronics,51.6,31,3.1,0,1,At-Risk Customers
+C01610,31,Female,East,52964,13,1105.08,15492.98,65,4,Sports,22.8,29,2.8,0,2,Regular Customers
+C01611,41,Female,West,141057,19,4585.29,90724.01,13,4,Fashion,14.8,36,4.5,0,0,High-Value Customers
+C01612,33,Male,South,101906,12,2511.29,32205.31,40,5,Grocery,11.4,26,2.9,0,3,Valuable Active Customers
+C01613,28,Female,West,46007,12,1625.4,19756.63,27,2,Home & Kitchen,32.8,38,3.3,0,2,Regular Customers
+C01614,35,Male,West,73572,11,2134.99,23007.44,21,2,Home & Kitchen,18.8,39,2.6,1,3,Valuable Active Customers
+C01615,46,Male,South,69561,9,1338.8,11520.81,21,2,Sports,37.2,36,2.4,0,2,Regular Customers
+C01616,45,Female,West,85189,9,3501.98,29835.25,18,5,Beauty,8.4,34,3.2,0,3,Valuable Active Customers
+C01617,37,Female,East,132284,24,4323.72,90443.89,15,4,Beauty,13.2,46,3.8,0,0,High-Value Customers
+C01618,44,Male,South,89170,15,1899.73,26417.02,8,2,Grocery,26.5,56,4.0,0,3,Valuable Active Customers
+C01619,43,Female,North,60436,12,753.41,8360.43,24,3,Home & Kitchen,31.4,43,3.2,0,2,Regular Customers
+C01620,41,Male,East,91641,15,2666.42,38372.95,16,5,Sports,16.6,48,4.0,0,3,Valuable Active Customers
+C01621,25,Male,West,44290,10,1847.9,20788.5,41,3,Fashion,17.5,37,3.1,0,2,Regular Customers
+C01622,34,Male,West,25436,5,1270.05,6270.21,83,1,Sports,23.8,15,3.1,0,1,At-Risk Customers
+C01623,35,Female,West,39873,13,1514.79,20073.15,45,3,Fashion,47.4,19,3.0,0,2,Regular Customers
+C01624,62,Male,North,118035,24,4277.93,104915.27,10,4,Fashion,5.5,66,3.8,0,0,High-Value Customers
+C01625,21,Male,South,32837,4,300.0,1352.41,81,2,Beauty,61.2,25,2.0,0,1,At-Risk Customers
+C01626,46,Male,North,58384,6,2204.29,12616.74,16,5,Fashion,19.9,26,3.4,0,2,Regular Customers
+C01627,37,Male,South,20726,7,1080.25,7427.14,20,3,Fashion,46.1,35,3.2,0,2,Regular Customers
+C01628,39,Male,East,43351,15,1084.95,16135.98,57,4,Fashion,20.3,44,3.5,0,2,Regular Customers
+C01629,43,Female,South,31621,6,518.22,3392.03,123,1,Beauty,57.3,39,2.7,1,1,At-Risk Customers
+C01630,28,Male,East,45810,13,1859.64,26774.85,19,4,Grocery,40.4,55,4.1,0,2,Regular Customers
+C01631,35,Male,South,113776,9,2256.38,21078.43,30,4,Beauty,22.1,49,3.3,0,3,Valuable Active Customers
+C01632,38,Female,South,50129,13,1420.07,20281.76,46,4,Sports,37.9,29,3.6,0,2,Regular Customers
+C01633,50,Female,North,64315,17,2116.83,36497.58,9,4,Home & Kitchen,12.8,50,3.4,0,3,Valuable Active Customers
+C01634,50,Female,West,99662,7,2144.43,14803.73,6,4,Electronics,23.6,29,3.0,0,3,Valuable Active Customers
+C01635,37,Male,North,110256,29,2356.11,74770.3,21,5,Electronics,11.5,47,4.1,0,0,High-Value Customers
+C01636,25,Female,North,40800,3,902.93,2814.46,83,1,Home & Kitchen,34.0,19,2.7,0,1,At-Risk Customers
+C01637,35,Female,West,43133,9,1377.55,11668.42,54,3,Fashion,40.8,17,3.4,0,2,Regular Customers
+C01638,22,Male,West,21237,9,735.51,7147.79,37,1,Fashion,57.9,34,3.2,0,2,Regular Customers
+C01639,36,Male,East,118657,21,5010.35,103462.39,11,6,Home & Kitchen,12.8,33,3.8,0,0,High-Value Customers
+C01640,47,Female,North,145131,22,3730.42,79897.21,14,5,Beauty,8.6,53,4.3,0,0,High-Value Customers
+C01641,37,Female,North,64362,17,1799.03,32768.41,76,3,Fashion,37.0,37,3.0,1,2,Regular Customers
+C01642,55,Female,West,68866,13,3555.85,45897.54,12,3,Sports,32.2,40,3.9,0,3,Valuable Active Customers
+C01643,46,Female,West,56321,11,1346.52,15272.61,47,5,Sports,32.4,49,3.6,0,2,Regular Customers
+C01644,63,Female,East,68837,15,2394.82,37824.57,11,4,Sports,23.3,24,3.4,0,3,Valuable Active Customers
+C01645,33,Male,North,45193,6,1187.53,6678.89,72,3,Grocery,73.8,25,3.3,0,1,At-Risk Customers
+C01646,48,Male,North,67132,13,2755.06,36918.48,29,5,Fashion,23.7,39,3.6,0,3,Valuable Active Customers
+C01647,29,Male,North,25547,6,1363.75,9065.87,95,2,Beauty,57.4,35,3.1,0,1,At-Risk Customers
+C01648,40,Female,East,75851,12,2531.09,28049.01,19,5,Grocery,16.2,47,3.1,0,3,Valuable Active Customers
+C01649,36,Male,North,119966,13,2684.44,36153.78,29,3,Home & Kitchen,29.9,46,3.5,0,3,Valuable Active Customers
+C01650,49,Male,West,113051,12,2654.52,29740.47,24,4,Sports,8.4,37,2.9,0,3,Valuable Active Customers
+C01651,30,Female,North,20015,6,367.84,2387.38,24,3,Home & Kitchen,38.4,35,3.5,0,2,Regular Customers
+C01652,28,Female,East,64708,12,1805.23,23416.41,39,6,Beauty,24.0,40,2.6,0,2,Regular Customers
+C01653,41,Male,North,29570,2,1020.71,1983.55,78,1,Electronics,33.9,15,2.6,0,1,At-Risk Customers
+C01654,36,Male,East,55497,4,1868.59,8795.6,33,2,Grocery,39.4,29,2.7,0,2,Regular Customers
+C01655,29,Female,North,38513,6,899.62,5875.58,66,2,Sports,40.0,35,3.1,0,1,At-Risk Customers
+C01656,32,Male,West,140248,21,4226.85,93783.83,20,5,Grocery,12.1,47,4.6,0,0,High-Value Customers
+C01657,31,Male,East,56307,12,1815.27,22917.03,32,3,Beauty,37.9,27,3.5,0,2,Regular Customers
+C01658,38,Male,North,42938,15,905.54,14652.28,56,2,Fashion,48.9,26,4.2,0,2,Regular Customers
+C01659,24,Female,West,63523,11,1371.69,13886.76,45,4,Electronics,21.0,33,2.7,0,2,Regular Customers
+C01660,29,Male,East,58496,6,1295.52,7894.14,97,2,Grocery,41.5,52,2.4,1,1,At-Risk Customers
+C01661,38,Female,West,94163,18,3220.93,59754.03,22,6,Fashion,15.3,32,3.4,0,3,Valuable Active Customers
+C01662,38,Male,West,54453,8,1399.94,10841.01,45,3,Fashion,54.4,45,3.1,0,2,Regular Customers
+C01663,32,Male,West,154486,26,4188.91,112961.39,6,4,Home & Kitchen,8.9,62,3.8,0,0,High-Value Customers
+C01664,22,Female,North,41965,7,1971.06,15156.96,53,4,Home & Kitchen,35.9,33,2.8,0,2,Regular Customers
+C01665,40,Male,North,161517,19,4285.34,78674.18,17,4,Beauty,30.6,35,4.1,0,0,High-Value Customers
+C01666,39,Female,West,128550,28,4931.96,137493.62,12,5,Home & Kitchen,3.0,53,3.8,0,0,High-Value Customers
+C01667,25,Male,South,33620,6,1205.29,6757.0,67,1,Beauty,57.7,34,2.5,0,1,At-Risk Customers
+C01668,50,Female,North,147456,21,5035.51,90628.4,36,5,Grocery,4.1,34,3.9,0,0,High-Value Customers
+C01669,25,Male,West,34378,2,942.35,2002.14,80,3,Fashion,60.7,23,2.6,1,1,At-Risk Customers
+C01670,51,Female,South,46072,19,2988.03,56655.69,27,3,Fashion,13.8,46,4.0,0,3,Valuable Active Customers
+C01671,27,Male,East,31850,11,1220.76,13479.47,89,3,Home & Kitchen,42.9,45,2.7,0,1,At-Risk Customers
+C01672,26,Male,West,111748,22,3473.48,70384.09,9,5,Grocery,10.6,40,3.6,0,0,High-Value Customers
+C01673,54,Male,West,134456,24,4631.72,109511.62,16,5,Fashion,10.1,44,4.3,0,0,High-Value Customers
+C01674,45,Female,South,105822,20,2467.78,53685.44,33,4,Fashion,20.3,49,3.9,0,3,Valuable Active Customers
+C01675,39,Male,South,81730,20,2650.83,53020.08,26,3,Beauty,17.5,40,4.2,0,3,Valuable Active Customers
+C01676,34,Female,South,43709,11,1349.79,14882.35,43,3,Home & Kitchen,20.4,33,3.3,0,2,Regular Customers
+C01677,26,Male,South,30542,7,964.18,6861.31,53,2,Grocery,65.5,25,3.0,0,1,At-Risk Customers
+C01678,43,Male,North,57475,13,2003.98,23474.95,61,4,Grocery,40.7,29,3.5,0,2,Regular Customers
+C01679,21,Male,South,19484,5,917.17,4815.11,56,3,Home & Kitchen,22.6,58,2.8,0,1,At-Risk Customers
+C01680,38,Male,South,76271,8,3422.1,24627.74,8,4,Beauty,27.3,32,3.4,0,3,Valuable Active Customers
+C01681,41,Female,East,40918,13,1601.42,19253.55,84,4,Electronics,28.6,51,2.5,1,1,At-Risk Customers
+C01682,32,Male,West,106394,18,5296.88,87340.95,12,5,Beauty,21.1,57,4.3,0,0,High-Value Customers
+C01683,22,Female,South,108020,15,2839.28,41992.18,14,4,Beauty,23.9,37,3.7,0,3,Valuable Active Customers
+C01684,64,Male,North,103060,20,2494.4,48481.35,17,4,Fashion,16.1,46,3.9,0,3,Valuable Active Customers
+C01685,18,Male,East,24926,4,856.16,3424.3,73,2,Fashion,44.8,32,1.8,1,1,At-Risk Customers
+C01686,34,Male,West,75916,19,3422.04,60310.07,15,6,Grocery,17.6,25,3.8,0,3,Valuable Active Customers
+C01687,45,Male,South,121662,19,3602.32,73949.7,1,6,Home & Kitchen,11.0,26,3.6,0,0,High-Value Customers
+C01688,26,Female,East,43735,8,1515.06,12929.19,61,3,Beauty,7.5,34,3.6,0,2,Regular Customers
+C01689,41,Male,North,82189,14,2254.9,31129.64,27,4,Electronics,19.8,34,3.6,0,3,Valuable Active Customers
+C01690,47,Female,South,77263,13,3359.07,41996.77,31,5,Home & Kitchen,29.8,56,3.6,0,3,Valuable Active Customers
+C01691,33,Male,West,36499,2,951.04,1813.92,65,3,Sports,56.1,27,2.6,1,1,At-Risk Customers
+C01692,31,Male,West,55728,12,1659.02,19414.28,24,4,Fashion,27.7,56,3.4,0,2,Regular Customers
+C01693,38,Female,East,44756,9,1910.84,15271.1,23,2,Beauty,29.5,30,2.9,0,2,Regular Customers
+C01694,24,Female,East,23805,5,523.73,2417.62,45,3,Fashion,50.5,51,2.8,0,1,At-Risk Customers
+C01695,30,Female,West,56182,13,1848.05,25677.78,40,4,Home & Kitchen,9.6,42,3.1,1,2,Regular Customers
+C01696,22,Male,West,31147,6,672.05,4129.66,76,2,Grocery,41.7,38,3.6,1,1,At-Risk Customers
+C01697,36,Female,South,36363,3,635.69,2156.4,60,2,Home & Kitchen,37.1,25,3.3,1,1,At-Risk Customers
+C01698,36,Male,East,32432,6,583.37,3416.44,99,1,Grocery,55.0,38,3.1,0,1,At-Risk Customers
+C01699,46,Male,South,114190,28,4149.52,112826.32,12,5,Grocery,31.1,65,3.6,0,0,High-Value Customers
+C01700,47,Female,North,59011,8,1550.26,11997.38,27,4,Grocery,31.4,32,3.5,1,2,Regular Customers
+C01701,30,Female,South,127028,18,4320.97,75791.56,6,5,Grocery,16.5,37,4.0,0,0,High-Value Customers
+C01702,36,Male,West,48091,12,1744.01,19823.19,22,3,Electronics,43.2,34,3.7,0,2,Regular Customers
+C01703,41,Female,West,52578,13,1658.37,22026.18,56,1,Grocery,14.5,53,3.3,1,2,Regular Customers
+C01704,44,Male,West,36947,12,1376.78,16559.83,24,4,Electronics,32.0,45,3.3,0,2,Regular Customers
+C01705,53,Female,North,45752,15,1623.35,23356.93,30,4,Electronics,35.7,53,3.4,0,2,Regular Customers
+C01706,29,Female,East,31864,4,693.55,3051.87,89,2,Electronics,44.0,34,2.1,0,1,At-Risk Customers
+C01707,46,Male,North,89775,9,3307.44,34283.4,25,4,Fashion,23.4,35,3.2,0,3,Valuable Active Customers
+C01708,31,Female,North,35369,6,1079.46,7081.21,104,3,Beauty,43.1,36,2.9,0,1,At-Risk Customers
+C01709,33,Male,West,115020,14,2339.79,34219.66,3,4,Home & Kitchen,21.2,49,3.9,0,3,Valuable Active Customers
+C01710,29,Male,South,93159,13,4079.67,56267.79,17,4,Electronics,13.0,35,3.5,0,3,Valuable Active Customers
+C01711,38,Female,West,27391,4,1076.74,4946.6,35,2,Home & Kitchen,66.4,44,2.9,1,2,Regular Customers
+C01712,33,Female,North,34465,7,1327.43,9857.2,100,2,Home & Kitchen,55.8,37,2.3,0,1,At-Risk Customers
+C01713,35,Female,South,98973,11,2398.14,25144.59,2,5,Sports,14.8,12,4.0,0,3,Valuable Active Customers
+C01714,45,Female,East,55902,14,1120.74,16182.75,61,5,Fashion,37.6,47,3.5,0,2,Regular Customers
+C01715,35,Male,North,31187,4,1090.3,4579.69,32,2,Fashion,23.7,18,3.2,0,2,Regular Customers
+C01716,33,Male,South,141051,25,4240.73,97581.6,13,4,Fashion,9.8,54,4.2,0,0,High-Value Customers
+C01717,24,Female,North,25387,6,684.87,4015.55,55,1,Fashion,41.5,41,3.4,0,1,At-Risk Customers
+C01718,33,Female,East,86426,11,2657.5,31805.88,22,6,Beauty,24.0,39,3.1,0,3,Valuable Active Customers
+C01719,24,Female,West,93378,22,3456.12,64942.75,1,6,Home & Kitchen,16.3,49,3.6,0,0,High-Value Customers
+C01720,33,Female,West,25749,6,723.91,3908.97,75,1,Fashion,63.2,43,3.2,0,1,At-Risk Customers
+C01721,18,Male,West,38626,5,777.63,3833.28,74,3,Fashion,61.4,27,3.2,0,1,At-Risk Customers
+C01722,31,Female,West,23765,5,1354.2,6962.58,104,3,Fashion,54.5,39,2.4,1,1,At-Risk Customers
+C01723,42,Female,West,63588,10,1025.72,9143.16,43,2,Grocery,19.4,47,2.9,0,2,Regular Customers
+C01724,24,Female,East,47397,5,990.48,4902.17,39,1,Fashion,35.2,49,3.5,0,2,Regular Customers
+C01725,56,Male,South,91017,17,3006.21,55822.69,17,5,Sports,14.9,29,3.8,0,3,Valuable Active Customers
+C01726,39,Female,South,33096,1,713.0,716.92,25,3,Beauty,44.7,33,3.1,0,2,Regular Customers
+C01727,20,Male,West,55757,9,980.67,9489.1,72,3,Electronics,27.1,25,2.6,1,1,At-Risk Customers
+C01728,36,Female,North,87168,15,5227.93,74704.31,9,5,Grocery,0.0,28,4.2,0,0,High-Value Customers
+C01729,31,Male,North,95977,17,3564.36,56668.02,40,4,Sports,23.8,43,3.2,0,3,Valuable Active Customers
+C01730,40,Male,West,121987,20,2693.33,57524.68,26,5,Beauty,24.6,43,3.0,0,3,Valuable Active Customers
+C01731,48,Female,North,30064,12,1319.6,16302.99,74,5,Home & Kitchen,30.3,48,3.3,0,1,At-Risk Customers
+C01732,57,Male,West,117096,15,3959.56,53760.07,24,4,Home & Kitchen,26.9,35,4.2,1,3,Valuable Active Customers
+C01733,33,Male,East,52853,15,1506.73,21152.97,11,4,Fashion,23.0,37,3.3,0,2,Regular Customers
+C01734,43,Female,South,58962,15,1817.64,30677.21,62,3,Electronics,38.0,41,3.1,0,2,Regular Customers
+C01735,43,Female,East,25179,9,762.66,6356.25,49,2,Sports,53.6,26,3.6,0,2,Regular Customers
+C01736,46,Male,West,100956,24,3651.56,94188.01,2,4,Grocery,7.5,38,3.9,0,0,High-Value Customers
+C01737,40,Male,South,63522,7,1623.19,10927.66,21,4,Electronics,23.8,44,3.1,0,2,Regular Customers
+C01738,22,Male,West,35598,4,821.01,3283.21,15,3,Sports,54.9,25,3.6,0,2,Regular Customers
+C01739,36,Male,West,36724,15,1266.81,19449.98,34,5,Sports,23.0,50,3.2,0,2,Regular Customers
+C01740,42,Male,South,57621,12,1598.7,15959.91,49,3,Electronics,29.5,42,3.0,0,2,Regular Customers
+C01741,57,Male,North,61372,19,3052.29,51207.26,32,5,Home & Kitchen,19.3,26,4.0,0,3,Valuable Active Customers
+C01742,26,Male,North,83699,11,2197.48,24339.23,9,4,Home & Kitchen,15.2,41,3.1,0,3,Valuable Active Customers
+C01743,22,Female,North,97604,24,2933.43,66322.89,22,4,Sports,16.6,50,3.8,0,3,Valuable Active Customers
+C01744,30,Male,North,29741,3,1320.72,4278.05,33,3,Sports,43.8,34,2.5,0,2,Regular Customers
+C01745,51,Female,East,55409,10,1413.3,12317.06,43,2,Electronics,22.3,34,3.2,0,2,Regular Customers
+C01746,22,Female,South,42770,11,1605.06,18454.06,6,3,Home & Kitchen,35.6,26,3.3,0,2,Regular Customers
+C01747,28,Male,West,25563,4,764.81,2722.42,54,2,Sports,72.7,44,3.2,0,1,At-Risk Customers
+C01748,24,Female,South,27773,5,728.16,3538.24,97,1,Sports,38.6,30,3.0,0,1,At-Risk Customers
+C01749,50,Female,South,79706,12,2842.42,31204.65,35,4,Electronics,13.6,28,3.6,0,3,Valuable Active Customers
+C01750,32,Female,East,27186,6,1270.81,8785.32,5,2,Home & Kitchen,24.2,37,3.3,0,2,Regular Customers
+C01751,56,Male,West,47319,13,1487.64,17266.93,28,2,Grocery,45.9,30,3.3,1,2,Regular Customers
+C01752,36,Male,East,43605,5,971.98,4812.44,63,2,Fashion,32.5,22,3.1,1,1,At-Risk Customers
+C01753,30,Male,South,24475,6,942.5,4873.78,77,3,Home & Kitchen,44.5,28,2.5,0,1,At-Risk Customers
+C01754,34,Female,West,44361,8,1188.29,10722.8,62,2,Sports,29.2,27,2.2,0,1,At-Risk Customers
+C01755,43,Female,South,131862,22,5021.76,114025.37,4,6,Electronics,17.4,34,4.5,0,0,High-Value Customers
+C01756,42,Female,North,82323,17,3436.47,59060.15,25,4,Grocery,20.1,48,3.9,0,3,Valuable Active Customers
+C01757,53,Female,South,115778,22,5370.75,132092.47,13,6,Fashion,6.5,42,4.1,0,0,High-Value Customers
+C01758,34,Female,West,66844,9,1447.05,13177.05,47,2,Electronics,25.9,47,3.5,0,2,Regular Customers
+C01759,30,Female,North,30327,8,1285.36,10463.51,49,2,Fashion,53.1,25,2.8,0,2,Regular Customers
+C01760,48,Female,East,59185,12,1733.29,21018.67,54,2,Electronics,31.9,19,3.0,0,2,Regular Customers
+C01761,48,Female,East,49926,11,1415.12,16268.22,3,3,Electronics,33.0,37,3.0,0,2,Regular Customers
+C01762,38,Male,West,64217,11,3020.3,31914.46,48,5,Beauty,9.2,54,3.6,0,3,Valuable Active Customers
+C01763,35,Male,South,25358,4,784.51,3084.24,88,3,Fashion,43.8,36,2.2,0,1,At-Risk Customers
+C01764,35,Male,South,56643,13,1911.68,26462.9,19,3,Grocery,19.3,69,3.1,0,2,Regular Customers
+C01765,29,Male,South,28417,5,700.06,3577.97,33,1,Home & Kitchen,43.4,35,3.0,0,2,Regular Customers
+C01766,33,Female,South,45241,15,1199.2,17823.6,68,5,Home & Kitchen,10.5,41,2.8,1,2,Regular Customers
+C01767,44,Male,East,77805,5,1805.45,8015.82,33,6,Home & Kitchen,27.2,10,2.9,0,2,Regular Customers
+C01768,39,Female,East,51787,16,2251.88,40348.07,31,1,Beauty,9.0,43,2.7,0,3,Valuable Active Customers
+C01769,47,Male,West,51529,12,873.27,9924.72,28,3,Home & Kitchen,32.1,38,3.4,0,2,Regular Customers
+C01770,33,Male,West,41627,9,1922.91,18673.02,46,4,Electronics,21.0,30,2.9,0,2,Regular Customers
+C01771,20,Male,West,46769,8,1622.15,13159.66,100,4,Grocery,57.4,32,2.5,0,1,At-Risk Customers
+C01772,48,Male,South,73662,16,3579.35,51343.57,46,4,Home & Kitchen,22.0,39,3.2,0,3,Valuable Active Customers
+C01773,28,Male,West,145617,30,4231.84,139673.83,7,5,Electronics,14.5,47,4.1,0,0,High-Value Customers
+C01774,40,Male,North,129468,21,4996.76,107068.72,17,4,Home & Kitchen,5.9,64,3.5,0,0,High-Value Customers
+C01775,41,Female,East,98263,16,2246.27,39779.74,27,4,Beauty,27.0,35,4.2,0,3,Valuable Active Customers
+C01776,39,Male,East,48847,12,1960.27,23179.97,32,4,Fashion,29.3,38,2.5,1,2,Regular Customers
+C01777,47,Female,West,73218,15,3209.3,50850.91,13,3,Sports,9.7,34,3.5,0,3,Valuable Active Customers
+C01778,27,Male,South,57953,7,1395.74,8392.56,53,4,Beauty,26.1,41,3.1,0,2,Regular Customers
+C01779,30,Female,West,30750,5,847.29,4066.92,126,3,Beauty,74.8,33,2.4,1,1,At-Risk Customers
+C01780,39,Female,West,83471,10,2154.74,19353.02,47,4,Home & Kitchen,35.4,32,3.3,0,2,Regular Customers
+C01781,20,Male,East,22626,4,884.06,3430.21,93,2,Grocery,40.0,12,2.5,1,1,At-Risk Customers
+C01782,38,Female,West,117023,17,3489.63,61562.88,19,4,Fashion,21.7,42,4.3,0,3,Valuable Active Customers
+C01783,33,Male,North,44275,13,2019.83,24987.8,62,4,Home & Kitchen,40.9,34,2.9,0,2,Regular Customers
+C01784,28,Female,North,75607,11,3273.55,38497.54,19,5,Fashion,24.3,35,2.7,0,3,Valuable Active Customers
+C01785,35,Male,West,74435,20,2173.48,40490.67,25,4,Sports,17.5,30,3.1,0,3,Valuable Active Customers
+C01786,39,Male,East,105428,17,4429.02,80625.53,6,4,Electronics,6.4,54,4.0,0,0,High-Value Customers
+C01787,42,Male,East,101987,21,2200.75,51058.26,50,3,Electronics,28.7,51,3.5,0,3,Valuable Active Customers
+C01788,37,Female,South,69323,12,2571.15,33355.49,31,5,Sports,12.4,51,3.7,0,3,Valuable Active Customers
+C01789,22,Female,North,23584,5,847.46,4120.63,46,2,Home & Kitchen,72.2,43,3.1,1,1,At-Risk Customers
+C01790,32,Male,South,47665,13,1304.41,14073.97,54,3,Fashion,48.3,43,3.0,0,2,Regular Customers
+C01791,31,Female,South,25660,4,771.55,3229.93,104,1,Beauty,37.0,19,2.5,0,1,At-Risk Customers
+C01792,38,Female,North,84718,14,1779.82,24667.84,19,4,Beauty,15.0,56,3.3,0,3,Valuable Active Customers
+C01793,41,Male,North,61194,11,1580.69,16026.64,3,3,Fashion,40.0,26,4.0,0,2,Regular Customers
+C01794,39,Female,South,71729,24,3600.49,82566.24,30,5,Fashion,2.2,42,4.1,0,0,High-Value Customers
+C01795,23,Female,East,26710,5,777.51,4333.66,6,2,Grocery,51.5,39,3.7,0,2,Regular Customers
+C01796,40,Female,North,24482,3,300.0,818.11,63,3,Beauty,37.7,38,3.0,1,1,At-Risk Customers
+C01797,62,Female,East,80381,16,1850.29,30713.77,27,3,Fashion,25.5,45,3.4,0,3,Valuable Active Customers
+C01798,34,Male,West,39515,3,940.14,2869.6,84,2,Sports,34.6,26,2.4,1,1,At-Risk Customers
+C01799,18,Female,South,32429,5,758.33,3683.24,89,2,Home & Kitchen,29.2,25,2.8,0,1,At-Risk Customers
+C01800,18,Male,West,22097,10,1080.69,11364.13,75,2,Fashion,42.0,60,3.0,1,1,At-Risk Customers
+C01801,48,Female,West,112735,25,3921.26,110832.42,26,6,Fashion,19.5,45,4.0,0,0,High-Value Customers
+C01802,38,Female,North,104046,14,2660.52,36365.35,44,3,Fashion,21.6,36,3.4,0,3,Valuable Active Customers
+C01803,40,Male,North,57200,10,2230.19,21868.03,19,5,Grocery,42.2,28,2.6,0,2,Regular Customers
+C01804,51,Female,South,36118,8,2022.18,16982.51,8,2,Electronics,25.1,36,3.7,0,2,Regular Customers
+C01805,38,Male,East,67922,10,1287.12,13816.71,48,4,Fashion,34.4,37,3.1,1,2,Regular Customers
+C01806,41,Male,South,49808,11,3381.15,36812.67,26,4,Grocery,28.9,36,3.0,0,3,Valuable Active Customers
+C01807,33,Female,South,80944,16,2357.24,36794.45,25,4,Electronics,8.8,43,3.7,0,3,Valuable Active Customers
+C01808,30,Male,East,20702,5,1243.53,5114.57,63,1,Beauty,43.5,49,2.6,0,1,At-Risk Customers
+C01809,23,Female,North,34162,5,1327.44,6224.1,99,2,Fashion,53.6,26,3.0,0,1,At-Risk Customers
+C01810,26,Female,West,30238,4,1091.61,3968.46,106,3,Beauty,56.1,31,3.0,0,1,At-Risk Customers
+C01811,51,Female,North,94923,10,3535.53,37291.71,46,4,Fashion,17.0,29,3.8,0,3,Valuable Active Customers
+C01812,49,Male,West,94915,14,1912.49,26252.42,28,5,Electronics,25.8,41,3.3,0,3,Valuable Active Customers
+C01813,31,Female,North,28102,7,916.46,6269.97,58,2,Beauty,24.0,27,2.8,0,1,At-Risk Customers
+C01814,28,Male,North,34819,6,1280.17,7675.46,63,2,Beauty,54.5,27,2.7,0,1,At-Risk Customers
+C01815,45,Male,North,31013,3,1111.98,3103.71,117,2,Beauty,55.1,16,2.4,0,1,At-Risk Customers
+C01816,49,Female,West,150427,23,3641.22,94154.58,11,5,Beauty,17.4,45,3.9,0,0,High-Value Customers
+C01817,39,Female,North,48201,13,1801.03,25845.0,49,2,Home & Kitchen,28.2,41,3.2,0,2,Regular Customers
+C01818,52,Male,East,60106,7,3429.45,27113.71,30,5,Home & Kitchen,11.4,52,3.1,0,3,Valuable Active Customers
+C01819,50,Male,West,89954,9,3383.36,32115.06,26,4,Beauty,17.0,39,3.1,0,3,Valuable Active Customers
+C01820,20,Female,East,57933,12,1432.07,17144.31,65,2,Beauty,24.0,32,3.1,1,2,Regular Customers
+C01821,23,Male,South,28048,5,1007.5,5688.24,61,1,Beauty,65.2,18,2.7,0,1,At-Risk Customers
+C01822,46,Female,West,31003,3,1268.86,3599.21,34,2,Beauty,36.6,18,2.6,0,2,Regular Customers
+C01823,33,Male,West,79960,12,2606.96,29103.16,24,4,Electronics,17.0,23,3.7,0,3,Valuable Active Customers
+C01824,41,Male,South,99577,14,3053.59,40693.08,31,5,Fashion,31.1,57,4.2,0,3,Valuable Active Customers
+C01825,33,Male,East,76483,22,2458.48,56348.98,2,4,Fashion,21.1,46,4.1,0,3,Valuable Active Customers
+C01826,20,Male,West,65339,9,1615.0,13648.82,38,2,Grocery,19.3,28,2.9,0,2,Regular Customers
+C01827,22,Male,West,37600,5,769.53,3799.82,47,3,Sports,62.6,22,2.9,0,1,At-Risk Customers
+C01828,48,Male,South,137311,23,3227.25,64714.71,10,5,Home & Kitchen,1.0,36,4.4,0,0,High-Value Customers
+C01829,53,Male,West,72475,20,3084.96,64073.87,31,5,Fashion,15.1,36,3.3,0,3,Valuable Active Customers
+C01830,51,Female,South,52431,12,1272.82,13420.08,25,4,Electronics,32.2,50,3.5,0,2,Regular Customers
+C01831,33,Male,South,89039,16,5156.91,76357.51,8,5,Grocery,20.7,39,3.5,0,0,High-Value Customers
+C01832,33,Female,North,71914,12,3489.94,45957.21,48,5,Grocery,26.3,22,4.1,1,3,Valuable Active Customers
+C01833,31,Female,North,71473,12,1798.59,23621.07,40,3,Electronics,46.6,60,3.1,0,2,Regular Customers
+C01834,48,Female,East,111125,16,2133.4,35156.56,17,4,Sports,15.0,28,4.3,0,3,Valuable Active Customers
+C01835,33,Female,South,106626,13,2676.01,35555.32,28,4,Home & Kitchen,31.6,31,4.1,0,3,Valuable Active Customers
+C01836,33,Female,North,89709,16,2570.16,39375.81,8,5,Fashion,25.9,52,3.6,0,3,Valuable Active Customers
+C01837,24,Male,South,34952,6,579.85,3263.98,49,3,Sports,48.7,36,2.6,1,1,At-Risk Customers
+C01838,31,Female,South,43415,9,1344.43,11749.22,27,2,Beauty,41.4,30,3.2,1,2,Regular Customers
+C01839,47,Male,West,93169,23,3478.21,70311.58,10,5,Sports,9.4,32,3.9,0,0,High-Value Customers
+C01840,43,Female,West,26918,3,709.35,2171.03,96,1,Electronics,35.8,20,2.5,1,1,At-Risk Customers
+C01841,48,Female,South,54440,12,2246.25,27060.3,46,3,Fashion,27.2,27,2.7,1,2,Regular Customers
+C01842,27,Female,West,64559,13,1893.54,22777.85,64,3,Fashion,20.6,37,3.0,0,2,Regular Customers
+C01843,36,Female,South,43272,11,1896.23,23476.16,39,3,Fashion,29.1,38,2.9,0,2,Regular Customers
+C01844,50,Male,East,72980,6,2858.98,17986.75,36,5,Home & Kitchen,14.9,31,3.5,0,2,Regular Customers
+C01845,30,Male,West,137362,23,4099.37,99503.96,25,4,Fashion,22.7,44,4.3,0,0,High-Value Customers
+C01846,29,Female,South,18000,5,1139.87,5477.15,61,1,Home & Kitchen,43.0,21,3.2,1,1,At-Risk Customers
+C01847,23,Female,East,33443,7,635.93,4451.04,52,3,Fashion,34.7,36,3.0,0,1,At-Risk Customers
+C01848,21,Male,South,21749,6,977.29,6158.04,53,2,Sports,63.3,45,2.6,1,1,At-Risk Customers
+C01849,31,Female,South,76206,24,4111.68,99886.45,7,5,Beauty,17.0,43,4.1,0,0,High-Value Customers
+C01850,23,Female,East,73253,24,2920.87,79084.45,32,5,Beauty,20.1,43,4.1,0,3,Valuable Active Customers
+C01851,42,Male,West,59181,13,1387.3,17740.88,45,3,Fashion,30.1,38,3.0,0,2,Regular Customers
+C01852,32,Female,South,70769,14,2080.96,27957.47,18,4,Fashion,23.2,49,3.5,0,3,Valuable Active Customers
+C01853,47,Male,West,113405,29,4950.89,150860.88,16,5,Electronics,13.9,39,4.2,0,0,High-Value Customers
+C01854,54,Male,West,107024,20,2622.73,47147.67,31,5,Electronics,15.0,57,4.2,0,3,Valuable Active Customers
+C01855,36,Female,South,125401,26,4932.14,137717.86,10,4,Fashion,13.5,50,4.5,0,0,High-Value Customers
+C01856,23,Female,South,19570,2,981.6,1758.92,104,2,Electronics,47.5,30,2.9,0,1,At-Risk Customers
+C01857,54,Male,East,57200,17,2593.63,46344.21,31,4,Beauty,13.5,52,3.0,0,3,Valuable Active Customers
+C01858,37,Female,South,68492,14,1322.31,17552.26,18,2,Grocery,43.2,26,3.4,0,2,Regular Customers
+C01859,34,Male,North,79141,20,1712.35,35552.73,42,4,Electronics,10.8,47,3.4,0,3,Valuable Active Customers
+C01860,41,Male,West,71993,17,2243.53,40908.5,2,4,Sports,9.1,44,3.5,0,3,Valuable Active Customers
+C01861,45,Female,West,63632,13,2700.42,35536.33,21,4,Electronics,25.4,28,2.9,0,3,Valuable Active Customers
+C01862,33,Male,South,83841,5,2736.03,12367.27,20,3,Beauty,22.5,36,2.9,0,2,Regular Customers
+C01863,37,Female,East,26668,3,941.26,2621.2,37,2,Beauty,59.7,33,2.9,0,2,Regular Customers
+C01864,36,Female,North,33205,6,1556.73,8795.9,58,2,Grocery,34.5,30,3.4,0,1,At-Risk Customers
+C01865,50,Male,South,172196,24,4605.44,93774.07,1,6,Electronics,8.5,53,3.9,0,0,High-Value Customers
+C01866,32,Male,West,118620,30,5966.44,195138.07,13,6,Fashion,12.3,43,4.3,0,0,High-Value Customers
+C01867,22,Male,West,40337,4,1283.88,5180.76,102,2,Electronics,66.9,34,3.4,0,1,At-Risk Customers
+C01868,45,Female,South,28773,3,433.93,1183.53,126,2,Home & Kitchen,58.6,29,2.4,1,1,At-Risk Customers
+C01869,24,Male,East,40768,4,602.07,2688.73,65,2,Grocery,52.2,25,2.7,0,1,At-Risk Customers
+C01870,43,Female,East,96299,14,2234.19,29523.73,17,6,Sports,21.8,43,3.4,0,3,Valuable Active Customers
+C01871,25,Male,South,75636,15,3614.97,55311.52,36,3,Sports,39.3,36,3.2,0,3,Valuable Active Customers
+C01872,29,Male,North,38724,3,300.46,841.87,35,1,Home & Kitchen,70.3,15,3.0,0,2,Regular Customers
+C01873,38,Male,South,42754,12,1566.27,15760.55,53,4,Grocery,27.1,18,3.0,0,2,Regular Customers
+C01874,35,Male,East,99900,18,2655.4,42579.88,50,4,Home & Kitchen,12.8,48,3.5,0,3,Valuable Active Customers
+C01875,47,Male,North,72851,17,2141.85,35105.04,19,6,Electronics,16.8,28,3.7,0,3,Valuable Active Customers
+C01876,30,Male,North,63707,8,1257.47,10782.69,52,4,Sports,42.2,36,3.7,0,2,Regular Customers
+C01877,30,Male,North,57960,10,1288.02,13237.27,64,3,Fashion,32.8,36,2.6,0,2,Regular Customers
+C01878,37,Male,South,41292,14,1696.1,24011.74,6,3,Electronics,22.3,34,3.7,0,2,Regular Customers
+C01879,45,Male,East,37546,10,1626.71,13651.31,43,4,Electronics,14.8,55,3.5,0,2,Regular Customers
+C01880,49,Male,South,57251,15,1805.98,29842.2,42,2,Beauty,24.4,40,3.1,0,2,Regular Customers
+C01881,57,Male,South,109938,13,1049.93,13893.33,21,4,Beauty,18.0,45,3.5,0,3,Valuable Active Customers
+C01882,43,Female,West,146905,27,4556.57,121852.06,1,5,Fashion,25.8,50,4.8,0,0,High-Value Customers
+C01883,46,Female,North,91621,16,2828.46,49355.22,2,4,Sports,19.7,37,3.4,0,3,Valuable Active Customers
+C01884,55,Male,South,85858,8,2836.55,24957.1,14,3,Sports,13.3,33,3.5,0,3,Valuable Active Customers
+C01885,33,Female,West,38811,6,1058.01,6934.41,82,2,Grocery,53.4,47,3.0,0,1,At-Risk Customers
+C01886,20,Male,East,53111,8,1907.02,14954.59,39,3,Beauty,14.9,44,3.4,0,2,Regular Customers
+C01887,36,Female,East,34391,6,696.74,3844.84,51,2,Sports,36.7,52,3.2,0,1,At-Risk Customers
+C01888,32,Female,South,18000,4,1349.19,5823.72,81,2,Sports,68.8,33,2.9,1,1,At-Risk Customers
+C01889,22,Male,North,70324,13,3072.09,35575.86,35,4,Fashion,28.0,28,3.7,0,3,Valuable Active Customers
+C01890,36,Male,East,155291,17,4101.35,80584.43,9,6,Fashion,8.9,35,3.5,0,0,High-Value Customers
+C01891,29,Female,East,33548,6,1121.74,6745.52,75,2,Home & Kitchen,40.8,20,2.9,0,1,At-Risk Customers
+C01892,36,Male,North,54496,11,1506.72,15167.28,15,4,Electronics,31.8,43,3.1,0,2,Regular Customers
+C01893,52,Male,South,85003,8,2402.85,17328.4,22,5,Fashion,3.4,28,2.9,0,3,Valuable Active Customers
+C01894,29,Female,West,33596,4,918.66,3299.06,54,1,Home & Kitchen,40.1,2,2.7,0,1,At-Risk Customers
+C01895,30,Female,North,58836,9,1183.98,10775.47,74,4,Electronics,11.4,59,3.1,1,1,At-Risk Customers
+C01896,36,Female,South,89364,16,1780.23,28469.11,38,5,Electronics,23.9,33,3.5,0,3,Valuable Active Customers
+C01897,55,Female,South,93141,17,3456.72,52954.0,37,4,Home & Kitchen,25.1,34,3.2,0,3,Valuable Active Customers
+C01898,24,Female,West,33529,6,554.13,3229.97,67,2,Sports,39.8,49,2.5,1,1,At-Risk Customers
+C01899,39,Female,West,60059,11,1578.61,15464.41,67,4,Sports,32.0,24,3.4,0,2,Regular Customers
+C01900,34,Female,West,97078,16,3306.06,55390.74,25,3,Home & Kitchen,6.4,51,3.8,0,3,Valuable Active Customers
+C01901,42,Male,South,46298,12,1539.98,18399.05,39,3,Home & Kitchen,21.3,31,3.5,0,2,Regular Customers
+C01902,29,Male,North,25909,4,819.09,3177.18,64,3,Fashion,43.4,18,3.3,0,1,At-Risk Customers
+C01903,52,Male,South,112681,18,2893.96,46723.33,28,5,Fashion,20.7,58,3.8,0,3,Valuable Active Customers
+C01904,36,Female,East,34299,4,1123.96,4387.88,72,2,Electronics,39.3,40,2.7,0,1,At-Risk Customers
+C01905,44,Male,East,102936,19,2794.37,51331.5,31,5,Sports,18.8,51,3.7,0,3,Valuable Active Customers
+C01906,21,Male,West,39108,4,727.42,2983.64,25,2,Home & Kitchen,25.5,34,3.5,0,2,Regular Customers
+C01907,33,Male,South,139706,26,3678.64,96922.59,11,4,Sports,8.7,52,5.0,0,0,High-Value Customers
+C01908,38,Male,East,46984,10,987.35,10499.13,62,4,Beauty,37.9,23,3.2,0,2,Regular Customers
+C01909,46,Male,East,43748,10,836.81,8043.7,99,3,Fashion,40.4,36,3.1,0,1,At-Risk Customers
+C01910,20,Male,North,36975,9,884.93,6779.01,45,2,Home & Kitchen,18.3,25,3.3,0,2,Regular Customers
+C01911,36,Male,South,60210,11,1400.55,16627.56,51,4,Home & Kitchen,13.4,22,3.2,0,2,Regular Customers
+C01912,40,Female,East,185900,15,4131.66,57334.06,26,6,Home & Kitchen,8.9,43,4.1,0,0,High-Value Customers
+C01913,41,Female,West,124947,18,4140.6,67930.85,10,5,Home & Kitchen,7.5,52,4.2,0,0,High-Value Customers
+C01914,26,Female,South,51587,16,1528.77,24375.95,36,4,Grocery,28.4,35,3.5,0,2,Regular Customers
+C01915,51,Female,West,51961,13,1235.89,16455.09,51,3,Sports,29.4,35,3.1,1,2,Regular Customers
+C01916,38,Female,East,73515,16,2945.92,45133.05,22,4,Grocery,19.7,28,3.1,0,3,Valuable Active Customers
+C01917,40,Male,South,119989,22,6358.43,133857.04,14,5,Electronics,14.6,43,4.5,0,0,High-Value Customers
+C01918,34,Female,North,64940,10,1869.27,18107.95,36,2,Electronics,33.7,43,3.3,0,2,Regular Customers
+C01919,27,Male,North,57356,7,1388.35,10819.78,16,6,Electronics,13.5,41,2.9,0,2,Regular Customers
+C01920,36,Male,South,63433,14,1797.97,25166.19,36,4,Fashion,39.1,43,2.9,0,2,Regular Customers
+C01921,45,Female,North,89330,14,2099.69,27119.35,39,5,Home & Kitchen,12.9,32,3.6,1,3,Valuable Active Customers
+C01922,28,Female,South,28996,5,916.07,4229.39,94,1,Beauty,34.8,25,2.2,0,1,At-Risk Customers
+C01923,54,Female,West,76672,10,2333.18,22863.51,20,5,Home & Kitchen,27.4,43,3.5,0,3,Valuable Active Customers
+C01924,45,Male,East,60200,14,1259.17,17963.82,38,2,Grocery,27.9,46,3.5,0,2,Regular Customers
+C01925,49,Male,West,87422,20,1972.22,40971.62,30,3,Grocery,20.8,40,3.7,0,3,Valuable Active Customers
+C01926,34,Female,North,28498,6,660.07,3999.76,28,2,Electronics,65.9,28,2.8,0,2,Regular Customers
+C01927,28,Male,South,64222,11,1032.51,10592.68,22,3,Grocery,26.0,47,2.8,0,2,Regular Customers
+C01928,25,Male,South,35060,8,1567.83,12117.25,42,3,Home & Kitchen,32.0,30,3.3,0,2,Regular Customers
+C01929,52,Female,West,92094,15,3110.44,49395.93,12,4,Home & Kitchen,18.4,46,4.1,0,3,Valuable Active Customers
+C01930,20,Male,North,27061,1,1378.04,1251.69,47,3,Sports,45.5,27,2.7,0,1,At-Risk Customers
+C01931,41,Male,South,47112,12,1727.67,19959.56,54,4,Electronics,26.3,26,3.4,0,2,Regular Customers
+C01932,32,Female,East,36058,13,1878.83,25592.22,71,3,Grocery,22.3,53,3.8,0,2,Regular Customers
+C01933,22,Male,South,62417,6,1380.79,8864.86,38,3,Beauty,30.4,33,3.2,0,2,Regular Customers
+C01934,44,Female,West,45000,15,1373.73,20287.93,33,4,Grocery,2.7,31,3.2,0,2,Regular Customers
+C01935,36,Female,North,74739,20,2708.15,52381.22,28,5,Grocery,19.2,28,4.0,0,3,Valuable Active Customers
+C01936,50,Female,South,97310,10,3410.14,30494.51,7,5,Home & Kitchen,7.9,22,3.3,0,3,Valuable Active Customers
+C01937,33,Male,West,43033,5,835.91,4355.31,85,2,Electronics,66.8,28,2.3,0,1,At-Risk Customers
+C01938,45,Male,East,79237,13,2086.88,29991.66,16,4,Electronics,16.1,56,3.7,0,3,Valuable Active Customers
+C01939,31,Female,South,72988,8,1551.32,14957.36,53,4,Fashion,29.4,28,2.9,0,2,Regular Customers
+C01940,27,Female,North,33161,6,835.26,5166.5,31,2,Electronics,31.2,47,2.9,1,2,Regular Customers
+C01941,24,Female,West,30233,6,1345.11,8037.81,57,3,Sports,48.7,31,2.8,0,1,At-Risk Customers
+C01942,46,Male,West,57762,8,896.93,6647.44,48,3,Fashion,20.2,22,2.8,0,2,Regular Customers
+C01943,32,Female,East,87898,21,2375.23,42382.46,31,4,Grocery,9.7,38,4.1,0,3,Valuable Active Customers
+C01944,50,Male,West,65296,15,2412.16,36694.62,35,3,Beauty,23.1,26,4.0,0,3,Valuable Active Customers
+C01945,35,Male,South,75800,5,3750.65,22279.37,31,4,Electronics,11.0,23,4.0,0,3,Valuable Active Customers
+C01946,32,Male,North,59169,5,1450.45,7989.55,74,2,Home & Kitchen,30.8,23,3.3,0,1,At-Risk Customers
+C01947,54,Female,North,58322,11,1677.32,20098.62,35,4,Home & Kitchen,26.0,17,3.4,0,2,Regular Customers
+C01948,18,Female,East,27261,3,829.7,2538.01,64,3,Home & Kitchen,53.3,45,2.3,0,1,At-Risk Customers
+C01949,38,Female,South,51971,8,736.59,6062.21,44,4,Home & Kitchen,28.9,36,2.9,0,2,Regular Customers
+C01950,32,Male,West,56645,11,2090.01,18532.33,64,4,Electronics,37.6,29,4.0,1,2,Regular Customers
+C01951,20,Male,East,34641,6,1051.61,6694.55,82,2,Beauty,77.4,34,2.7,1,1,At-Risk Customers
+C01952,28,Male,West,36554,4,1097.66,4187.15,93,2,Home & Kitchen,65.0,22,3.3,1,1,At-Risk Customers
+C01953,29,Female,South,47128,12,1808.28,20481.2,45,4,Sports,23.4,10,3.3,0,2,Regular Customers
+C01954,33,Male,South,90546,15,2898.58,42354.32,24,4,Sports,19.4,68,2.6,0,3,Valuable Active Customers
+C01955,39,Female,South,117375,21,3877.13,79094.35,18,5,Fashion,25.5,45,4.1,0,0,High-Value Customers
+C01956,40,Female,South,111229,35,4530.9,149477.2,19,5,Electronics,15.7,47,4.8,0,0,High-Value Customers
+C01957,48,Male,West,65162,16,1871.33,29974.51,22,4,Beauty,22.9,20,3.4,0,3,Valuable Active Customers
+C01958,39,Female,North,56811,12,1287.61,14761.23,37,4,Grocery,40.7,21,3.6,1,2,Regular Customers
+C01959,33,Male,West,57443,12,3174.86,38404.09,39,3,Home & Kitchen,22.5,53,2.9,0,3,Valuable Active Customers
+C01960,60,Male,West,92476,21,3149.3,58266.9,13,4,Fashion,20.3,58,3.3,0,3,Valuable Active Customers
+C01961,30,Male,East,36414,6,300.0,1769.18,37,1,Electronics,47.1,40,3.0,0,2,Regular Customers
+C01962,38,Female,South,54832,8,1735.95,12669.61,55,2,Fashion,15.3,22,3.3,0,2,Regular Customers
+C01963,43,Female,North,117252,22,2909.87,60732.04,15,5,Fashion,16.4,58,4.3,0,3,Valuable Active Customers
+C01964,30,Female,South,30560,11,1279.55,14236.52,44,1,Home & Kitchen,31.7,40,3.4,1,2,Regular Customers
+C01965,20,Female,North,62879,13,1402.47,15892.57,52,2,Beauty,30.7,44,2.8,0,2,Regular Customers
+C01966,42,Male,South,28000,10,1492.07,13939.03,38,5,Fashion,18.8,39,3.2,0,2,Regular Customers
+C01967,25,Male,North,18000,8,838.43,7012.74,59,2,Electronics,52.6,19,3.2,0,1,At-Risk Customers
+C01968,39,Female,East,78479,12,1337.16,14231.86,32,3,Fashion,15.0,24,2.6,0,2,Regular Customers
+C01969,36,Male,South,59835,9,1217.42,12515.16,69,2,Grocery,9.3,29,3.0,0,1,At-Risk Customers
+C01970,21,Male,North,19217,6,809.82,5327.09,65,3,Home & Kitchen,36.7,39,2.8,1,1,At-Risk Customers
+C01971,34,Female,East,40579,4,1084.26,4165.46,64,3,Grocery,26.1,17,2.6,0,1,At-Risk Customers
+C01972,28,Female,West,77957,11,2315.81,23869.65,21,5,Home & Kitchen,16.7,34,3.5,0,3,Valuable Active Customers
+C01973,23,Female,East,27539,3,666.5,2031.8,30,2,Fashion,38.2,28,2.5,1,2,Regular Customers
+C01974,44,Male,South,37526,9,2134.52,16986.14,25,3,Fashion,17.8,42,3.4,1,2,Regular Customers
+C01975,25,Female,West,67473,12,1546.79,15588.46,11,4,Beauty,41.6,43,3.5,0,2,Regular Customers
+C01976,48,Male,East,141708,16,4450.5,68591.33,17,4,Home & Kitchen,5.3,29,4.2,0,0,High-Value Customers
+C01977,35,Female,West,36132,2,1098.76,2173.95,72,3,Beauty,37.4,44,2.4,0,1,At-Risk Customers
+C01978,41,Male,North,60438,10,1506.21,15175.88,30,5,Sports,28.8,23,2.7,0,2,Regular Customers
+C01979,32,Female,West,107104,23,4802.66,105028.78,3,6,Sports,13.9,55,4.2,0,0,High-Value Customers
+C01980,47,Male,South,83251,15,2518.44,41626.63,36,4,Electronics,26.1,33,3.4,0,3,Valuable Active Customers
+C01981,26,Male,West,31369,3,1204.13,3180.31,49,2,Sports,41.2,32,3.9,0,1,At-Risk Customers
+C01982,40,Female,South,98005,14,3366.66,42841.24,14,4,Home & Kitchen,13.8,40,3.8,0,3,Valuable Active Customers
+C01983,39,Male,West,51841,11,1915.97,21896.16,30,4,Fashion,22.3,38,3.3,0,2,Regular Customers
+C01984,37,Male,West,40044,9,1471.25,12010.72,75,3,Home & Kitchen,46.5,41,3.0,0,1,At-Risk Customers
+C01985,31,Male,North,27290,8,1009.25,7298.69,54,2,Beauty,41.5,38,2.6,0,1,At-Risk Customers
+C01986,18,Female,West,36552,7,1359.49,9610.34,81,2,Electronics,55.0,41,3.1,1,1,At-Risk Customers
+C01987,51,Female,North,114489,15,2508.93,34462.09,15,5,Home & Kitchen,7.6,43,3.5,0,3,Valuable Active Customers
+C01988,42,Male,North,57878,13,1548.38,19914.63,70,4,Fashion,23.9,24,3.1,0,2,Regular Customers
+C01989,31,Male,South,43203,13,1149.95,14112.36,62,4,Fashion,21.2,40,3.2,0,2,Regular Customers
+C01990,41,Female,West,85299,19,3485.14,61653.07,4,4,Electronics,17.9,36,3.9,0,3,Valuable Active Customers
+C01991,30,Male,South,76268,17,2446.73,34598.88,5,6,Electronics,22.1,29,3.0,0,3,Valuable Active Customers
+C01992,30,Female,East,22315,6,858.95,5211.24,23,1,Electronics,54.5,29,3.3,0,2,Regular Customers
+C01993,60,Male,East,91609,19,2514.33,43005.78,23,5,Fashion,33.3,43,3.3,0,3,Valuable Active Customers
+C01994,38,Female,West,22535,5,969.38,4781.66,64,2,Grocery,54.8,34,2.8,0,1,At-Risk Customers
+C01995,52,Female,West,115346,14,1849.78,24835.96,28,6,Fashion,16.2,48,3.8,0,3,Valuable Active Customers
+C01996,49,Female,North,97523,16,2603.81,40972.69,13,2,Home & Kitchen,11.1,52,4.2,0,3,Valuable Active Customers
+C01997,36,Female,South,152436,21,3784.78,78528.68,6,5,Fashion,20.2,46,3.3,0,0,High-Value Customers
+C01998,36,Male,North,34243,2,812.08,1649.32,119,3,Sports,26.5,35,2.6,0,1,At-Risk Customers
+C01999,29,Male,East,32542,3,322.7,911.74,72,1,Electronics,35.6,31,2.8,0,1,At-Risk Customers
+C02000,33,Female,North,50663,11,1190.6,14398.61,38,2,Fashion,33.1,43,2.6,0,2,Regular Customers

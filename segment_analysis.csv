@@ -1,0 +1,5 @@
+CustomerSegment,CustomerCount,AverageAge,AverageIncome,AveragePurchaseFrequency,AverageOrderValue,AverageTotalSpend,AverageRecency,AverageCategoriesPurchased,AverageDiscountUsage,AverageTenure,AverageSatisfaction,ChurnRate
+At-Risk Customers,543,29.92,31656.47,5.15,943.34,5028.97,76.63,2.14,43.53,30.94,2.84,25.0
+High-Value Customers,272,40.0,126395.02,22.51,4317.09,96713.12,12.6,4.87,12.35,43.59,4.03,1.0
+Regular Customers,671,36.13,50594.13,10.35,1458.96,15345.36,38.2,3.09,30.92,35.15,3.19,11.0
+Valuable Active Customers,514,42.18,88289.61,15.25,2692.3,40535.02,23.61,4.2,18.85,39.26,3.52,5.0
