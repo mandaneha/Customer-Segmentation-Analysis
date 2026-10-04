@@ -6,7 +6,7 @@ An interactive **Power BI dashboard** developed to analyze customer behavior, sp
 
 ### 📊 Dashboard
 
-![Customer Segmentation Dashboard](https://github.com/mandaneha/Customer-Segmentation-Analysis/blob/main/customer_segmentation_dashboard.png)
+![Customer Segmentation Dashboard](https://github.com/mandaneha/Customer-Segmentation-Analysis/blob/main/customer_segmentation.py)
 
 ### 📈 Key Insights
 
